@@ -9,4 +9,5 @@ These are some photos of the mechanism and 3D design.
 
 For its construction, it uses some MDF and methacrylate boards and some 3D printed parts, all assembled with M3 screws. 
 
-
+#TODO 
+Upload some photos of the device, including the user interface in a smartphone.
