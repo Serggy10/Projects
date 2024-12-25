@@ -8,4 +8,5 @@ These are some photos of the mechanism and 3D design.
 ![Plano_page-0001](https://github.com/user-attachments/assets/94541705-51f9-4046-a5a0-672bfc82b8ee)
 
 For its construction, it uses some MDF and methacrylate boards and some 3D printed parts, all assembled with M3 screws. 
-#TODO Add real photos
+
+
