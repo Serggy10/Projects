@@ -5,7 +5,7 @@ These are some photos of the mechanism and 3D design.
 ![image](https://github.com/user-attachments/assets/57ba8bef-1fb7-43c1-ae56-f72f504cd741)
 ![image](https://github.com/user-attachments/assets/c671e7d9-796e-401f-a8a6-fe425f1721cd)
 ![image](https://github.com/user-attachments/assets/675ad882-3fbd-40bc-9dbe-0ff23858be1f)
-[Plano.pdf](https://github.com/user-attachments/files/18247425/Plano.pdf)
+![Plano_page-0001](https://github.com/user-attachments/assets/94541705-51f9-4046-a5a0-672bfc82b8ee)
 
 For its construction, it uses some MDF and methacrylate boards and some 3D printed parts, all assembled with M3 screws. 
 #TODO Add real photos
