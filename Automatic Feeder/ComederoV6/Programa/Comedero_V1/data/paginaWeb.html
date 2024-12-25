@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración del ESP32</title>
+    <style>
+        /* Mantener el estilo tal como está */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #404040;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: #585858;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            height: 100%;
+            max-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #e0e0e0;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #666666;
+            border-radius: 4px;
+            background-color: #333333;
+            color: #ffffff;
+            box-sizing: border-box;
+        }
+
+        .common-button {
+            padding: 10px;
+            border: 2px solid #ff4d4d;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #666666;
+            cursor: pointer;
+            font-size: 18px;
+            width: 80%;
+            max-width: 150px;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+        .common-button:hover {
+            background-color: #777777;
+            border-color: #ff3333;
+        }
+
+        .icon-button {
+            padding: 16px;
+            border: 2px solid #ff4d4d;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #666666;
+            cursor: pointer;
+            font-size: 45px;
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-button:hover {
+            background-color: #777777;
+            border-color: #ff3333;
+        }
+
+        .icon-button.active {
+            background-color: #ff4d4d; /* Color cuando el botón está activo */
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .config-section {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .config-section label {
+            margin-right: 10px;
+        }
+
+        .config-section select {
+            flex: 1;
+        }
+
+        .config-row {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .config-row label {
+            width: auto;
+            margin: 0;
+            color: #e0e0e0;
+        }
+
+        .config-row input[type="number"],
+        .config-row select {
+            width: 80px;
+            margin: 0;
+        }
+
+        #quantityContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            max-width: 200px;
+            width: 150px;
+            height: 70px;
+            background-color: #333333;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #quantityText,
+        #quantityValue {
+            margin: 5px;
+            color: #e0e0e0;
+            font-size: 18px;
+        }
+
+        #quantityValue {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .dosis-container {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .dosis-label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            top: -10px;
+            background-color: #585858;
+            padding: 0 10px;
+            color: #e0e0e0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Configuración del comedero</h1>
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <td style="width: 50%;">
+                    <div class="form-group">
+                        <label for="RedWiFi">Nombre del WiFi:</label>
+                        <input type="text" id="RedWiFi">
+                    </div>
+                </td>
+                <td style="width: 50%;">
+                    <div class="form-group">
+                        <label for="Contraseña">Contraseña:</label>
+                        <input type="password" id="Contraseña">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="form-group">
+                        <button id="BotonAceptar" class="common-button">Aceptar</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <hr style="border-color: #666666; margin-top: 0; margin-bottom: 0; width: 100%;">
+
+        <div class="quantity-section" style="margin-top: 1px; margin-bottom: 1px;">
+            <div id="quantityContainer" style="margin-top: 1px; margin-bottom: 1px;">
+                <p id="quantityText">Cantidad:</p>
+                <p id="quantityValue">0 g</p>
+            </div>
+        </div>
+
+        <hr style="border-color: #666666; margin-top: 1px; margin-bottom: 0%; width: 100%;">
+
+        <div class="button-container">
+            <button id="button1" class="icon-button">
+                <i class="fas fa-undo"></i>
+            </button>
+            <button id="button2" class="icon-button">
+                <i class="fas fa-redo"></i>
+            </button>
+        </div>
+
+        <div class="form-group">
+            <button id="BotonCalibrar" class="common-button" style="width: 150px;">Calibrar</button>
+        </div>
+
+        <hr style="border-color: #666666; margin-top: 1px; margin-bottom: 0%; width: 100%;">
+
+        <div class="config-section">
+            <label for="numberSelect">Número de dosis:</label>
+            <select id="numberSelect">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div id="configContainer"></div>
+
+        <hr style="border-color: #666666; margin-top: 1px; margin-bottom: 10px; width: 100%;">
+
+        <div class="form-group" style="margin-bottom: 50px;">
+            <button id="BotonEnviar" class="common-button" style="width: 120px;">Enviar</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script>
+        const numberSelect = document.getElementById('numberSelect');
+        const configContainer = document.getElementById('configContainer');
+        let activeButton = null; // Variable para rastrear el botón activo
+
+        function getOrdinal(number) {
+            const ordinals = ['Primera', 'Segunda', 'Tercera', 'Cuarta', 'Quinta', 'Sexta', 'Séptima', 'Octava', 'Novena', 'Décima'];
+            return ordinals[number - 1] || '';
+        }
+
+        function updateConfig() {
+            const num = parseInt(numberSelect.value, 10);
+            configContainer.innerHTML = '';
+
+            for (let i = 0; i < num; i++) {
+                const row = document.createElement('div');
+                row.className = 'config-row';
+                row.innerHTML = `
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <tr>
+                            <td colspan="6" style="text-align: center;">
+                                <hr style="border-color: #666666; margin-top: 0px; margin-bottom: 5px; width: 100%;">
+                                <label style="margin-top: 0px; margin-bottom: 2px;">${getOrdinal(i + 1)} dosis:</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="hour${i}" style="font-size: 12px; text-align: left; display: inline-block; width: 50px;">Hora:</label>
+                            </td>
+                            <td>
+                                <input type="number" id="hour${i}" min="0" max="23" step="1" placeholder="0-23" style="width: 70px; font-size: 12px; text-align: center; margin-left: 9px; margin-right: 10px;">
+                            </td>
+                            <td>
+                                <label for="minute${i}" style="font-size: 12px; text-align: left; display: inline-block; width: 50px;">Minuto:</label>
+                            </td>
+                            <td>
+                                <input type="number" id="minute${i}" min="0" max="59" step="1" placeholder="0-59" style="width: 70px; font-size: 12px; text-align: center;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="param${i}" style="font-size: 12px; text-align: center; display: inline-block; width: 50px;">Cantidad:</label>
+                            </td>
+                            <td style="text-align: center; padding-left: 0;">
+                                <input type="number" id="Cantidad${i}" min="5" max="100" step="5" placeholder="5-100" style="width: 70px; font-size: 12px; text-align: center; margin-left: 10px;">
+                                <span style="margin-left: 5px; color: #e0e0e0; font-size: 12px;">g</span>
+                            </td>
+                        </tr>
+                    </table>
+                `;
+                configContainer.appendChild(row);
+            }
+        }
+
+        numberSelect.addEventListener('change', updateConfig);
+        updateConfig();
+
+        // Funcionalidad para alternar color de los botones
+        document.querySelectorAll('.icon-button').forEach(button => {
+            button.addEventListener('click', () => {
+                if (activeButton) {
+                    activeButton.classList.remove('active');
+                }
+                if (activeButton !== button) {
+                    button.classList.add('active');
+                    activeButton = button;
+                } else {
+                    activeButton = null; // Si el botón es el mismo que se clickeó, desactívalo
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

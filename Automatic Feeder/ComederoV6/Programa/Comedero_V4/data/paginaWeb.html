@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Insignia.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración del ESP32</title>
+    <style>
+        /* Mantener el estilo tal como está */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #404040;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: #585858;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            height: 100%;
+            max-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #e0e0e0;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #666666;
+            border-radius: 4px;
+            background-color: #333333;
+            color: #ffffff;
+            box-sizing: border-box;
+        }
+
+        .common-button {
+            padding: 10px;
+            border: 2px solid #ff4d4d;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #666666;
+            cursor: pointer;
+            font-size: 18px;
+            width: 80%;
+            max-width: 150px;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+        .common-button:hover {
+            background-color: #777777;
+            border-color: #ff3333;
+        }
+
+        .icon-button {
+            padding: 16px;
+            border: 2px solid #ff4d4d;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #666666;
+            cursor: pointer;
+            font-size: 45px;
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-button:hover {
+            background-color: #777777;
+            border-color: #ff3333;
+        }
+
+        .icon-button.active {
+            background-color: #ff4d4d;
+            /* Color cuando el botón está activo */
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .config-section {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .config-section label {
+            margin-right: 10px;
+        }
+
+        .config-section select {
+            flex: 1;
+        }
+
+        .config-row {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .config-row label {
+            width: auto;
+            margin: 0;
+            color: #e0e0e0;
+        }
+
+        .config-row input[type="number"],
+        .config-row select {
+            width: 80px;
+            margin: 0;
+        }
+
+        #quantityContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            max-width: 200px;
+            width: 150px;
+            height: 70px;
+            background-color: #333333;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #quantityText,
+        #quantityValue {
+            margin: 5px;
+            color: #e0e0e0;
+            font-size: 18px;
+        }
+
+        #quantityValue {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .dosis-container {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .dosis-label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            top: -10px;
+            background-color: #585858;
+            padding: 0 10px;
+            color: #e0e0e0;
+            font-size: 18px;
+        }
+
+        .button-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .adjust-button {
+            padding: 10px;
+            border: 2px solid #ff4d4d;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #666666;
+            cursor: pointer;
+            font-size: 24px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .adjust-button:hover {
+            background-color: #777777;
+            border-color: #ff3333;
+        }
+
+        #timeDisplay {
+            font-size: 24px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <hr style="border-color: #666666; margin-top: 50px; margin-bottom: 10px; width: 100%;">
+        <h1>Configuración del comedero</h1>
+        <hr style="border-color: #666666; margin-top: 0; margin-bottom: 0; width: 100%;">
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+                <td style="width: 50%;">
+                    <div class="form-group">
+                        <label for="RedWiFi">Nombre del WiFi:</label>
+                        <input type="text" id="RedWiFi">
+                    </div>
+                </td>
+                <td style="width: 50%;">
+                    <div class="form-group">
+                        <label for="Contraseña">Contraseña:</label>
+                        <input type="password" id="Contraseña">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="form-group" id="ipDisplay"
+                        style="color: #e0e0e0; font-size: 18px; margin-top: 0px; align-items: center;">
+                        IP del ESP32: No disponible
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="form-group">
+                        <button id="BotonAceptar" class="common-button">Aceptar</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <hr style="border-color: #666666; margin-top: 1px; margin-bottom: 0%; width: 100%;">
+
+        <div class="button-container">
+            <button id="menos" class="adjust-button">
+                <i class="fas fa-minus"></i>
+            </button>
+            <span id="timeDisplay">00:00</span>
+            <button id="mas" class="adjust-button">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+
+        <hr style="border-color: #666666; margin-top: 0; margin-bottom: 0; width: 100%;">
+        <div class="quantity-section" style="margin-top: 1px; margin-bottom: 10px;">
+            <div id="quantityContainer" style="margin-top: 1px; margin-bottom: 1px;">
+                <p id="quantityText">Cantidad:</p>
+                <p id="quantityValue">0 g</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button id="BotonCalibrar" class="common-button" style="width: 150px;">Calibrar</button>
+        </div>
+
+        <hr style="border-color: #666666; margin-top: 1px; margin-bottom: 0%; width: 100%;">
+
+        <div class="button-container">
+            <button id="button1" class="icon-button">
+                <i class="fas fa-undo"></i>
+            </button>
+            <button id="button2" class="icon-button">
+                <i class="fas fa-redo"></i>
+            </button>
+        </div>
+
+        <hr style="border-color: #666666; margin-top: 1px; margin-bottom: 0%; width: 100%;">
+
+        <div class="config-section">
+            <label for="numberSelect">Número de dosis:</label>
+            <select id="numberSelect">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div id="configContainer"></div>
+
+        <hr style="border-color: #666666; margin-top: 1px; margin-bottom: 10px; width: 100%;">
+
+        <div class="form-group" style="margin-bottom: 50px;">
+            <button id="BotonEnviar" class="common-button" style="width: 120px;">Enviar</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script>
+        const numberSelect = document.getElementById('numberSelect');
+        const configContainer = document.getElementById('configContainer');
+        let activeButton = null;
+        let rotatingClockwise = false;
+        let rotatingAnticlockwise = false;
+
+        function getOrdinal(number) {
+            const ordinals = ['Primera', 'Segunda', 'Tercera', 'Cuarta', 'Quinta', 'Sexta', 'Séptima', 'Octava', 'Novena', 'Décima'];
+            return ordinals[number - 1] || '';
+        }
+
+        function validarCampos() {
+            const ssid = document.getElementById('RedWiFi').value.trim();
+            const password = document.getElementById('Contraseña').value.trim();
+
+            if (!ssid) {
+                alert('El nombre del WiFi no puede estar vacío.');
+                return false;
+            }
+
+            if (!password || password.length < 8) {
+                alert('La contraseña no puede estar vacía y debe tener al menos 8 caracteres.');
+                return false;
+            }
+
+            return true;
+        }
+
+        function updateConfig() {
+            const num = parseInt(numberSelect.value, 10);
+            configContainer.innerHTML = '';
+
+            for (let i = 0; i < num; i++) {
+                const row = document.createElement('div');
+                row.className = 'config-row';
+                row.innerHTML = `
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <td colspan="6" style="text-align: center;">
+                        <hr style="border-color: #666666; margin-top: 0px; margin-bottom: 5px; width: 100%;">
+                        <label style="margin-top: 0px; margin-bottom: 2px;">${getOrdinal(i + 1)} dosis:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hour${i}" style="font-size: 12px; text-align: left; display: inline-block; width: 50px;">Hora:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="hour${i}" min="0" max="23" step="1" placeholder="0-23" style="width: 70px; font-size: 12px; text-align: center; margin-left: 9px; margin-right: 10px;">
+                    </td>
+                    <td>
+                        <label for="minute${i}" style="font-size: 12px; text-align: left; display: inline-block; width: 50px;">Minuto:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="minute${i}" min="0" max="59" step="1" placeholder="0-59" style="width: 70px; font-size: 12px; text-align: center;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="param${i}" style="font-size: 12px; text-align: left; display: inline-block; width: 70px;">Cantidad:</label>
+                    </td>
+                    <td style="text-align: center; padding-left: 0;">
+                        <input type="number" id="Cantidad${i}" min="5" max="100" step="5" placeholder="5-100" style="width: 70px; font-size: 12px; text-align: center; margin-left: 4px;">
+                    </td>
+                    <td>
+                        <span style="margin-left: 0px; color: #e0e0e0; font-size: 12px;">g</span>
+                    </td>
+                </tr>
+            </table>
+        `;
+                configContainer.appendChild(row);
+            }
+        }
+
+        numberSelect.addEventListener('change', updateConfig);
+        updateConfig();
+
+        document.querySelectorAll('.icon-button').forEach(button => {
+            button.addEventListener('click', () => {
+                if (activeButton) {
+                    activeButton.classList.remove('active');
+                }
+                if (activeButton !== button) {
+                    button.classList.add('active');
+                    activeButton = button;
+                    if (button.id === 'button1') {
+                        rotatingClockwise = false;
+                        rotatingAnticlockwise = true;
+                    } else if (button.id === 'button2') {
+                        rotatingClockwise = true;
+                        rotatingAnticlockwise = false;
+                    }
+                    sendRotationCommand();
+                } else {
+                    activeButton = null;
+                    rotatingClockwise = false;
+                    rotatingAnticlockwise = false;
+                    sendRotationCommand();
+                }
+            });
+        });
+
+        function sendRotationCommand() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                const rotationCommand = {
+                    rotateClockwise: rotatingClockwise,
+                    rotateAnticlockwise: rotatingAnticlockwise
+                };
+                ws.send(JSON.stringify(rotationCommand));
+                console.log('Comando de rotación enviado:', rotationCommand);
+            } else {
+                console.error('WebSocket no está abierto');
+            }
+        }
+
+        function updateFields(data) {
+            if (data.ssid) {
+                document.getElementById('RedWiFi').value = data.ssid;
+            }
+            if (data.password) {
+                document.getElementById('Contraseña').value = data.password;
+            }
+            if (data.doses) {
+                numberSelect.value = data.doses.length;
+                updateConfig();
+                data.doses.forEach((dose, i) => {
+                    document.getElementById(`hour${i}`).value = dose.hour;
+                    document.getElementById(`minute${i}`).value = dose.minute;
+                    document.getElementById(`Cantidad${i}`).value = dose.quantity;
+                });
+            }
+            if (data.wifiConnected !== undefined) {
+                updateWifiStatus(data.wifiConnected);
+            }
+        }
+
+        function updateWifiStatus(isConnected) {
+            const ssidInput = document.getElementById('RedWiFi');
+            const passwordInput = document.getElementById('Contraseña');
+            const acceptButton = document.getElementById('BotonAceptar');
+
+            if (isConnected) {
+                console.log("desconecto Boton");
+                ssidInput.disabled = true;
+                passwordInput.disabled = true;
+                acceptButton.disabled = true;
+                acceptButton.style.color = "Black";
+                acceptButton.style.border = "Black";
+            } else {
+                ssidInput.disabled = false;
+                passwordInput.disabled = false;
+                acceptButton.disabled = false;
+            }
+        }
+
+        let ws;
+
+        function connectWebSocket() {
+            const hostname = window.location.hostname;
+            const port = 1337;
+
+            // Crear una sola conexión WebSocket
+            ws = new WebSocket(`ws://${hostname}:${port}`);
+
+            ws.onopen = () => {
+                console.log('Conectado al WebSocket');
+            };
+
+            ws.onmessage = (event) => {
+                console.log('Mensaje del servidor:', event.data);
+                try {
+                    const data = JSON.parse(event.data);
+                    if (data.weight !== undefined) {
+                        document.getElementById('quantityValue').innerText = `${data.weight.toFixed(2)} g`;
+                    }
+                    if (data.hora !== undefined && data.minuto !== undefined) {
+                        const formattedHour = String(data.hora).padStart(2, '0');
+                        const formattedMinute = String(data.minuto).padStart(2, '0');
+                        document.getElementById('timeDisplay').innerText = `${formattedHour}:${formattedMinute}`;
+                    }
+                    if (data.IP !== undefined) {
+                        document.getElementById('ipDisplay').innerText = `IP del ESP32: ${data.IP}`;
+                    }
+                    updateFields(data);
+                } catch (e) {
+                    console.error('Error al procesar el mensaje:', e);
+                }
+            };
+
+            ws.onerror = (error) => {
+                console.error('Error en el WebSocket:', error);
+            };
+
+            ws.onclose = () => {
+                console.log('Conexión WebSocket cerrada');
+            };
+        }
+
+        // Llama a connectWebSocket solo una vez
+        connectWebSocket();
+
+        const botonEnviar = document.getElementById('BotonEnviar');
+        botonEnviar.addEventListener('click', () => {
+            const numDoses = numberSelect.value;
+            const doses = [];
+            let hasEmptyFields = false;
+
+            for (let i = 0; i < numDoses; i++) {
+                const hour = document.getElementById(`hour${i}`).value;
+                const minute = document.getElementById(`minute${i}`).value;
+                const quantity = document.getElementById(`Cantidad${i}`).value;
+
+                if (hour === '' || minute === '' || quantity === '') {
+                    hasEmptyFields = true;
+                    break;
+                }
+
+                doses.push({
+                    hour: parseInt(hour, 10),
+                    minute: parseInt(minute, 10),
+                    quantity: parseInt(quantity, 10)
+                });
+            }
+
+            if (hasEmptyFields) {
+                alert('Por favor, completa todos los campos.');
+            } else {
+                if (ws && ws.readyState === WebSocket.OPEN) {
+                    ws.send(JSON.stringify({ numDoses, doses }));
+                    console.log('Datos de configuración enviados:', { numDoses, doses });
+                } else {
+                    console.error('WebSocket no está abierto');
+                }
+            }
+        });
+
+        document.getElementById('BotonAceptar').addEventListener('click', () => {
+            if (validarCampos()) {
+                const ssid = document.getElementById('RedWiFi').value.trim();
+                const password = document.getElementById('Contraseña').value.trim();
+
+                if (ws && ws.readyState === WebSocket.OPEN) {
+                    ws.send(JSON.stringify({ ssid, password }));
+                    console.log('SSID y contraseña enviados:', { ssid, password });
+                } else {
+                    console.error('WebSocket no está abierto');
+                }
+            }
+        });
+
+        document.getElementById('BotonCalibrar').addEventListener('click', () => {
+            if (confirm('Al pulsar en aceptar se comenzará con el proceso de calibración de la báscula. ¿Está seguro?')) {
+                if (confirm('Libere de comida la báscula para inicializar la calibración. Después pulse en aceptar.')) {
+                    const tareMessage = { action: 'tarar' };
+
+                    if (ws && ws.readyState === WebSocket.OPEN) {
+                        ws.send(JSON.stringify(tareMessage));
+                    } else {
+                        console.error('WebSocket no está abierto');
+                    }
+
+                    const pesoConocido = prompt('La báscula se ha puesto a cero. Coloque un peso conocido (en gramos) en la báscula e introduzca su valor en el siguiente recuadro.');
+                    if (pesoConocido !== null) {
+                        if (confirm(`El peso conocido introducido es: ${pesoConocido} g`)) {
+                            if (ws && ws.readyState === WebSocket.OPEN) {
+                                ws.send(JSON.stringify({ action: 'calibrar', peso: pesoConocido }));
+
+                                // Reinicia la página web después de 5 segundos
+                                setTimeout(() => {
+                                    location.reload();
+                                }, 5000);
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        document.getElementById("menos").addEventListener("click", function () {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.send(JSON.stringify({ command: 'menos' }));
+                console.log('Comando "menos" enviado');
+            } else {
+                console.error('WebSocket no está abierto');
+            }
+        });
+
+        document.getElementById("mas").addEventListener("click", function () {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.send(JSON.stringify({ command: 'mas' }));
+                console.log('Comando "mas" enviado');
+            } else {
+                console.error('WebSocket no está abierto');
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
