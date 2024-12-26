@@ -1,0 +1,13 @@
+* Schematics Netlist *
+
+
+
+C_C1         $N_0001 0  470u  
+D_D1         $N_0002 $N_0001 D1N4148 
+D_D2         $N_0003 $N_0001 D1N4148 
+V_V1         $N_0003 $N_0004 12V
+X_U2         $N_0004 0 Sw_tOpen PARAMS: tOpen=1 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R1         0 $N_0001  60  
+V_V2         +6V 0 6
+Q_Q1         $N_0002 $N_0003 +6V BC557B 

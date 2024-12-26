@@ -1,0 +1,294 @@
+*MicroSim Forward ECO Report
+
+Forward ECO's incorporated: Tue Jul 19 18:08:01 2022
+
+Beginning of automatic changes.
+        Add component BOTON in a 222AD package and ref P1.
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 19 18:41:10 2022
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Add component POT-CUAD in a POT-CUAD package and ref U2.
+End of invalid changes.
+
+
+Forward ECO's incorporated: Tue Jul 19 20:02:14 2022
+
+Beginning of automatic changes.
+        Add component BOT_ENCL in a BOTON-ENCL package and ref B2.
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 19 20:34:47 2022
+
+Beginning of automatic changes.
+        Add component DISPLAY16x2 in a DISPLAY16x2 package and ref D1.
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 19 20:56:14 2022
+
+Beginning of automatic changes.
+        Add component JUMP2 in a jump2 package and ref P4.
+        Add component JUMPER1_4 in a HDR1X4 package and ref W1.
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 19 23:14:54 2022
+
+Beginning of automatic changes.
+        Rename component with ref D1 to D2.
+        Rename component with ref B2 to B3.
+        Rename component with ref P3 to P6.
+        Rename component with ref P1 to B1.
+        Rename component with ref P4 to P1.
+        Add component BOTON in a 222AD package and ref B2.
+        Add component r in a RC05 package and ref R1.
+        Add the attribute VALUE=2K to the component with ref R1.
+        Add component R in a RC05 package and ref R2.
+        Add the attribute VALUE=220 to the component with ref R2.
+        Add component R in a RC05 package and ref R3.
+        Add the attribute VALUE=30K to the component with ref R3.
+        Add component R in a RC05 package and ref R4.
+        Add the attribute VALUE=30K to the component with ref R4.
+        Add a net 5V.
+        Add pin P6.1 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add pin B1.2 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add pin B2.2 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add pin D2.2 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add pin R2.2 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add pin B1.4 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add pin B2.4 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add pin U1.4 to net 5V(P6.1,B1.2,B2.2,D2.2,...).
+        Add a net DIGITAL_GND.
+        Add pin D2.1 to net DIGITAL_GND(D2.1,R3.2,R4.2,U1.27,...).
+        Add pin R3.2 to net DIGITAL_GND(D2.1,R3.2,R4.2,U1.27,...).
+        Add pin R4.2 to net DIGITAL_GND(D2.1,R3.2,R4.2,U1.27,...).
+        Add pin U1.27 to net DIGITAL_GND(D2.1,R3.2,R4.2,U1.27,...).
+        Add pin D2.5 to net DIGITAL_GND(D2.1,R3.2,R4.2,U1.27,...).
+        Add a net D10.
+        Add pin B1.1 to net D10(B1.1,R4.1,U1.18,B1.3).
+        Add pin R4.1 to net D10(B1.1,R4.1,U1.18,B1.3).
+        Add pin U1.18 to net D10(B1.1,R4.1,U1.18,B1.3).
+        Add pin B1.3 to net D10(B1.1,R4.1,U1.18,B1.3).
+        Add a net D11.
+        Add pin B2.1 to net D11(B2.1,R3.1,U1.17,B2.3).
+        Add pin R3.1 to net D11(B2.1,R3.1,U1.17,B2.3).
+        Add pin U1.17 to net D11(B2.1,R3.1,U1.17,B2.3).
+        Add pin B2.3 to net D11(B2.1,R3.1,U1.17,B2.3).
+        Add a net ANALOG_GND.
+        Add pin B3.1 to net ANALOG_GND(B3.1,P6.3,U1.3,B3.4).
+        Add pin P6.3 to net ANALOG_GND(B3.1,P6.3,U1.3,B3.4).
+        Add pin U1.3 to net ANALOG_GND(B3.1,P6.3,U1.3,B3.4).
+        Add pin B3.4 to net ANALOG_GND(B3.1,P6.3,U1.3,B3.4).
+        Add a net +.
+        Add pin P1.1 to net +(P1.1,U1.1).
+        Add pin U1.1 to net +(P1.1,U1.1).
+        Add a net NET_0001.
+        Add pin R1.1 to net NET_0001(R1.1,D2.3).
+        Add pin D2.3 to net NET_0001(R1.1,D2.3).
+        Add a net NET_0002.
+        Add pin R2.1 to net NET_0002(R2.1,D2.15).
+        Add pin D2.15 to net NET_0002(R2.1,D2.15).
+        Add a net NET_0003.
+        Add pin W1.1 to net NET_0003(W1.1,U1.22).
+        Add pin U1.22 to net NET_0003(W1.1,U1.22).
+        Add a net D5.
+        Add pin D2.11 to net D5(D2.11,U1.23).
+        Add pin U1.23 to net D5(D2.11,U1.23).
+        Add a net D4.
+        Add pin D2.12 to net D4(D2.12,U1.24).
+        Add pin U1.24 to net D4(D2.12,U1.24).
+        Add a net NET_0004.
+        Add pin U1.12 to net NET_0004(U1.12,P6.2).
+        Add pin P6.2 to net NET_0004(U1.12,P6.2).
+        Add a net D3.
+        Add pin D2.13 to net D3(D2.13,U1.25).
+        Add pin U1.25 to net D3(D2.13,U1.25).
+        Add a net D2.
+        Add pin D2.14 to net D2(D2.14,U1.26).
+        Add pin U1.26 to net D2(D2.14,U1.26).
+        Add a net D13.
+        Add pin U1.15 to net D13(U1.15,D2.4).
+        Add pin D2.4 to net D13(U1.15,D2.4).
+        Add a net NET_0005.
+        Add pin D2.16 to net NET_0005(D2.16,B3.5).
+        Add pin B3.5 to net NET_0005(D2.16,B3.5).
+        Add a net D12.
+        Add pin U1.16 to net D12(U1.16,D2.6).
+        Add pin D2.6 to net D12(U1.16,D2.6).
+        Add a net NET_0006.
+        Add pin U1.19 to net NET_0006(U1.19,W1.4).
+        Add pin W1.4 to net NET_0006(U1.19,W1.4).
+        Add a net NET_0007.
+        Add pin B3.2 to net NET_0007(B3.2,R1.2).
+        Add pin R1.2 to net NET_0007(B3.2,R1.2).
+        Add a net NET_0008.
+        Add pin P1.2 to net NET_0008(P1.2,U1.2).
+        Add pin U1.2 to net NET_0008(P1.2,U1.2).
+        Add a net NET_0009.
+        Add pin W1.2 to net NET_0009(W1.2,U1.21).
+        Add pin U1.21 to net NET_0009(W1.2,U1.21).
+        Add a net NET_0010.
+        Add pin U1.20 to net NET_0010(U1.20,W1.3).
+        Add pin W1.3 to net NET_0010(U1.20,W1.3).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 19 23:24:37 2022
+
+Beginning of automatic changes.
+        Delete pin U1.1 from net +(P1.1,U1.1).
+        Rename component with ref D2 to D3.
+        Add component BC547C in a TO-92-18B package and ref Q1.
+        Add component 1N4148 in a DO-35 package and ref D1.
+        Add component 1N4148 in a DO-35 package and ref D2.
+        Add component Jump2 in a jump2 package and ref P2.
+        Add component Jump2 in a jump2 package and ref P3.
+        Add a net +12V.
+        Add pin D2.1 to net +12V(D2.1,P1.1,P3.1,Q1.2).
+        Add pin P1.1 to net +12V(D2.1,P1.1,P3.1,Q1.2).
+        Add pin P3.1 to net +12V(D2.1,P1.1,P3.1,Q1.2).
+        Add pin Q1.2 to net +12V(D2.1,P1.1,P3.1,Q1.2).
+        Add pin P2.1 to net NET_0008(P2.1,P1.2,P3.2,U1.2).
+        Add pin P3.2 to net NET_0008(P2.1,P1.2,P3.2,U1.2).
+        Add a net NET_0033.
+        Add pin U1.1 to net NET_0033(U1.1,D1.2,D2.2).
+        Add pin D1.2 to net NET_0033(U1.1,D1.2,D2.2).
+        Add pin D2.2 to net NET_0033(U1.1,D1.2,D2.2).
+        Add a net NET_0034.
+        Add pin D1.1 to net NET_0034(D1.1,Q1.3).
+        Add pin Q1.3 to net NET_0034(D1.1,Q1.3).
+        Add a net +6V.
+        Add pin Q1.1 to net +6V(Q1.1,P2.2).
+        Add pin P2.2 to net +6V(Q1.1,P2.2).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Wed Jul 20 10:42:04 2022
+
+Beginning of automatic changes.
+        Delete component with ref Q1.
+        Delete pin U1.27 from net DIGITAL_GND(D3.1,R3.2,R4.2,U1.27,...).
+        Add component BC557B in a TO-92-5C package and ref Q1.
+        Add pin Q1.2 to net +12V(D2.1,P1.1,P3.1,Q1.2).
+        Add a net NET_0043.
+        Add pin D1.1 to net NET_0043(D1.1,Q1.3).
+        Add pin Q1.3 to net NET_0043(D1.1,Q1.3).
+        Add a net +6V.
+        Add pin Q1.1 to net +6V(Q1.1,P2.2).
+        Add pin P2.2 to net +6V(Q1.1,P2.2).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Wed Jul 20 10:59:29 2022
+
+Beginning of automatic changes.
+        Delete pin D3.14 from net D2(D3.14,U1.26).
+        Delete pin D3.13 from net D3(D3.13,U1.25).
+        Delete pin D3.12 from net D4(D3.12,U1.24).
+        Delete pin D3.11 from net D5(D3.11,U1.23).
+        Add a net D2.
+        Add pin D3.11 to net D2(D3.11,U1.26).
+        Add pin U1.26 to net D2(D3.11,U1.26).
+        Add a net D3.
+        Add pin D3.12 to net D3(D3.12,U1.25).
+        Add pin U1.25 to net D3(D3.12,U1.25).
+        Add a net D4.
+        Add pin D3.13 to net D4(D3.13,U1.24).
+        Add pin U1.24 to net D4(D3.13,U1.24).
+        Add a net D5.
+        Add pin D3.14 to net D5(D3.14,U1.23).
+        Add pin U1.23 to net D5(D3.14,U1.23).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Wed Jul 20 11:06:56 2022
+
+Beginning of automatic changes.
+        Delete pin U1.15 from net D13(U1.15,D3.4).
+        Delete pin U1.16 from net D12(U1.16,D3.6).
+        Delete pin U1.18 from net D10(B1.1,R4.1,U1.18,B1.3).
+        Delete pin U1.17 from net D11(B2.1,R3.1,U1.17,B2.3).
+        Delete pin D3.13 from net D4(D3.13,U1.24).
+        Delete pin D3.14 from net D5(D3.14,U1.23).
+        Delete pin W1.1 from net NET_0003(W1.1,U1.22).
+        Delete pin U1.19 from net NET_0006(U1.19,W1.4).
+        Delete pin U1.20 from net NET_0010(U1.20,W1.3).
+        Delete pin U1.21 from net NET_0009(W1.2,U1.21).
+        Delete pin D3.12 from net D3(D3.12,U1.25).
+        Delete pin D3.11 from net D2(D3.11,U1.26).
+        Rename net D10 to D12(B1.1,R4.1,U1.16,B1.3).
+        Rename net D11 to D13(B2.1,R3.1,U1.15,B2.3).
+        Add pin U1.16 to net D12(B1.1,R4.1,U1.16,B1.3).
+        Add pin U1.15 to net D13(B2.1,R3.1,U1.15,B2.3).
+        Add a net NET_0052.
+        Add pin W1.1 to net NET_0052(W1.1,U1.20).
+        Add pin U1.20 to net NET_0052(W1.1,U1.20).
+        Add a net D4.
+        Add pin D3.11 to net D4(D3.11,U1.24).
+        Add pin U1.24 to net D4(D3.11,U1.24).
+        Add a net D5.
+        Add pin D3.12 to net D5(D3.12,U1.23).
+        Add pin U1.23 to net D5(D3.12,U1.23).
+        Add a net D6.
+        Add pin D3.13 to net D6(D3.13,U1.22).
+        Add pin U1.22 to net D6(D3.13,U1.22).
+        Add a net D7.
+        Add pin D3.14 to net D7(D3.14,U1.21).
+        Add pin U1.21 to net D7(D3.14,U1.21).
+        Add a net NET_0053.
+        Add pin U1.17 to net NET_0053(U1.17,W1.4).
+        Add pin W1.4 to net NET_0053(U1.17,W1.4).
+        Add a net NET_0054.
+        Add pin U1.18 to net NET_0054(U1.18,W1.3).
+        Add pin W1.3 to net NET_0054(U1.18,W1.3).
+        Add a net NET_0055.
+        Add pin U1.19 to net NET_0055(U1.19,W1.2).
+        Add pin W1.2 to net NET_0055(U1.19,W1.2).
+        Add a net D3.
+        Add pin U1.25 to net D3(U1.25,D3.6).
+        Add pin D3.6 to net D3(U1.25,D3.6).
+        Add a net D2.
+        Add pin U1.26 to net D2(U1.26,D3.4).
+        Add pin D3.4 to net D2(U1.26,D3.4).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Wed Jul 20 12:05:34 2022
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Add component C_ELECTROLITICO in a C_ELECTROLITICO package and ref C1.
+        Add the attribute VALUE=470u to the component with ref C1.
+        Add pin C1.2 to net NET_0008(P2.1,C1.2,P1.2,P3.2,...).
+        Add pin C1.1 to net NET_0033(C1.1,U1.1,D1.2,D2.2).
+End of invalid changes.
+
+
+Forward ECO's incorporated: Wed Jul 20 12:12:08 2022
+
+Beginning of automatic changes.
+        Add component C_ELECTROLITICO in a PLP3481/AA package and ref C1.
+        Add the attribute VALUE=470u to the component with ref C1.
+        Add pin C1.2 to net NET_0008(P2.1,C1.2,P1.2,P3.2,...).
+        Add pin C1.1 to net NET_0033(C1.1,U1.1,D1.2,D2.2).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Wed Jul 20 13:00:13 2022
+
+Beginning of automatic changes.
+        Delete component with ref D1.
+        Delete component with ref D2.
+        Delete component with ref Q1.
+        Delete component with ref C1.
+        Delete component with ref P2.
+        Add pin U1.1 to net +12V(P1.1,P3.1,U1.1).
+End of automatic changes.
+

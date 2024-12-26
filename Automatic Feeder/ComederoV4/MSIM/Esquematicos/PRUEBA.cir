@@ -1,0 +1,24 @@
+* C:\Users\sergi\OneDrive\Escritorio\PRUEBA.sch
+
+* Schematics Version 8.0 - July 1997
+* Tue Jul 19 22:28:01 2022
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib "u:\Userlib\DTE_DIGITAL.lib"
+.lib "u:\UserLib\DTE_1.lib"
+.lib "nom.lib"
+
+.INC "PRUEBA.net"
+.INC "PRUEBA.als"
+
+
+.probe
+
+
+.END
