@@ -1,0 +1,103 @@
+*PCBoards Netlist Version 8.0: Format 1.0
+*timestamp: netlist 1658314808
+*timestamp: last backannotation 1658312090
+*component BOTON 222AD B1
+*component BOTON 222AD B2
+*component BOT_ENCL BOTON-ENCL B3
+*component DISPLAY16x2 DISPLAY16x2 D3
+*component Jump2 jump2 P1
+*component Jump2 jump2 P3
+*component POT POT-C P6
+*component r RC05 R1
+@attribute VALUE=2K
+*component R RC05 R2
+@attribute VALUE=220
+*component R RC05 R3
+@attribute VALUE=30K
+*component R RC05 R4
+@attribute VALUE=30K
+*component ARDUINO-NANO ARDUINO-NANO U1
+*component JUMPER1_4 HDR1X4 W1
+*net +12V
++ P1.1
++ P3.1
++ U1.1
+*net 5V
++ B1.2
++ B1.4
++ B2.2
++ B2.4
++ P6.1
++ D3.2
++ R2.2
++ U1.4
+*net ANALOG_GND
++ B3.1
++ B3.4
++ P6.3
++ U1.3
+*net D2
++ D3.4
++ U1.26
+*net D3
++ D3.6
++ U1.25
+*net D4
++ D3.11
++ U1.24
+*net D5
++ D3.12
++ U1.23
+*net D6
++ D3.13
++ U1.22
+*net D7
++ D3.14
++ U1.21
+*net D12
++ B1.1
++ B1.3
++ R4.1
++ U1.16
+*net D13
++ B2.1
++ B2.3
++ R3.1
++ U1.15
+*net DIGITAL_GND
++ D3.1
++ D3.5
++ R3.2
++ R4.2
+*net NN_0001
++ B3.2
++ R1.2
+*net NN_0004
++ B3.5
++ D3.16
+*net NN_0005
++ P6.2
++ U1.12
+*net NN_0006
++ D3.3
++ R1.1
+*net NN_0011
++ D3.15
++ R2.1
+*net NN_0012
++ P1.2
++ P3.2
++ U1.2
+*net NN_0013
++ W1.1
++ U1.20
+*net NN_0014
++ W1.2
++ U1.19
+*net NN_0015
++ W1.3
++ U1.18
+*net NN_0016
++ W1.4
++ U1.17
+*End

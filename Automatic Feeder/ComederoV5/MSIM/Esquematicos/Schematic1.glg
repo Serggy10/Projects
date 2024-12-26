@@ -1,0 +1,39 @@
+Schematic1.glg written on Wed Jul 27 11:33:37 2022
+by MicroSim PCBoards -- Serial Number: 98242 -- Version 8.0
+
+Photoplot settings:
+   Format:  RS-274-X
+   Numeric Format:  2.4 (XX.XXXX)
+   Absolute positioning
+   English Units
+   Zero Supression:  Leading
+   360 Circular Interpolation (G75)
+   No G54 before aperture changes
+
+Job Title:  Auto Photoplot Job
+Job Type:   Photoplot
+
+   Plot Origin:         (0mil, 0mil)
+   Scale:               1x
+   No Rotation
+
+   There are 3 pages in this job
+
+   File:  C:\Users\sergi\OneDrive\Escritorio\Comedero\Schematic1.glg.g07
+
+      Layers:
+         Solder
+
+
+   File:  C:\Users\sergi\OneDrive\Escritorio\Comedero\Schematic1.glg.g08
+
+      Layers:
+         SilkBot
+
+
+   File:  C:\Users\sergi\OneDrive\Escritorio\Comedero\Schematic1.glg.g13
+
+      Layers:
+         Drill
+
+

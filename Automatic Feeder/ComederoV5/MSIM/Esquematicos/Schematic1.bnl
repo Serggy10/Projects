@@ -1,0 +1,150 @@
+*PCBoards netlist extracted from  -- C:\Users\sergi\OneDrive\Escritorio\Comedero\Schematic1.pca --  by MicroSim PCBoards on Sun Aug 21 17:26:36 2022
+*component POT POT-C P6 1.692 -0.15 0 Component NONE
+@attribute TYPE_NAME=POT
+display  [AssyDrwTop] AssemblyTop 0.008 -0.184 4 0 0.06 0.008 0 0 0
+@attribute REFDES=P6
+display  [SilkTop] SilkTop 0.008 0.152 4 0 0.06 0.008 0 0 0
+*component R RC05 R2 2.2 0.3 180 Component NONE
+@attribute REFDES=R2
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=220
+*component BOTON 222AD B2 2.825 -0.235 0 Component NONE
+@attribute REFDES=B2
+display  [SilkTop] SilkTop 0.125 0.282 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=BOTON
+display  [AssyDrwTop] AssemblyTop 0.125 -0.153 4 0 0.06 0.008 0 0 0
+*component JUMPER1_4 HDR1X4 W1 2.35 2.15 0 Component NONE
+@attribute REFDES=W1
+display  [SilkTop] SilkTop 0.15 0.07 4 0 0.0625 0.005 0 0 0
+@attribute TYPE_NAME=JUMPER1_4
+display  [AssyDrwTop] AssemblyTop 0.15 -0.12 4 0 0.0625 0.005 0 0 0
+*component BOTON 222AD B1 2.175 -0.235 0 Component NONE
+@attribute TYPE_NAME=BOTON
+display  [AssyDrwTop] AssemblyTop 0.125 -0.153 4 0 0.06 0.008 0 0 0
+@attribute REFDES=B1
+display  [SilkTop] SilkTop 0.125 0.282 4 0 0.06 0.008 0 0 0
+*component BOT_ENCL BOTON-ENCL B3 0.875 -0.275 0 Component NONE
+@attribute TYPE_NAME=BOT_ENCL
+display  [AssyDrwTop] AssemblyTop 0.175 -0.075 4 0 0.06 0.008 0 0 0
+@attribute REFDES=B3
+display  [SilkTop] SilkTop 0.175 0.375 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-060-030
+@attribute PIN_PADSTACK=3,rnd-060-030
+@attribute PIN_PADSTACK=4,rnd-060-030
+@attribute PIN_PADSTACK=5,rnd-060-030
+@attribute PIN_PADSTACK=6,rnd-060-030
+@attribute PIN_PADSTACK=1,sq-060-030
+*component DISPLAY16x2 DISPLAY16x2 D3 0.65 0.38 0 Component NONE
+@attribute TYPE_NAME=DISPLAY16x2
+display  [AssyDrwTop] AssemblyTop 1.55 0.6 4 0 0.06 0.008 0 0 0
+@attribute REFDES=D3
+display  [SilkTop] SilkTop 1.525 0.825 4 0 0.06 0.008 0 0 0
+*component R RC05 R1 1.225 0.225 180 Component NONE
+@attribute REFDES=R1
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=2K
+*component R RC05 R4 2.05 -0.24 90 Component NONE
+@attribute REFDES=R4
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=30K
+*component R RC05 R3 2.65 -0.3 90 Component NONE
+@attribute REFDES=R3
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=30K
+*component ARDUINO-NANO ARDUINO-NANO U1 2.05 2.65 270 Component NONE
+@attribute REFDES=U1
+display  [SilkTop] SilkTop 0 0.1 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=ARDUINO-NANO
+display  [AssyDrwTop] AssemblyTop 0 -0.15 4 0 0.06 0.008 0 0 0
+*component Jump2 jump2 P1 3.125 3.25 270 Component NONE
+@attribute TYPE_NAME=Jump2
+display  [AssyDrwTop] AssemblyTop 0.05 -0.13 4 0 0.06 0.008 0 0 0
+@attribute REFDES=P1
+display  [SilkTop] SilkTop 0.0257143 0.175714 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.05 0.07 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-095-060
+@attribute PIN_PADSTACK=1,rnd-095-060
+*component Jump2 jump2 P3 3.125 2.65 90 Component NONE
+@attribute REFDES=P3
+display  [SilkTop] SilkTop 0.0742857 -0.150714 4 270 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.05 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=Jump2
+display  [AssyDrwTop] AssemblyTop 0.05 -0.13 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-095-060
+@attribute PIN_PADSTACK=1,rnd-095-060
+*net ANALOG_GND
++ U1.3 B3.1
++ B3.1 P6.3
++ P6.3 B3.4
+*net D4
++ D3.11 U1.24
+*net D5
++ D3.12 U1.23
+*net D6
++ D3.13 U1.22
+*net D7
++ D3.14 U1.21
+*net NET_0052
++ W1.1 U1.20
+*net NET_0055
++ U1.19 W1.2
+*net NET_0054
++ U1.18 W1.3
+*net NET_0053
++ U1.17 W1.4
+*net NET_0007
++ B3.2 R1.2
+*net NET_0001
++ R1.1 D3.3
+*net D3
++ U1.25 D3.6
+*net D2
++ U1.26 D3.4
+*net D12
++ R4.1 B1.3
++ B1.3 B1.1
++ B1.1 U1.16
+*net 5V
++ D3.2 P6.1
++ B1.4 P6.1
++ P6.1 B1.2
++ B2.4 P6.1
++ B2.2 P6.1
++ U1.4 P6.1
++ R2.2 P6.1
+*net NET_0002
++ R2.1 D3.15
+*net D13
++ B2.1 U1.15
++ B2.3 B2.1
++ R3.1 B2.3
+*net NET_0004
++ U1.12 P6.2
+*net DIGITAL_GND
++ R4.2 D3.1
++ R3.2 D3.5
++ D3.1 R3.2
+*net NET_0005
++ D3.16 B3.5
+*net +12V
++ P1.1 U1.1
++ P3.1 P1.1
+*net NET_0008
++ P3.2 U1.2
++ U1.2 P1.2
+*end
