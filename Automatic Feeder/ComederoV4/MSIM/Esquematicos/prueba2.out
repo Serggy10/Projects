@@ -1,0 +1,256 @@
+
+**** 07/17/122 17:58:00 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\Comedero\MSIM\prueba2.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 8.0 - July 1997
+* Sun Jul 17 17:58:00 2022
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib "u:\Userlib\DTE_DIGITAL.lib"
+.lib "u:\UserLib\DTE_1.lib"
+.lib "nom.lib"
+
+.INC "prueba2.net"
+
+**** INCLUDING prueba2.net ****
+* Schematics Netlist *
+
+
+
+V_V1         $N_0001 0 12V
+V_V2         $N_0002 0 6V
+R_R1         0 $N_0003  10k  
+X_U1         $N_0001 $N_0004 Sw_tOpen PARAMS: tOpen=1 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+C_C1         0 $N_0003  100u  
+Q_Q1         $N_0003 $N_0004 $N_0002 BC557C 
+D_D1         $N_0004 $N_0003 D1N4148 
+
+**** RESUMING prueba2.cir ****
+.INC "prueba2.als"
+
+
+
+**** INCLUDING prueba2.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_V1            V1(+=$N_0001 -=0 )
+V_V2            V2(+=$N_0002 -=0 )
+R_R1            R1(1=0 2=$N_0003 )
+X_U1            U1(1=$N_0001 2=$N_0004 )
+C_C1            C1(1=0 2=$N_0003 )
+Q_Q1            Q1(c=$N_0003 b=$N_0004 e=$N_0002 )
+D_D1            D1(1=$N_0004 2=$N_0003 )
+.ENDALIASES
+
+
+**** RESUMING prueba2.cir ****
+.probe
+
+
+.END
+
+**** 07/17/122 17:58:00 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\Comedero\MSIM\prueba2.sch
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148         
+          IS    2.682000E-09 
+           N    1.836        
+         ISR    1.565000E-09 
+         IKF     .04417      
+          BV  100            
+         IBV  100.000000E-06 
+          RS     .5664       
+          TT   11.540000E-09 
+         CJO    4.000000E-12 
+          VJ     .5          
+           M     .3333       
+
+
+**** 07/17/122 17:58:00 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\Comedero\MSIM\prueba2.sch
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC557C          
+               PNP             
+          IS    1.020000E-15 
+          BF  416.3          
+          NF    1            
+         VAF   30.52         
+         IKF     .2088       
+         ISE   14.670000E-15 
+          NE    1.854        
+          BR    9.102        
+          NR    1            
+         IKR     .01925      
+         ISC    4.100000E-15 
+          NC    3.982        
+          NK     .8219       
+          RC     .9373       
+         CJE   30.000000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC    9.810000E-12 
+         VJC     .4865       
+         MJC     .332        
+          TF  516.200000E-12 
+         XTF   35.24         
+         VTF   10            
+         ITF    1.701        
+          TR   10.000000E-09 
+         XTB    1.5          
+
+
+**** 07/17/122 17:58:00 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\Comedero\MSIM\prueba2.sch
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.Smod       
+         RON     .01         
+        ROFF    1.000000E+06 
+         VON    1            
+        VOFF    0            
+
+
+**** 07/17/122 17:58:00 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\Comedero\MSIM\prueba2.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(X_U1.3)    1.0000 ($N_0001)   12.0000                   ($N_0002)    6.0000    
+
+($N_0003)   11.3890                   ($N_0004)   12.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.139E-03
+    V_V2         5.526E-12
+    X_U1.V1     -1.000E-12
+
+    TOTAL POWER DISSIPATION   1.37E-02  WATTS
+
+
+**** 07/17/122 17:58:00 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\Comedero\MSIM\prueba2.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** DIODES
+
+
+NAME         D_D1      
+MODEL        D1N4148   
+ID           1.14E-03 
+VD           6.11E-01 
+REQ          4.19E+01 
+CAP          2.83E-10 
+
+
+**** BIPOLAR JUNCTION TRANSISTORS
+
+
+NAME         Q_Q1      
+MODEL        BC557C    
+IB           1.00E-13 
+IC           5.43E-12 
+VBE          6.00E+00 
+VBC          6.11E-01 
+VCE          5.39E+00 
+BETADC       5.40E+01 
+GM           1.77E-13 
+RPI          4.16E+14 
+RX           0.00E+00 
+RO           1.19E+12 
+CBE          1.28E-11 
+CBC          7.49E-12 
+CJS          0.00E+00 
+BETAAC       7.35E+01 
+CBX          0.00E+00 
+FT           1.39E-03 
+
+
+
+
+**** VOLTAGE CONTROLLED SWITCHES
+
+
+NAME         X_U1.S1   
+MODEL        X_U1.Smod 
+I LOAD       1.14E-03 
+V LOAD       1.14E-05 
+R LOAD       1.00E-02 
+V CTRL       1.00E+00 
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .11
+

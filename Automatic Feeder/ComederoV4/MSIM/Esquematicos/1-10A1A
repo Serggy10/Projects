@@ -1,0 +1,22 @@
+
+Footprint: 1-10A1A
+
+      Units:                       mil
+
+      Pin to pin spacing:          constant
+         393.701   
+
+      Max X/Y distances between pins:
+         393.701         0       
+
+      Centers:
+           0             0         Machine Placement Center
+         196.8505        0         Center of Pins
+
+      Boundary Outline:            NOT Rectangular
+         433.071084      0                455.199        47.244052
+
+      Pin Information:
+           Pin #      X             Y         Angle         Padstack          Type      Min Pin-Pin
+               1      0             0             0         rnd-13.5-5.1      thru         393.701   
+               2    393.701         0             0         rnd-085-055       thru         393.701   

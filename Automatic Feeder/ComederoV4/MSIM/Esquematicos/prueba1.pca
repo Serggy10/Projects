@@ -1,0 +1,3119 @@
+*PCBoards ASCII File Version 6.2 - Format 1.0
+*maxNameId 78
+*netlistName "Schematic1.nlf" 
+*Environment
+options rdx-ae--l mil 2 90 0.015
+selFilter psv-fgthkm--e
+view 2.1975 1.43 4.72334
+backgrRGB 0 0 0
+hiliteRGB 192 192 192
+selectRGB 255 255 255
+snapgrRGB 255 255 255
+repaintStyle c fill onePass
+@traceStyles
+traceStyle trace_6 0.006 0.006 rnd-040-020
+traceStyle trace_8 0.008 0.008 rnd-040-020
+traceStyle trace_12 0.012 0.012 rnd-040-020
+traceStyle trace_25 0.025 0.025 rnd-040-020
+traceStyle trace_50 0.05 0.05 rnd-040-020
+currentTraceStyle trace_40 0.04 0.005 rnd-040-020
+@graphicStyles
+graphicStyle line_5 0.005
+graphicStyle line_8 0.008
+currentGraphicStyle line_10 0.01
+graphicStyle line_12 0.012
+graphicStyle line_15 0.015
+graphicStyle line_25 0.025
+@textStyles
+currentTextStyle text_50 0.05 0.007 0 4 0.01
+textStyle text_60 0.06 0.008 0 4 0.01
+textStyle text_75 0.075 0.01 0 4 0.01
+textStyle text_100 0.1 0.01 0 4 0.01
+@snapGrids
+snapGrid 0.001
+snapGrid 0.002
+currentSnapGrid 0.005 1 1
+snapGrid 0.008
+snapGrid 0.01
+snapGrid 0.0125
+snapGrid 0.025
+snapGrid 0.05
+snapGrid 0.1
+snapGrid 0.125
+snapGrid 0.15
+snapGrid 0.25
+snapGrid 0.3
+snapGrid 0.5
+snapGrid 0.6
+snapGrid 0.75
+snapGrid 1
+snapGrid 1.2
+bcostatus d 70:00:01:01:00:00;0 e 0
+fcostatus d 122:06:20:13:00:13;1658314813 p 122:06:20:13:00:08;1658314808 e 0
+*Layers
+@layer [BoardOutline] BoardOutline -D-- 192 220 192
+@layer [BoardKeepin] BoardSigKeepin ---- 192 0 0
+@layer [BoundaryTop] BoundaryTop ---- 160 0 0
+@layer [AssyDrwTop] AssemblyTop ---- 128 128 128
+@layer [SMTAssyDrwTop] SMTAssemblyTop ---- 128 128 128
+@layer [PasteMaskTop] PasteTop ---- 128 128 128
+@layer [SolderMaskTop] MaskTop ---- 128 128 128
+@layer [SilkTop] SilkTop ---- 255 0 255
+@layer [Top] Component S--- 255 0 0
+@layer [Bottom] Solder SD-- 0 0 255
+@layer [SilkBottom] SilkBot -D-- 0 160 160
+@layer [SolderMaskBottom] MaskBot ---- 128 128 128
+@layer [PasteMaskBottom] PasteBot ---- 128 128 128
+@layer [AssyDrwBottom] AssemblyBot ---- 128 128 128
+@layer [SMTAssyDrwBottom] SMTAssemblyBot ---- 128 128 128
+@layer [BoundaryBottom] BoundaryBot ---- 0 0 160
+@layer [DrillSymbol] Drill -D-- 160 160 160
+@layer [Ratsnest] Ratsnest ---- 0 255 255
+@layer [DRC] DRC ---- 255 255 0
+@currentLayer Solder
+*LayerPairs
+@layerPair Component / Solder
+@currentPair Component / Solder
+*footprint 222AD 4 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.125 0.282 4 0 0.06 0.008 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0.125 -0.153 4 0 0.06 0.008 0 0 0
+@graphics
+line [BoundaryTop] 0.325 0.2495 0.325 -0.0755 0.005 0
+line [BoundaryTop] -0.075 0.2495 0.325 0.2495 0.005 0
+line [BoundaryTop] -0.075 0.2495 -0.075 -0.0755 0.005 0
+line [BoundaryTop] -0.075 -0.0755 0.325 -0.0755 0.005 0
+line [SilkTop] 0.0025 -0.0355 0.0025 0.2095 0.005 0
+line [SilkTop] 0.0025 0.2095 0.2475 0.2095 0.005 0
+line [SilkTop] 0.2475 0.2095 0.2475 -0.0355 0.005 0
+line [SilkTop] 0.2475 -0.0355 0.0025 -0.0355 0.005 0
+arc [SilkTop] 0.215 0.177 0.014 0 0 0.002
+arc [SilkTop] 0.035 0.177 0.014 0 0 0.002
+arc [SilkTop] 0.035 -0.003 0.014 0 0 0.002
+arc [SilkTop] 0.213566 -0.0015431 0.014 0 0 0.002
+arc [SilkTop] 0.125 0.087 0.06 0 0 0.005
+centroid [BoundaryTop] 0.125 0.085
+@pins
+pin 1 0 -0.0005 0 rnd-095-060 thru
+pin 2 0 0.1795 0 rnd-095-060 thru
+pin 3 0.255 -0.0005 0 rnd-095-060 thru
+pin 4 0.255 0.1795 0 rnd-095-060 thru
+*footprint POT-C 3 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.008 0.152 4 0 0.06 0.008 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0.008 -0.184 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] -0.184 -0.216 -0.184 0.249 0.01 0
+line [SilkTop] -0.184 0.249 0.201 0.249 0.01 0
+line [SilkTop] 0.201 0.249 0.201 -0.216 0.01 0
+line [SilkTop] 0.201 -0.216 -0.184 -0.216 0.01 0
+hole [Top] [Bottom] -0.184 -0.008 0.08 0.005
+hole [Top] [Bottom] 0.2 -0.008 0.08 0.005
+line [BoundaryTop] -0.234 -0.266 -0.234 0.334 0.01 0
+line [BoundaryTop] 0.258 0.334 0.258 -0.266 0.01 0
+line [BoundaryTop] -0.232 0.336 0.256 0.336 0.01 0
+line [BoundaryTop] -0.232 -0.264 0.256 -0.264 0.01 0
+centroid [BoundaryTop] 0.008 0
+@pins
+pin 2 0.0115 0.2965 0 rnd-060-040 thru
+pin 1 0.1115 0.2965 0 sq-060-040 thru
+pin 3 -0.0885 0.2965 0 rnd-060-040 thru
+*footprint ARDUINO-NANO 30 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0 0.1 4 0 0.06 0.008 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0 -0.15 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] -0.35 -0.85 -0.35 0.85 0.01 0
+line [SilkTop] -0.35 0.85 0.35 0.85 0.01 0
+line [SilkTop] 0.35 0.85 0.35 -0.85 0.01 0
+line [SilkTop] 0.35 -0.85 -0.35 -0.85 0.01 0
+hole [Top] [Bottom] -0.3 -0.8 0.07 0.005
+hole [Top] [Bottom] 0.3 -0.8 0.07 0.005
+hole [Top] [Bottom] 0.3 0.8 0.07 0.005
+hole [Top] [Bottom] -0.3 0.8 0.07 0.005
+line [BoundaryTop] -0.45 -0.9 0.45 -0.9 0.01 0
+line [BoundaryTop] 0.45 -0.9 0.45 0.9 0.01 0
+line [BoundaryTop] 0.45 0.9 -0.45 0.9 0.01 0
+line [BoundaryTop] -0.45 0.9 -0.45 -0.9 0.01 0
+centroid [BoundaryTop] 0 0
+@pins
+pin 1 -0.3 -0.7 0 sq-060-040 thru
+pin 2 -0.3 -0.6 0 rnd-060-040 thru
+pin 3 -0.3 -0.5 0 rnd-060-040 thru
+pin 4 -0.3 -0.4 0 rnd-060-040 thru
+pin 5 -0.3 -0.3 0 rnd-060-040 thru
+pin 6 -0.3 -0.2 0 rnd-060-040 thru
+pin 7 -0.3 -0.1 0 rnd-060-040 thru
+pin 8 -0.3 0 0 rnd-060-040 thru
+pin 9 -0.3 0.1 0 rnd-060-040 thru
+pin 10 -0.3 0.2 0 rnd-060-040 thru
+pin 11 -0.3 0.3 0 rnd-060-040 thru
+pin 12 -0.3 0.4 0 rnd-060-040 thru
+pin 13 -0.3 0.5 0 rnd-060-040 thru
+pin 14 -0.3 0.6 0 rnd-060-040 thru
+pin 15 -0.3 0.7 0 rnd-060-040 thru
+pin 16 0.3 0.7 0 rnd-060-040 thru
+pin 17 0.3 0.6 0 rnd-060-040 thru
+pin 18 0.3 0.5 0 rnd-060-040 thru
+pin 19 0.3 0.4 0 rnd-060-040 thru
+pin 20 0.3 0.3 0 rnd-060-040 thru
+pin 21 0.3 0.2 0 rnd-060-040 thru
+pin 22 0.3 0.1 0 rnd-060-040 thru
+pin 23 0.3 0 0 rnd-060-040 thru
+pin 24 0.3 -0.1 0 rnd-060-040 thru
+pin 25 0.3 -0.2 0 rnd-060-040 thru
+pin 26 0.3 -0.3 0 rnd-060-040 thru
+pin 27 0.3 -0.4 0 rnd-060-040 thru
+pin 28 0.3 -0.5 0 rnd-060-040 thru
+pin 29 0.3 -0.6 0 rnd-060-040 thru
+pin 30 0.3 -0.7 0 sq-060-040 thru
+*footprint BOTON-ENCL 6 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.175 0.375 4 0 0.06 0.008 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0.175 -0.075 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] 0 0 0 0.335 0.01 0
+line [SilkTop] 0 0.335 0.335 0.335 0.01 0
+line [SilkTop] 0.335 0.335 0.335 0 0.01 0
+line [SilkTop] 0.335 0 0 0 0.01 0
+line [SilkTop] 0.15 0.275 0.2 0.275 0.01 0
+line [SilkTop] 0.2 0.275 0.2 0.225 0.01 0
+line [SilkTop] 0.2 0.225 0.15 0.225 0.01 0
+line [SilkTop] 0.15 0.225 0.15 0.275 0.01 0
+centroid [BoundaryTop] 0.175 0.175
+line [BoundaryTop] -0.025 0.35 0.35 0.35 0.01 0
+line [BoundaryTop] 0.35 0.35 0.35 -0.025 0.01 0
+line [BoundaryTop] 0.35 -0.025 -0.025 -0.025 0.01 0
+line [BoundaryTop] -0.025 -0.025 -0.025 0.35 0.01 0
+@pins
+pin 2 0.1 0.175 0 rnd-040-020 thru
+pin 3 0.1 0.275 0 rnd-040-020 thru
+pin 4 0.25 0.275 0 rnd-040-020 thru
+pin 5 0.25 0.175 0 rnd-040-020 thru
+pin 6 0.25 0.075 0 rnd-040-020 thru
+pin 1 0.1 0.075 0 sq-036-028 thru
+*footprint DISPLAY16x2 16 THRU
+@refdes 4
+display  [SilkTop] SilkTop 1.525 0.825 4 0 0.06 0.008 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 1.55 0.6 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] 7.24709e-012 1.42 -7.2462e-012 1.60754e-011 0.01 0
+line [SilkTop] -7.2462e-012 1.60754e-011 3.15 -1.60763e-011 0.01 0
+line [SilkTop] 3.15 -1.60763e-011 3.15 1.42 0.01 0
+line [SilkTop] 3.15 1.42 7.24709e-012 1.42 0.01 0
+hole [Top] [Bottom] 0.1 1.32 0.12 0.005
+hole [Top] [Bottom] 0.1 0.1 0.12 0.005
+hole [Top] [Bottom] 3.05 0.1 0.12 0.005
+hole [Top] [Bottom] 3.05 1.32 0.12 0.005
+line [SilkTop] 0.175 0.25 0.175 1.2 0.01 0
+line [SilkTop] 0.175 1.2 2.98 1.2 0.01 0
+line [SilkTop] 2.98 1.2 2.98 0.25 0.01 0
+line [SilkTop] 2.98 0.25 0.175 0.25 0.01 0
+centroid [BoundaryTop] 1.525 0.75
+line [BoundaryTop] -0.025 1.45 3.175 1.45 0.01 0
+line [BoundaryTop] 3.175 1.45 3.175 -0.025 0.01 0
+line [BoundaryTop] 3.175 -0.025 -0.025 -0.025 0.01 0
+line [BoundaryTop] -0.025 -0.025 -0.025 1.45 0.01 0
+@pins
+pin 1 0.3 1.32 180 rnd-060-035 thru
+pin 2 0.4 1.32 180 rnd-060-035 thru
+pin 3 0.5 1.32 180 rnd-060-035 thru
+pin 4 0.6 1.32 180 rnd-060-035 thru
+pin 5 0.7 1.32 180 rnd-060-035 thru
+pin 6 0.8 1.32 180 rnd-060-035 thru
+pin 7 0.9 1.32 180 rnd-060-035 thru
+pin 8 1 1.32 180 rnd-060-035 thru
+pin 9 1.1 1.32 180 rnd-060-035 thru
+pin 10 1.2 1.32 180 rnd-060-035 thru
+pin 11 1.3 1.32 180 rnd-060-035 thru
+pin 12 1.4 1.32 180 rnd-060-035 thru
+pin 13 1.5 1.32 180 rnd-060-035 thru
+pin 14 1.6 1.32 180 rnd-060-035 thru
+pin 15 1.7 1.32 180 rnd-060-035 thru
+pin 16 1.8 1.32 180 rnd-060-035 thru
+*footprint jump2 2 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.05 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.05 0.07 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.05 -0.13 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.05 0
+line [SilkTop] -0.05 -0.05 -0.05 0.05 0.008 0
+line [SilkTop] -0.05 0.05 0.15 0.05 0.008 0
+line [SilkTop] 0.15 0.05 0.15 -0.05 0.008 0
+line [SilkTop] 0.15 -0.05 -0.05 -0.05 0.008 0
+line [AssyDrwTop] -0.05 -0.05 -0.05 0.05 0.008 0
+line [AssyDrwTop] -0.05 0.05 0.15 0.05 0.008 0
+line [AssyDrwTop] 0.15 0.05 0.15 -0.05 0.008 0
+line [AssyDrwTop] 0.15 -0.05 -0.05 -0.05 0.008 0
+line [BoundaryTop] -0.05 -0.05 -0.05 0.05 0.008 0
+line [BoundaryTop] -0.05 0.05 0.15 0.05 0.008 0
+line [BoundaryTop] 0.15 0.05 0.15 -0.05 0.008 0
+line [BoundaryTop] 0.15 -0.05 -0.05 -0.05 0.008 0
+@pins
+pin 2 0.1 0 0 rnd-080-040 thru
+pin 1 0 0 0 rnd-080-040 thru
+*footprint HDR1X4 4 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.15 0.07 4 0 0.0625 0.005 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0.15 -0.12 4 0 0.0625 0.005 0 0 0
+@graphics
+line [SilkTop] -0.05 -0.05 0.15 -0.05 0.008 0
+line [SilkTop] -0.05 0.05 -0.05 -0.05 0.008 0
+line [AssyDrwTop] 0.15 -0.05 -0.05 -0.05 0.008 0
+line [AssyDrwTop] -0.05 -0.05 -0.05 0.05 0.008 0
+line [BoundaryTop] 0.15 -0.05 -0.05 -0.05 0.008 0
+line [BoundaryTop] -0.05 -0.05 -0.05 0.05 0.008 0
+line [SilkTop] 0.15 0.05 -0.05 0.05 0.008 0
+line [AssyDrwTop] -0.05 0.05 0.15 0.05 0.008 0
+line [BoundaryTop] -0.05 0.05 0.15 0.05 0.008 0
+line [SilkTop] 0.35 -0.05 0.35 0.05 0.008 0
+line [AssyDrwTop] 0.35 0.05 0.35 -0.05 0.008 0
+line [BoundaryTop] 0.35 0.05 0.35 -0.05 0.008 0
+line [SilkTop] 0.35 0.05 0.15 0.05 0.008 0
+line [AssyDrwTop] 0.15 0.05 0.35 0.05 0.008 0
+line [BoundaryTop] 0.15 0.05 0.35 0.05 0.008 0
+line [SilkTop] 0.15 -0.05 0.35 -0.05 0.008 0
+line [AssyDrwTop] 0.35 -0.05 0.15 -0.05 0.008 0
+line [BoundaryTop] 0.35 -0.05 0.15 -0.05 0.008 0
+centroid [BoundaryTop] 0.15 0
+@pins
+pin 2 0.1 0 0 rnd-070-035 thru
+pin 3 0.2 0 0 rnd-070-035 thru
+pin 4 0.3 0 0 rnd-070-035 thru
+pin 1 0 0 0 sq-070-035 thru
+*footprint RC05 2 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] 0.2 0
+line [BoundaryTop] -0.05 -0.05 -0.05 0.05 0.008 0
+line [BoundaryTop] -0.05 0.05 0.45 0.05 0.008 0
+line [BoundaryTop] 0.45 -0.05 -0.05 -0.05 0.008 0
+line [BoundaryTop] 0.45 0.05 0.45 -0.05 0.008 0
+line [SilkTop] 0.12 0 0.045 0 0.008 0
+line [SilkTop] 0.12 0.033 0.28 0.033 0.008 0
+line [SilkTop] 0.12 -0.033 0.28 -0.033 0.008 0
+line [SilkTop] 0.12 0.033 0.12 -0.033 0.008 0
+line [SilkTop] 0.28 -0.033 0.28 0.033 0.008 0
+line [SilkTop] 0.28 0 0.355 0 0.008 0
+line [AssyDrwTop] 0.12 0 0.045 0 0.008 0
+line [AssyDrwTop] 0.12 0.033 0.12 -0.033 0.008 0
+line [AssyDrwTop] 0.12 0.033 0.28 0.033 0.008 0
+line [AssyDrwTop] 0.12 -0.033 0.28 -0.033 0.008 0
+line [AssyDrwTop] 0.28 -0.033 0.28 0.033 0.008 0
+line [AssyDrwTop] 0.28 0 0.355 0 0.008 0
+@pins
+pin 1 0 0 0 rnd-080-035 thru
+pin 2 0.4 0 0 rnd-080-035 thru
+*footprint TO-92-18B 3 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.05 0.13 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.05 0.13 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.05 -0.16 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0.05 0 0.0989949 315 225 0.008
+line [SilkTop] -0.02 -0.07 0.12 -0.07 0.008 0
+arc [AssyDrwTop] 0.05 0 0.0989949 315 225 0.008
+line [AssyDrwTop] -0.02 -0.07 0.12 -0.07 0.008 0
+arc [BoundaryTop] 0.05 0 0.113358 311.424 228.576 0.008
+line [BoundaryTop] -0.025 -0.085 0.125 -0.085 0.008 0
+centroid [BoundaryTop] 0.05 0
+@pins
+pin 3 0.1 0 0 rnd-060-040 thru
+pin 1 0 0 90 rnd-060-040 thru
+pin 2 0.05 0.05 0 rnd-060-040 thru
+*footprint DO-35 2 THRU
+@refdes 4
+display  [AssyDrwTop] AssemblyTop -0.19 0.06 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop -0.19 0.06 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop -0.19 -0.13 4 0 0.06 0.008 0 0 0
+@graphics
+centroid [BoundaryTop] -0.2 0
+line [BoundaryTop] -0.44 0.045 0.04 0.045 0.008 0
+line [BoundaryTop] -0.44 0.045 0.04 0.045 0.008 0
+line [BoundaryTop] -0.44 -0.045 0.04 -0.045 0.008 0
+line [BoundaryTop] -0.44 0.045 -0.44 -0.045 0.008 0
+line [BoundaryTop] 0.04 0.045 0.04 -0.045 0.008 0
+line [BoundaryTop] 0.04 -0.045 -0.44 -0.045 0.008 0
+line [SilkTop] -0.285 -0.035 -0.285 0.035 0.008 0
+line [SilkTop] -0.12 0.035 -0.12 -0.035 0.008 0
+line [AssyDrwTop] -0.285 0 -0.285 0.035 0.008 0
+line [AssyDrwTop] -0.285 -0.035 -0.285 0 0.008 0
+line [AssyDrwTop] -0.12 0.035 -0.12 -0.035 0.008 0
+line [SilkTop] -0.265 0.035 -0.265 -0.035 0.008 0
+line [AssyDrwTop] -0.265 0.035 -0.265 -0.035 0.008 0
+line [AssyDrwTop] -0.285 0.035 -0.12 0.035 0.008 0
+line [AssyDrwTop] -0.285 -0.035 -0.12 -0.035 0.008 0
+line [SilkTop] -0.285 0.035 -0.12 0.035 0.008 0
+line [SilkTop] -0.285 -0.035 -0.12 -0.035 0.008 0
+line [SilkTop] -0.355 0 -0.285 0 0.008 0
+line [SilkTop] -0.12 0 -0.04 0 0.008 0
+@pins
+pin 2 -0.4 0 0 rnd-050-030 thru
+pin 1 0 0 0 sq-050-030 thru
+*footprint TO-92-5C 3 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.1 0.16 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.1 0.16 4 0 0.06 0.008 0 0 0
+@comptype 4
+display  [AssyDrwTop] AssemblyTop 0.1 -0.18 4 0 0.06 0.008 0 0 0
+@graphics
+line [SilkTop] 0.03 -0.07 0.17 -0.07 0.008 0
+arc [SilkTop] 0.1 0 0.0996243 197.526 225 0.008
+arc [SilkTop] 0.1 0 0.0989949 315 339.775 0.008
+arc [SilkTop] 0.1 0 0.104403 16.6992 73.3008 0.008
+arc [SilkTop] 0.1 0 0.104403 106.699 163.301 0.008
+line [AssyDrwTop] 0.03 -0.07 0.17 -0.07 0.008 0
+arc [AssyDrwTop] 0.1 0 0.0996243 197.526 225 0.008
+arc [AssyDrwTop] 0.1 0 0.0989949 315 339.775 0.008
+arc [AssyDrwTop] 0.1 0 0.104403 16.6992 73.3008 0.008
+arc [AssyDrwTop] 0.1 0 0.104403 106.699 163.301 0.008
+centroid [BoundaryTop] 0.1 0
+line [BoundaryTop] 0.015 -0.105 0.185 -0.105 0.008 0
+arc [BoundaryTop] 0.1 0 0.135093 308.991 231.009 0.008
+@pins
+pin 3 0.2 0 0 rnd-050-030 thru
+pin 1 0 0 90 sq-050-030 thru
+pin 2 0.1 0 0 rnd-050-030 thru
+*footprint PLP3481/AA 2 THRU
+@refdes 4
+display  [SilkTop] SilkTop 0.0688976 0.177165 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.0688976 0.177165 4 0 0.06 0.008 0 0 0
+@comptype 7
+display  [AssyDrwTop] AssemblyTop 0.0688976 -0.23622 4 0 0.06 0.008 0 0 0
+@graphics
+arc [SilkTop] 0.0688976 0 0.15748 0 0 0.008
+arc [AssyDrwTop] 0.0688976 0 0.15748 0 0 0.008
+centroid [BoundaryTop] 0.0688976 0
+arc [BoundaryTop] 0.0688976 0 0.15748 0 0 0.008
+line [SilkTop] 0.25 0 0.28937 0 0.008 0
+line [AssyDrwTop] 0.25 0 0.28937 0 0.008 0
+line [SilkTop] -0.139685 0.0196851 -0.139685 -0.019685 0.008 0
+line [SilkTop] -0.12 0 -0.15937 0 0.008 0
+line [AssyDrwTop] -0.139685 0.0196851 -0.139685 -0.019685 0.008 0
+line [AssyDrwTop] -0.12 0 -0.15937 0 0.008 0
+@pins
+pin 1 0 0 0 sq-070-050 thru
+pin 2 0.13779528 0 0 rnd-070-050 thru
+*package BOTON
+@types 1
+g 1 
+@pinout
+t 222AD
+g 1
+p pin1 1
+p pin2 2
+p pin3 3
+p pin4 4
+*package POT
+@types 1
+g 1 
+@pinout
+t POT-C
+g 1
+p POS 1
+p NEG 3
+p REF 2
+*package ARDUINO-NANO
+@types 1
+g 1 
+@pinout
+t ARDUINO-NANO
+g 1
+p 1 1
+p 2 2
+p 3 3
+p 4 4
+p 5 5
+p 6 6
+p 7 7
+p 8 8
+p 9 9
+p 10 10
+p 11 11
+p 12 12
+p 13 13
+p 14 14
+p 15 15
+p 16 16
+p 17 17
+p 18 18
+p 19 19
+p 20 20
+p 21 21
+p 22 22
+p 23 23
+p 24 24
+p 25 25
+p 26 26
+p 27 27
+p 28 28
+p 29 29
+p 30 30
+*package BOT_ENCL
+@types 1
+g 1 
+@pinout
+t BOTON-ENCL
+g 1
+p pin2 2
+p pin1 1
+p pin3 3
+p pin6 6
+p pin4 4
+p pin5 5
+*package DISPLAY16x2
+@types 1
+g 1 
+@pinout
+t DISPLAY16x2
+g 1
+p VSS 1
+p VDD 2
+p VO 3
+p RS 4
+p RW 5
+p E 6
+p D0 7
+p D1 8
+p D2 9
+p D3 10
+p D4 11
+p D5 12
+p D6 13
+p D7 14
+p A 15
+p K 16
+*package Jump2
+@types 1
+g 1 
+@pinout
+t jump2
+g 1
+p pin1 1
+p pin2 2
+*package JUMPER1_4
+@types 1
+g 1 
+@pinout
+t HDR1X4
+g 1
+p PIN1 1
+p PIN2 2
+p PIN3 3
+p PIN4 4
+*package R
+@types 1
+g 1 
+@pinout
+t RC05,RC06,RC07,RC08,RC12,RC20,RC22,RC32,RC42
+g 1
+p 1 1
+p 2 2
+t R1005,R1608,R2012,R3216,R3225,R5025,R6332
+g 1
+p 1 1
+p 2 2
+t RL05,RL07,RL32,RL42
+g 1
+p 1 1
+p 2 2
+t RN50,RN55,RN60,RN65,RN70,RN75,RN80,RWP20
+g 1
+p 1 1
+p 2 2
+*package BC547C
+@types 1
+g 1 
+@pinout
+t TO-92-18B
+g 1
+p C 1
+p B 2
+p E 3
+*package 1N4148
+@types 1
+g 1 
+@pinout
+t DO-35
+g 1
+p 1 1
+p 2 2
+*package BC557B
+@types 1
+g 1 
+@pinout
+t TO-92-18B,TO-92-5B,TO-92-5C
+g 1
+p C 1
+p B 2
+p E 3
+*package C_ELECTROLITICO
+@types 1
+g 1 
+@pinout
+t 199D/A/A1,199D/B/A2,199D/C/A1,199D/D/A1,199D/E/E2,199D/F/E3
+g 1
+p 1 1
+p 2 2
+t PLP3970SMD/AA,PLP3970SMD/BB,PLP3481/AA,PLP3481/BB,PLP3481/CD,PLP3476/LL,PLP3476/KG,PLP3476/CB
+g 1
+p 1 1
+p 2 2
+*padStacks
+@padStack FIDUCIAL_1mm 0 0 0 0 0 0.0393701 0.019685 1
+description: Marca FIDUCIAL para alineación de PCB
+template: round 0.0393701 0.0393701 0.0590551 0 0.019685
+onLayer: Component [Top] round 0.0393701 0.0393701 0.0393701 0 0.019685
+onLayer: Solder [Bottom] round 0.0393701 0.0393701 0.0393701 0 0.019685
+@padStack FIDUCIAL_2mm 0 0 0 0 0 0.0787402 0.039372 1
+description: Marca FIDUCIAL para alineación de PCB
+template: round 0.0787402 0.0787402 0.11811 0 0.02
+onLayer: Component [Top] round 0.0787402 0.0787402 0.0787402 0 0.02
+onLayer: Solder [Bottom] round 0.0787402 0.0787402 0.0787402 0 0.02
+@padStack Jack_180_090 0.04 0 0 0 1 0.003 0 1
+description: Power Jack rect 180x90mil agujero 40mil
+template: rectangular 0.09 0.18 0.025 0 0.02
+onLayer: Component [Top] rectangular 0.09 0.18 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.09 0.18 0.025 0 0.02
+@padStack Jack_rect_150_070 0.03 0 0 0 0 0.003 0 1
+description: 
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.07 0.15 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.07 0.15 0.025 0 0.02
+@padStack oval-.15x1.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .15mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.00590551 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.00590551 0.0629921 0.025 0 0.02
+@padStack oval-.20x1.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .20mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.00787402 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.00787402 0.0629921 0.025 0 0.02
+@padStack oval-.25x1.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .25mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.00984252 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.00984252 0.0629921 0.025 0 0.02
+@padStack oval-.30x1.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .30mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.011811 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.011811 0.0629921 0.025 0 0.02
+@padStack oval-.40x1.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .40mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.015748 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.015748 0.0629921 0.025 0 0.02
+@padStack oval-.40x2.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .40mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.015748 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.015748 0.102362 0.025 0 0.02
+@padStack oval-.45x1.80 0 0 0 0 0 0.003 0 1
+description: oval, smt, .45mm x 1.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0177165 0.0708661 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0177165 0.0708661 0.025 0 0.02
+@padStack oval-.45x2.20 0 0 0 0 0 0.003 0 1
+description: oval, smt, .45mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0177165 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0177165 0.0866142 0.025 0 0.02
+@padStack oval-.50x1.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .50mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.019685 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.019685 0.0629921 0.025 0 0.02
+@padStack oval-.50x1.80 0 0 0 0 0 0.003 0 1
+description: oval, smt, .50mm x 1.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.019685 0.0708661 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.019685 0.0708661 0.025 0 0.02
+@padStack oval-.50x2.20 0 0 0 0 0 0.003 0 1
+description: oval, smt, .50mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.019685 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.019685 0.0866142 0.025 0 0.02
+@padStack oval-.60x1.80 0 0 0 0 0 0.003 0 1
+description: oval, smt, .60mm x 1.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.023622 0.0708661 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.023622 0.0708661 0.025 0 0.02
+@padStack oval-.60x2.00 0 0 0 0 0 0.003 0 1
+description: oval, smt, .60mm x 2.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.023622 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.023622 0.0787402 0.025 0 0.02
+@padStack oval-.60x2.20 0 0 0 0 0 0.003 0 1
+description: oval, smt, .60mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.023622 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.023622 0.0866142 0.025 0 0.02
+@padStack oval-.65x2.20 0 0 0 0 0 0.003 0 1
+description: oval, smt, .65mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0255906 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0255906 0.0866142 0.025 0 0.02
+@padStack oval-.65x2.40 0 0 0 0 0 0.003 0 1
+description: oval, smt, .65mm x 2.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0255906 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0255906 0.0944882 0.025 0 0.02
+@padStack oval-.65x2.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .65mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0255906 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0255906 0.102362 0.025 0 0.02
+@padStack oval-.80x2.60 0 0 0 0 0 0.003 0 1
+description: oval, smt, .80mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0314961 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0314961 0.102362 0.025 0 0.02
+@padStack oval-009x060 0 0 0 0 0 0.003 0 1
+description: oval, smt, .009 x.060
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.009 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.009 0.06 0.025 0 0.02
+@padStack oval-010x060 0 0 0 0 0 0.003 0 1
+description: oval, smt, .010 x 060
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.01 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.01 0.06 0.025 0 0.02
+@padStack oval-011x060 0 0 0 0 0 0.003 0 1
+description: oval, smt, .011 x .060
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.011 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.011 0.06 0.025 0 0.02
+@padStack oval-013x060 0 0 0 0 0 0.003 0 1
+description: oval, smt, .013 x .060
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.013 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.013 0.06 0.025 0 0.02
+@padStack oval-013x065 0 0 0 0 0 0.003 0 1
+description: oval, smt, .013 x .065
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.013 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.013 0.065 0.025 0 0.02
+@padStack oval-013x070 0 0 0 0 0 0.003 0 1
+description: oval, smt, .013 x .070
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.013 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.013 0.07 0.025 0 0.02
+@padStack oval-013x100 0 0 0 0 0 0.003 0 1
+description: oval, smt, .013 x .100
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.013 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.013 0.1 0.025 0 0.02
+@padStack oval-015x060 0 0 0 0 0 0.003 0 1
+description: oval, smt, .015 x .060
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.015 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.015 0.06 0.025 0 0.02
+@padStack oval-020x060 0 0 0 0 0 0.003 0 1
+description: oval, smt, .020 x .060 
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.02 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.02 0.06 0.025 0 0.02
+@padStack oval-025x060 0 0 0 0 0 0.003 0 1
+description: oval, smt, .025 x .060 
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.025 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.025 0.06 0.025 0 0.02
+@padStack oval-062x500 0 0 0 0 0 0.005 0 1
+description: oval, smt, .062 x .500
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.062 0.5 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.062 0.5 0.025 0 0.02
+@padStack oval-070x120 0.035 0 0 0 1 0.005 0 1
+description: especial para fresado
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.07 0.12 0.03 0 0.025
+onLayer: Solder [Bottom] oval 0.07 0.12 0.03 0 0.025
+@padStack oval-070x140 0.035 0 0 0 1 0.005 0 1
+description: especial para fresado
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.07 0.14 0.03 0 0.025
+onLayer: Solder [Bottom] oval 0.07 0.14 0.03 0 0.025
+@padStack oval-1.20x1.70 0 0 0 0 0 0.003 0 1
+description: oval, smt, 1.20mm x 1.70mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0472441 0.0669291 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0472441 0.0669291 0.025 0 0.02
+@padStack oval-1.20x1.90 0 0 0 0 0 0.003 0 1
+description: oval, smt, 1.20mm x 1.90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0472441 0.0748031 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0472441 0.0748031 0.025 0 0.02
+@padStack oval-1.20x2.40 0.0314961 0 0 0 0 0.005 0 1
+description: oval, smt, 1.20mm x 2.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0472441 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0472441 0.0944882 0.025 0 0.02
+@padStack oval-1.30x1.90 0 0 0 0 0 0.003 0 1
+description: oval, smt, 1.30mm x 1.90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0511811 0.0748031 0.0393701 0 0.02
+onLayer: Solder [Bottom] oval 0.0511811 0.0748031 0.0393701 0 0.02
+@padStack oval-1.60x.20 0 0 0 0 0 0.005 0 1
+description: oval, smt, 1.60mm x .20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0629921 0.00787402 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0629921 0.00787402 0.025 0 0.02
+@padStack oval-1.60x.30 0 0 0 0 0 0.005 0 1
+description: oval, smt, 1.60mm x .30mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0629921 0.011811 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0629921 0.011811 0.025 0 0.02
+@padStack oval-1.60x.40 0 0 0 0 0 0.005 0 1
+description: oval, smt, 1.60mm x .40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0629921 0.015748 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0629921 0.015748 0.025 0 0.02
+@padStack oval-1.80x.45 0 0 0 0 0 0.005 0 1
+description: oval, smt, 1.80mm x .45mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0708661 0.0177165 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0708661 0.0177165 0.025 0 0.02
+@padStack oval-1.80x.50 0 0 0 0 0 0.005 0 1
+description: oval, smt, 1.80mm x .50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0708661 0.019685 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0708661 0.019685 0.025 0 0.02
+@padStack oval-1.80x.60 0 0 0 0 0 0.005 0 1
+description: oval, smt, 1.80mm x .60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0708661 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0708661 0.023622 0.025 0 0.02
+@padStack oval-100x150 0.04 0 0 0 1 0.003 0 1
+description: especial fresado
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.1 0.15 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.1 0.15 0.025 0 0.02
+@padStack oval-118x320 0 0 0 0 0 0.003 0 1
+description: oval, smt, .118 x .320
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.118 0.32 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.118 0.32 0.025 0 0.02
+@padStack oval-2.20x.50 0 0 0 0 0 0.005 0 1
+description: oval, smt, 2.20mm x .50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0866142 0.019685 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0866142 0.019685 0.025 0 0.02
+@padStack oval-2.20x.60 0 0 0 0 0 0.005 0 1
+description: oval, smt, 2.20mm x .60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0866142 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0866142 0.023622 0.025 0 0.02
+@padStack oval-2.40x.65 0 0 0 0 0 0.005 0 1
+description: oval, smt, 2.40mm x .65mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.0944882 0.0255906 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.0944882 0.0255906 0.025 0 0.02
+@padStack oval-2.60x.40 0 0 0 0 0 0.005 0 1
+description: oval, smt, 2.60mm x .40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.102362 0.015748 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.102362 0.015748 0.025 0 0.02
+@padStack oval-2.60x.65 0 0 0 0 0 0.005 0 1
+description: oval, smt, 2.60mm x .65mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.102362 0.0255906 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.102362 0.0255906 0.025 0 0.02
+@padStack oval-2.60x.80 0 0 0 0 0 0.005 0 1
+description: oval, smt, 2.60mm x .80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] oval 0.102362 0.0314961 0.025 0 0.02
+onLayer: Solder [Bottom] oval 0.102362 0.0314961 0.025 0 0.02
+@padStack rect-.050x.300 0 0 0 0 0 0.005 0 0
+description: rect, smt, .050 x .300
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.05 0.3 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.05 0.3 0.025 0 0.02
+@padStack rect-.075x.030 0 0 0 0 0 0.005 0 0
+description: rect, smt, .075 x .030
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.075 0.03 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.075 0.03 0.025 0 0.02
+@padStack rect-.15x.35 0 0 0 0 0 0.003 0 1
+description: rect, smt, .15mm x .35mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.00590551 0.0137795 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.00590551 0.0137795 0.025 0 0.02
+@padStack rect-.15x.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, .15mm x .40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.00590551 0.015748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.00590551 0.015748 0.025 0 0.02
+@padStack rect-.20x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .20mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.00787402 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.00787402 0.0866142 0.025 0 0.02
+@padStack rect-.21x.45 0 0 0 0 0 0.003 0 1
+description: rect, smt, .21mm x .45mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.00826772 0.0177165 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.00826772 0.0177165 0.025 0 0.02
+@padStack rect-.225x.90 0 0 0 0 0 0.003 0 1
+description: rect, smt, .225mm x .90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.00885827 0.0354331 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.00885827 0.0354331 0.025 0 0.02
+@padStack rect-.225x.900 0 0 0 0 0 0.005 0 1
+description: rect, smt, .225mm x .900mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.00885827 0.0354331 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.00885827 0.0354331 0.025 0 0.02
+@padStack rect-.254x1.03 0 0 0 0 0 0.003 0 1
+description: rect, smt, .254mm x 1.03mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.01 0.0405512 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.01 0.0405512 0.025 0 0.02
+@padStack rect-.26x.51 0 0 0 0 0 0.003 0 1
+description: rect, smt, .26mm x .51mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0102362 0.0200787 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0102362 0.0200787 0.025 0 0.02
+@padStack rect-.30x.75 0 0 0 0 0 0.003 0 1
+description: rect, smt, .30mm x .75mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.011811 0.0295276 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.011811 0.0295276 0.025 0 0.02
+@padStack rect-.30x1.03 0 0 0 0.19685 0 0.005 0 1
+description: rect, smt, .30mm x 1.03mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.011811 0.0405512 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.011811 0.0405512 0.025 0 0.02
+@padStack rect-.30X1.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, .30mm X 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.011811 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.011811 0.0629921 0.025 0 0.02
+@padStack rect-.33x.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, .33mm x .60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0129921 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0129921 0.023622 0.025 0 0.02
+@padStack rect-.35x1.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, .35mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0137795 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0137795 0.0629921 0.025 0 0.02
+@padStack rect-.35x2.20 0 0 0 0 0 0.005 0 1
+description: rect, smt, .35mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0137795 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0137795 0.0866142 0.025 0 0.02
+@padStack rect-.38x1.03 0 0 0 0 0 0.003 0 1
+description: rect, smt, .38mm x 1.03mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0149606 0.0405512 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0149606 0.0405512 0.025 0 0.02
+@padStack rect-.40X2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .40mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.015748 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.015748 0.0866142 0.025 0 0.02
+@padStack rect-.45x.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, .45mm x .60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0177165 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0177165 0.023622 0.025 0 0.02
+@padStack rect-.45x1.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, .45mm x 1.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0177165 0.0393701 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0177165 0.0393701 0.025 0 0.02
+@padStack rect-.45x1.90 0 0 0 0 0 0.003 0 1
+description: rect, smt, .45mm x 1.90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0177165 0.0748031 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0177165 0.0748031 0.025 0 0.02
+@padStack rect-.50x.70 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x .70mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0275591 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0275591 0.025 0 0.02
+@padStack rect-.50x.90 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x x90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0354331 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0354331 0.025 0 0.02
+@padStack rect-.50x1.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 1.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0393701 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0393701 0.025 0 0.02
+@padStack rect-.50x1.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 1.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0472441 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0472441 0.025 0 0.02
+@padStack rect-.50x1.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 1.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0708661 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0708661 0.025 0 0.02
+@padStack rect-.50x2.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 2.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0787402 0.025 0 0.02
+@padStack rect-.50x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0866142 0.025 0 0.02
+@padStack rect-.50x2.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 2.50mm 
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0984252 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0984252 0.025 0 0.02
+@padStack rect-.50x2.70 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 2.70mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.106299 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.106299 0.025 0 0.02
+@padStack rect-.50x2.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 2.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.110236 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.110236 0.025 0 0.02
+@padStack rect-.50x5.58 0 0 0 0 0 0.003 0 1
+description: rect, smt, .50mm x 5.58mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.219685 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.219685 0.025 0 0.02
+@padStack rect-.52x.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, .52mm x .60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0204724 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0204724 0.023622 0.025 0 0.02
+@padStack rect-.55x.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, .55mm x .40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0216535 0.015748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0216535 0.015748 0.025 0 0.02
+@padStack rect-.55x1.70 0 0 0 0 0 0.003 0 1
+description: rect, smt, .55mm x 1.70mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0216535 0.0669291 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0216535 0.0669291 0.025 0 0.02
+@padStack rect-.55x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .55mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0216535 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0216535 0.0866142 0.025 0 0.02
+@padStack rect-.55x2.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, .55mm x 2.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0216535 0.0984252 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0216535 0.0984252 0.025 0 0.02
+@padStack rect-.60x1.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, .60mm x 1.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.023622 0.0551181 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.023622 0.0551181 0.025 0 0.02
+@padStack rect-.60x1.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, .60mm x 1.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.023622 0.0590551 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.023622 0.0590551 0.025 0 0.02
+@padStack rect-.60x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .60mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.023622 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.023622 0.0866142 0.025 0 0.02
+@padStack rect-.60x2.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, .60mm x 2.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.023622 0.110236 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.023622 0.110236 0.025 0 0.02
+@padStack rect-.63x2.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, .63mm x 2.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0248031 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0248031 0.0787402 0.025 0 0.02
+@padStack rect-.650x.550 0 0 0 0 0 0.003 0 1
+description: rect, smt, .650mm x .550mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0255906 0.0216535 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0255906 0.0216535 0.025 0 0.02
+@padStack rect-.65x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .65mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0255906 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0255906 0.0866142 0.025 0 0.02
+@padStack rect-.70x.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, .70mm x .80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0275591 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0275591 0.025 0 0.02
+@padStack rect-.70x1.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, .70mm x 1.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0275591 0.0590551 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0275591 0.0590551 0.025 0 0.02
+@padStack rect-.70x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .70mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0275591 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0275591 0.0866142 0.025 0 0.02
+@padStack rect-.70x2.30 0 0 0 0 0 0.003 0 1
+description: rect, smt, .70mm x 2.30mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0275591 0.0905512 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0275591 0.0905512 0.025 0 0.02
+@padStack rect-.74x1.27 0 0 0 0 0 0.005 0 0
+description: rect, smt, .74mm x 1.27mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0291339 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0291339 0.05 0.025 0 0.02
+@padStack rect-.76x.90 0 0 0 0 0 0.003 0 1
+description: rect, smt, .76mm x .90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0299213 0.0354331 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0299213 0.0354331 0.025 0 0.02
+@padStack rect-.76x1.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, .76mm x 1.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0299213 0.0590551 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0299213 0.0590551 0.025 0 0.02
+@padStack rect-.80x.90 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x .90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0354331 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0354331 0.025 0 0.02
+@padStack rect-.80x1.1 0 0 0 0 0 0.00314961 0 1
+description: rect, smd, .80mm x 1.1mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0433071 0.025 0 0.015748
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0433071 0.025 0 0.015748
+@padStack rect-.80x1.30 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 1.30mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0511811 0.025 0 0.0157481
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0511811 0.025 0 0.0157481
+@padStack rect-.80x1.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 1.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0590551 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0590551 0.025 0 0.02
+@padStack rect-.80x1.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0629921 0.025 0 0.02
+@padStack rect-.80x1.80 0 0 0 0 0 0.005 0 1
+description: rect, smt, .80mm x 1.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0708661 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0708661 0.025 0 0.02
+@padStack rect-.80x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0866142 0.025 0 0.02
+@padStack rect-.80x2.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 2.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0944882 0.025 0 0.02
+@padStack rect-.80x2.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.102362 0.025 0 0.02
+@padStack rect-.80x4.10 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 4.10mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.161417 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.161417 0.025 0 0.02
+@padStack rect-.85x.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, .85mm x .40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0334646 0.015748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0334646 0.015748 0.025 0 0.02
+@padStack rect-.89x1.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, .89mm x 1mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0350394 0.0393701 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0350394 0.0393701 0.025 0 0.02
+@padStack rect-.89x2.54 0 0 0 0 0 0.003 0 1
+description: rect, smt, .89mm x 2.54mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0350394 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0350394 0.1 0.025 0 0.02
+@padStack rect-.900x.225 0 0 0 0 0 0.005 0 1
+description: rect, smt, .900mm x .225mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0354331 0.00885827 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0354331 0.00885827 0.025 0 0.02
+@padStack rect-.90x.225 0 0 0 0 0 0.005 0 1
+description: rect, smt, .90mm x .225mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0354331 0.00885827 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0354331 0.00885827 0.025 0 0.02
+@padStack rect-.90x1.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, .90mm x 1.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0354331 0.0551181 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0354331 0.0551181 0.025 0 0.02
+@padStack rect-.90x2.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, .90mm x 2.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0354331 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0354331 0.0944882 0.025 0 0.02
+@padStack rect-0.80x2.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, .80mm x 2.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0314961 0.0984252 0.0393701 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0314961 0.0984252 0.0393701 0 0.02
+@padStack rect-012.5x020 0 0 0 0 0 0.003 0 1
+description: rect, smt, .0125 x .020
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0125 0.02 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0125 0.02 0.025 0 0.02
+@padStack rect-013x020 0 0 0 0 0 0.003 0 1
+description: rect, smt, .013 x .020
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.013 0.02 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.013 0.02 0.025 0 0.02
+@padStack rect-013x023 0 0 0 0 0 0.003 0 1
+description: rect, smt, .013 x .023
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.013 0.023 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.013 0.023 0.025 0 0.02
+@padStack rect-020x060 0 0 0 0 0 0.003 0 1
+description: rect, smt, .020 x .060
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.02 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.02 0.06 0.025 0 0.02
+@padStack rect-024x074 0 0 0 0 0 0.003 0 1
+description: rect, smt, .024 x .074
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.024 0.074 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.024 0.074 0.025 0 0.02
+@padStack rect-024x175 0 0 0 0 0 0.003 0 0
+description: rect, smt, .024 x .175
+template: rectangular 0.024 0.175 0.01 0 0
+onLayer: Component [Top] rectangular 0.024 0.175 0.01 0 0
+onLayer: Solder [Bottom] rectangular 0.024 0.175 0.01 0 0
+@padStack rect-025x035 0 0 0 0 0 0.003 0 1
+description: rect, smt, .025 x .035
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.025 0.035 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.025 0.035 0.025 0 0.02
+@padStack rect-025x065 0 0 0 0 0 0.003 0 1
+description: rect, smt, .025 x .065
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.025 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.025 0.065 0.025 0 0.02
+@padStack rect-027x039 0 0 0 0 0 0.003 0 1
+description: rect, smt, .027 x .039
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.027 0.025 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.027 0.025 0.025 0 0.02
+@padStack rect-030x050 0 0 0 0 0 0.003 0 1
+description: rect, smt, .030 x .050 
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.03 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.03 0.05 0.025 0 0.02
+@padStack rect-030x075 0 0 0 0 0 0.003 0 1
+description: rect, smt, .030 x .075
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.03 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.03 0.075 0.025 0 0.02
+@padStack rect-030x283 0 0 0 0 0 0.003 0 1
+description: rect, smt, .030 x .283
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.03 0.283 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.03 0.283 0.025 0 0.02
+@padStack rect-035x050 0 0 0 0 0 0.003 0 1
+description: rect, smt, .035 x .050
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.035 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.035 0.05 0.025 0 0.02
+@padStack rect-040x050 0 0 0 0 0 0.005 0 1
+description: rect, smt, .040 x .050
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.04 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.04 0.05 0.025 0 0.02
+@padStack rect-040x087 0 0 0 0 0 0.003 0 1
+description: rect, smt, .040 x .087
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.04 0.087 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.04 0.087 0.025 0 0.02
+@padStack rect-050x080 0 0 0 0 0 0.003 0 1
+description: rect, smt, .050 x .080
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.05 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.05 0.08 0.025 0 0.02
+@padStack rect-050x136 0 0 0 0 0 0.003 0 1
+description: rect, smt, .050 x .136
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.05 0.136 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.05 0.136 0.025 0 0.02
+@padStack rect-050x300 0 0 0 0 0 0.003 0 1
+description: rect, smt, .050 x .300
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.05 0.3 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.05 0.3 0.025 0 0.02
+@padStack rect-055x200 0 0 0 0 0 0.003 0 1
+description: rect, smt, .055 x .200
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.055 0.2 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.055 0.2 0.025 0 0.02
+@padStack rect-056x101 0 0 0 0 0 0.003 0 1
+description: rect, smt, .056 x .101
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.056 0.101 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.056 0.101 0.025 0 0.02
+@padStack rect-059x063 0 0 0 0 0 0.003 0 1
+description: rect, smt, .059 x .063
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.059 0.063 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.059 0.063 0.025 0 0.02
+@padStack rect-065x025 0 0 0 0 0 0.005 0 1
+description: rect, smt, .065 x .025
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.065 0.025 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.065 0.025 0.025 0 0.02
+@padStack rect-065x117 0 0 0 0 0 0.003 0 1
+description: rect, smt, .065 x .117
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.065 0.117 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.065 0.117 0.025 0 0.02
+@padStack rect-067x063 0 0 0 0 0 0.003 0 1
+description: rect, smt, .067 x .063
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.067 0.063 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.067 0.063 0.025 0 0.02
+@padStack rect-070x140 0 0 0 0 0 0.003 0 1
+description: rect, smt, .070 x .140
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.07 0.14 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.07 0.14 0.025 0 0.02
+@padStack rect-075x030 0 0 0 0 0 0.003 0 1
+description: rect, smt, .075 x .030
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.075 0.03 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.075 0.03 0.025 0 0.02
+@padStack rect-077x124 0 0 0 0 0 0.003 0 1
+description: rect, smt, .077 x .124
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.077 0.124 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.077 0.124 0.025 0 0.02
+@padStack rect-1.00x.50 0 0 0 0 0 0.005 0 1
+description: rect, smt, 1.00mm x .50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.019685 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.019685 0.025 0 0.02
+@padStack rect-1.00x1.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 1.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.0472441 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.0472441 0.025 0 0.02
+@padStack rect-1.00x1.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 1.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.0551181 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.0551181 0.025 0 0.02
+@padStack rect-1.00x1.44 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 1.44mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.0566929 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.0566929 0.025 0 0.02
+@padStack rect-1.00x1.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.0629921 0.025 0 0.02
+@padStack rect-1.00x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.0866142 0.025 0 0.02
+@padStack rect-1.00x2.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.102362 0.025 0 0.02
+@padStack rect-1.00x4.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 4.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.15748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.15748 0.025 0 0.02
+@padStack rect-1.00x5.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.00mm x 5.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0393701 0.19685 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0393701 0.19685 0.025 0 0.02
+@padStack rect-1.05x1.91 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.05mm x 1.91mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0413386 0.0751969 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0413386 0.0751969 0.025 0 0.02
+@padStack rect-1.10x1.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.10mm x 1.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0433071 0.0472441 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0433071 0.0472441 0.025 0 0.02
+@padStack rect-1.10x2.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.10mm x 2.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0433071 0.0984252 0.0393701 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0433071 0.0984252 0.0393701 0 0.02
+@padStack rect-1.20x.50 0 0 0 0 0 0.005 0 1
+description: rect, smt, 1.20mm x .50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0472441 0.019685 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0472441 0.019685 0.025 0 0.02
+@padStack rect-1.20x1.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.20mm x 1.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0472441 0.0551181 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0472441 0.0551181 0.025 0 0.02
+@padStack rect-1.20x1.44 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.20mm x 1.44mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0472441 0.0566929 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0472441 0.0566929 0.025 0 0.02
+@padStack rect-1.20x1.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.20mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0472441 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0472441 0.0629921 0.025 0 0.02
+@padStack rect-1.20x2.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.20mm x 2.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0472441 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0472441 0.0787402 0.025 0 0.02
+@padStack rect-1.20x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.20mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0472441 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0472441 0.0866142 0.025 0 0.02
+@padStack rect-1.25x2.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.25mm x 2.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0492126 0.0984252 0.00393701 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0492126 0.0984252 0.00393701 0 0.02
+@padStack rect-1.25x3.30 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.25mm x 3.30mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0492126 0.129921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0492126 0.129921 0.025 0 0.02
+@padStack rect-1.27x3.00 0 0 0 0 0 0.005 0 0
+description: rect, smt, 1.27mm x 3.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.05 0.11811 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.05 0.11811 0.025 0 0.02
+@padStack rect-1.30x1.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.30mm x 1.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0511811 0.0551181 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0511811 0.0551181 0.025 0 0.02
+@padStack rect-1.30x1.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.30mm x 1.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0511811 0.0590551 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0511811 0.0590551 0.025 0 0.02
+@padStack rect-1.30x1.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.30mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0511811 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0511811 0.0629921 0.025 0 0.02
+@padStack rect-1.30x2.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.30mm x 2.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0511811 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0511811 0.0787402 0.025 0 0.02
+@padStack rect-1.30x3.10 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.30mm x 3.10mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0511811 0.122047 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0511811 0.122047 0.025 0 0.02
+@padStack rect-1.30x3.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.30mm x 3.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0511811 0.125984 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0511811 0.125984 0.025 0 0.02
+@padStack rect-1.30x3.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.30mm x 3.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0511811 0.141732 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0511811 0.141732 0.025 0 0.02
+@padStack rect-1.40x.60 0 0 0 0 0 0.005 0 0
+description: rect, smt, 1.40mm x .60mm 
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.023622 0.025 0 0.02
+@padStack rect-1.40x1.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.40mm x 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.0629921 0.025 0 0.02
+@padStack rect-1.40x1.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.40mm x 1.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.0708661 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.0708661 0.025 0 0.02
+@padStack rect-1.40x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.40mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.0866142 0.025 0 0.02
+@padStack rect-1.40x2.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.40mm x 2.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.0944882 0.025 0 0.02
+@padStack rect-1.40x2.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.40mm x 2.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.0984252 0.0393701 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.0984252 0.0393701 0 0.02
+@padStack rect-1.40x2.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.40mm x 2.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.110236 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.110236 0.025 0 0.02
+@padStack rect-1.40x5.30 0 0 0 0 0 0.005 0 1
+description: rect, smt, 1.40mm x 5.30mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0551181 0.208661 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0551181 0.208661 0.025 0 0.02
+@padStack rect-1.44x1.20 0 0 0 0 0 0.005 0 1
+description: rect, smt, 1.44mm x 1.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0566929 0.0472441 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0566929 0.0472441 0.025 0 0.02
+@padStack rect-1.50x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.50mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0590551 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0590551 0.0866142 0.025 0 0.02
+@padStack rect-1.50x4.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.50mm x 4.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0590551 0.15748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0590551 0.15748 0.025 0 0.02
+@padStack rect-1.50x7.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.50mm x 7.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0590551 0.283465 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0590551 0.283465 0.025 0 0.02
+@padStack rect-1.60x.30 0 0 0 0 0 0.005 0 1
+description: rect, smt, 1.60mm x .30mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0629921 0.011811 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0629921 0.011811 0.025 0 0.02
+@padStack rect-1.60x.35 0 0 0 0 0 0.005 0 1
+description: rect, smt, 1.60mm x .35mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0629921 0.0137795 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0629921 0.0137795 0.025 0 0.02
+@padStack rect-1.60x2.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.60mm x 2.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0629921 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0629921 0.0787402 0.025 0 0.02
+@padStack rect-1.60x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.60mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0629921 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0629921 0.0866142 0.025 0 0.02
+@padStack rect-1.60x2.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.60mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0629921 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0629921 0.102362 0.025 0 0.02
+@padStack rect-1.80x.50 0 0 0 0 0 0.005 0 0
+description: rect, smt, 1.80mm x .50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0708661 0.019685 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0708661 0.019685 0.025 0 0.02
+@padStack rect-1.80x1.90 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.80mm x 1.90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0708661 0.0748031 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0708661 0.0748031 0.025 0 0.02
+@padStack rect-1.80x2.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.80mm x 2.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0708661 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0708661 0.0787402 0.025 0 0.02
+@padStack rect-1.80x2.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.80mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0708661 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0708661 0.102362 0.025 0 0.02
+@padStack rect-1.80x3.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.80mm x 3.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0708661 0.125984 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0708661 0.125984 0.025 0 0.02
+@padStack rect-1.80x3.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.80mm x 3.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0708661 0.141732 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0708661 0.141732 0.025 0 0.02
+@padStack rect-1.80x4.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.80mm x 4.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0708661 0.15748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0708661 0.15748 0.025 0 0.02
+@padStack rect-1.90x2.90 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.90mm x 2.90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0748031 0.114173 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0748031 0.114173 0.025 0 0.02
+@padStack rect-1.90x4.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 1.90mm x 4.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0748031 0.173228 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0748031 0.173228 0.025 0 0.02
+@padStack rect-120x080 0 0 0 0 0 0.003 0 1
+description: rect, smt, .120 x .080
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.12 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.12 0.08 0.025 0 0.02
+@padStack rect-2.00x2.20 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.00mm x 2.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0787402 0.0866142 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0787402 0.0866142 0.025 0 0.02
+@padStack rect-2.00x2.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.00mm x 2.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0787402 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0787402 0.0944882 0.025 0 0.02
+@padStack rect-2.00x4.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.00mm x 4.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0787402 0.15748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0787402 0.15748 0.025 0 0.02
+@padStack rect-2.00x5.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.00mm x 5.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0787402 0.212598 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0787402 0.212598 0.025 0 0.02
+@padStack rect-2.10x2.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.10mm x 2.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0826772 0.110236 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0826772 0.110236 0.025 0 0.02
+@padStack rect-2.10x3.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.10mm x 3.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0826772 0.11811 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0826772 0.11811 0.025 0 0.02
+@padStack rect-2.16x2.74 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.16mm x 2.74mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0850394 0.107874 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0850394 0.107874 0.025 0 0.02
+@padStack rect-2.20x.55 0 0 0 0 0 0.005 0 1
+description: rect, smt, 2.20mm x .55mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0866142 0.0216535 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0866142 0.0216535 0.025 0 0.02
+@padStack rect-2.20x.65 0 0 0 0 0 0.005 0 0
+description: rect, smt, 2.20mm x .65mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0866142 0.0255906 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0866142 0.0255906 0.025 0 0.02
+@padStack rect-2.20x.70 0 0 0 0 0 0.005 0 1
+description: rect, smt, 2.20mm x .70mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0866142 0.0275591 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0866142 0.0275591 0.025 0 0.02
+@padStack rect-2.20x2.40 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.20mm x 2.40 mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0866142 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0866142 0.0944882 0.025 0 0.02
+@padStack rect-2.20x2.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.20mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0866142 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0866142 0.102362 0.025 0 0.02
+@padStack rect-2.20x3.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.20mm x 3.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0866142 0.141732 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0866142 0.141732 0.025 0 0.02
+@padStack rect-2.40x1.10 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.40mm x 1.10mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0944882 0.0433071 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0944882 0.0433071 0.025 0 0.02
+@padStack rect-2.40x2.60 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.40mm x 2.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0944882 0.102362 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0944882 0.102362 0.025 0 0.02
+@padStack rect-2.50x.50 0 0 0 0 0 0.005 0 1
+description: rect, smt, 2.50mm x .50mm 
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0984252 0.019685 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0984252 0.019685 0.025 0 0.02
+@padStack rect-2.50x.55 0 0 0 0 0 0.005 0 1
+description: rect, smt, 2.50mm x .55mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0984252 0.0216535 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0984252 0.0216535 0.025 0 0.02
+@padStack rect-2.50x1.25 0 0 0 0 0 0.005 0 1
+description: rect, smt, 2.20mm x 1.25mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0984252 0.0492126 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0984252 0.0492126 0.025 0 0.02
+@padStack rect-2.50x4.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 2.50mm x 4.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0984252 0.15748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.0984252 0.15748 0.025 0 0.02
+@padStack rect-2.60x3.05 0 0 0 0 0 0.003 0 1
+description: rect., smt, 2.6mm x 3.05mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.102362 0.120079 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.102362 0.120079 0.025 0 0.02
+@padStack rect-2.70x.50 0 0 0 0 0 0.005 0 1
+description: rect, smt, 2.70mm x .50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.106299 0.019685 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.106299 0.019685 0.025 0 0.02
+@padStack rect-250x150 0 0 0 0 0 0.003 0 1
+description: rect, smt, .250 x .150
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.25 0.15 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.25 0.15 0.025 0 0.02
+@padStack rect-275x350 0 0 0 0 0 0.003 0 1
+description: rect, smt, .275 x .350
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.275 0.35 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.275 0.35 0.025 0 0.02
+@padStack rect-3.00x2.50 0 0 0 0 0 0.003 0 1
+description: rect, smt, 3.00mm x 2.50mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.11811 0.0984252 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.11811 0.0984252 0.025 0 0.02
+@padStack rect-3.00x2.50.35drill 0.035 0 0 0 1 0.003 0 1
+description: rect, thru, 3.00mm x 2.50mm dis .035mil
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.11811 0.0984252 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.11811 0.0984252 0.025 0 0.02
+@padStack rect-3.3x4.8 0 0 0 0 0 0.003 0 1
+description: rect, smt, 3.3mm x 4.8mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.129921 0.188976 0.025 0 0.0157481
+onLayer: Solder [Bottom] rectangular 0.129921 0.188976 0.025 0 0.0157481
+@padStack rect-4.00x4.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 4.00mm x 4.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.15748 0.15748 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.15748 0.15748 0.025 0 0.02
+@padStack rect-5.00x6.00 0 0 0 0 0 0.003 0 1
+description: rect, smt, 5.00mm x 6.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.197 0.236 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.197 0.236 0.025 0 0.02
+@padStack rect-5.60x5.80 0 0 0 0 0 0.003 0 1
+description: rect, smt, 5.60mm x 5.80mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.220472 0.228346 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.220472 0.228346 0.025 0 0.02
+@padStack rect-50x2.0 0 0 0 0 0 0.005 0 1
+description: rect, smt, .50mm x 2.0mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.019685 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] rectangular 0.019685 0.0787402 0.025 0 0.02
+@padStack rnd-.250-.150 0.00590551 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .250 pad, .150 drill
+template: round 0.00984252 0.00984252 0.025 0 0.02
+onLayer: Component [Top] round 0.00984252 0.00984252 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.00984252 0.00984252 0.025 0 0.02
+@padStack rnd-.60 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.023622 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.023622 0.023622 0.025 0 0.02
+@padStack rnd-.63 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .63mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.0248031 0.0248031 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0248031 0.0248031 0.025 0 0.02
+@padStack rnd-.70 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .70mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.0275591 0.0275591 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0275591 0.0275591 0.025 0 0.02
+@padStack rnd-.75 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .75mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.0295276 0.0295276 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0295276 0.0295276 0.025 0 0.02
+@padStack rnd-.89 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .89mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.0350394 0.0350394 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0350394 0.0350394 0.025 0 0.02
+@padStack rnd-.90 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.0354331 0.0354331 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0354331 0.0354331 0.025 0 0.02
+@padStack rnd-.93 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .93mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.0366142 0.0366142 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0366142 0.0366142 0.025 0 0.02
+@padStack rnd-016-008 0.008 0 0 0.0089 1 0.005 0.005 1
+description: rnd, thru, .016 pad, .008 drill
+template: round 0.016 0.016 0.025 0 0.008
+onLayer: Component [Top] round 0.016 0.016 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.016 0.016 0.025 0 0.02
+@padStack rnd-018-008 0.008 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .018 pad, .008 drill
+template: round 0.018 0.018 0.025 0 0.009
+onLayer: Component [Top] round 0.018 0.018 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.018 0.018 0.025 0 0.02
+@padStack rnd-020 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .020 pad
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.02 0.02 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.02 0.02 0.025 0 0.02
+@padStack rnd-027-038-012 0.012 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .027 top, .038 bot, .012 drill
+template: round 0.027 0.027 0.025 0 0.02
+onLayer: Component [Top] round 0.027 0.027 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.027 0.027 0.025 0 0.02
+@padStack rnd-031-025 0.025 0 0 0.0089 0 0.005 0 1
+description: rnd, thru, .031 pad, .025 drill
+template: round 0.031 0.031 0.025 0 0.02
+onLayer: Component [Top] round 0.031 0.031 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.031 0.031 0.025 0 0.02
+@padStack rnd-036-021 0.021 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .036 pad, .021 drill
+template: round 0.036 0.036 0.025 0 0.02
+onLayer: Component [Top] round 0.036 0.036 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.036 0.036 0.025 0 0.02
+@padStack rnd-036-026 0.026 0 0 0.0089 1 0 0 1
+description: rnd, thru, .036 pad, .026 drill
+template: round 0.036 0.036 0.025 0 0.02
+onLayer: Component [Top] round 0.036 0.036 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.036 0.036 0.025 0 0.02
+@padStack rnd-036-031 0.031 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .036 pad, .031 drill
+template: round 0.036 0.036 0.025 0 0.02
+onLayer: Component [Top] round 0.036 0.036 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.036 0.036 0.025 0 0.02
+@padStack rnd-040 0 0 0 0 0 0.003 0 1
+description: rnd, smt, .040 pad
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.04 0.04 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.04 0.04 0.025 0 0.02
+@padStack rnd-040-020 0.02 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .040 pad, .020 drill
+template: round 0.04 0.04 0.025 0 0.02
+onLayer: Component [Top] round 0.04 0.04 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.04 0.04 0.025 0 0.02
+@padStack rnd-041-031 0.031 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .041 pad, .031 drill
+template: round 0.041 0.041 0.025 0 0.02
+onLayer: Component [Top] round 0.041 0.041 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.041 0.041 0.025 0 0.02
+@padStack rnd-045-025 0.025 0 0 0.0089 1 0.005 0 1
+description: redondo pasante 45-25
+template: round 0.05 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.045 0.045 0.025 0 0.022
+onLayer: Solder [Bottom] round 0.045 0.045 0.025 0 0.022
+@padStack rnd-047-037 0.037 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .047 pad, .037 drill
+template: round 0.047 0.047 0.025 0 0.02
+onLayer: Component [Top] round 0.047 0.047 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.047 0.047 0.025 0 0.02
+@padStack rnd-050-016 0.016 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .050 pad, .016 drill
+template: round 0.05 0.05 0.025 0 0.02
+onLayer: Component [Top] round 0.05 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.05 0.05 0.025 0 0.02
+@padStack rnd-050-025 0.025 0 0 0.0089 1 0.005 0 1
+description: redondo pasante 50-25
+template: round 0.05 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.05 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.05 0.05 0.025 0 0.02
+@padStack rnd-050-030 0.03 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .050 pad, .030 drill
+template: round 0.05 0.05 0.025 0 0.02
+onLayer: Component [Top] round 0.05 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.05 0.05 0.025 0 0.02
+@padStack rnd-051-031 0.031 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .051 pad, .031 drill
+template: round 0.051 0.051 0.025 0 0.02
+onLayer: Component [Top] round 0.051 0.051 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.051 0.051 0.025 0 0.02
+@padStack rnd-052-032 0.032 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .052 pad, .032 drill
+template: round 0.052 0.052 0.025 0 0.02
+onLayer: Component [Top] round 0.052 0.052 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.052 0.052 0.025 0 0.02
+@padStack rnd-054-034 0.034 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .054 pad, .034 drill
+template: round 0.054 0.054 0.025 0 0.02
+onLayer: Component [Top] round 0.054 0.054 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.054 0.054 0.025 0 0.02
+@padStack rnd-055-032 0.032 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .055 pad, .032 drill
+template: round 0.055 0.055 0.025 0 0.02
+onLayer: Component [Top] round 0.055 0.055 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.055 0.055 0.025 0 0.02
+@padStack rnd-056-036 0.036 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .056 pad, .036 drill
+template: round 0.056 0.056 0.025 0 0.02
+onLayer: Component [Top] round 0.056 0.056 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.056 0.056 0.025 0 0.02
+@padStack rnd-059-039 0.025 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .059 pad, .039 drill
+template: round 0.059 0.059 0.025 0 0.02
+onLayer: Component [Top] round 0.059 0.059 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.059 0.059 0.025 0 0.02
+@padStack rnd-059-040 0.04 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .059 pad, .040 drill
+template: round 0.059 0.059 0.025 0 0.02
+onLayer: Component [Top] round 0.059 0.059 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.059 0.059 0.025 0 0.02
+@padStack rnd-060-025 0.025 0 0 0.0089 1 0.005 0 1
+description: redondo pasante 60-25
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-060-030 0.03 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .060 pad, .030 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-060-035 0.035 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .060 pad, .035 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-060-038 0.038 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .060 pad, .038 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-060-039 0.039 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .060 pad, .039 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-060-040 0.04 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .060 pad, .040 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-060-045 0.045 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .060 pad, .045 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-060-050 0.05 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .060 pad, .050 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] round 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.06 0.06 0.025 0 0.02
+@padStack rnd-063-043 0.043 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .063 pad, .043 drill
+template: round 0.063 0.063 0.025 0 0.02
+onLayer: Component [Top] round 0.063 0.063 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.063 0.063 0.025 0 0.02
+@padStack rnd-065-030 0.03 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .065 pad, .030 drill
+template: round 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] round 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.065 0.065 0.025 0 0.02
+@padStack rnd-065-035 0.035 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .065 pad, .035 drill
+template: round 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] round 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.065 0.065 0.025 0 0.02
+@padStack rnd-065-040 0.04 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .065 pad, .040 drill
+template: round 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] round 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.065 0.065 0.025 0 0.02
+@padStack rnd-065-045 0.045 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .065 pad, .045 drill
+template: round 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] round 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.065 0.065 0.025 0 0.02
+@padStack rnd-070-030 0.03 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .070 pad, .030 drill
+template: round 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] round 0.07 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.07 0.07 0.025 0 0.02
+@padStack rnd-070-035 0.035 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .070 pad, .035 drill
+template: round 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] round 0.07 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.07 0.07 0.025 0 0.02
+@padStack rnd-070-045 0.045 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .075 pad, .045 taladro
+template: round 0.075 0.075 0.025 0 0.02
+onLayer: Component [Top] round 0.075 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.075 0.075 0.025 0 0.02
+@padStack rnd-070-050 0.05 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .070 pad, .050 drill
+template: round 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] round 0.07 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.07 0.07 0.025 0 0.02
+@padStack rnd-075-035 0.035 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .075 pad, .035 taladro
+template: round 0.075 0.075 0.025 0 0.02
+onLayer: Component [Top] round 0.075 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.075 0.075 0.025 0 0.02
+@padStack rnd-075-040 0.04 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .075 pad, .040 drill
+template: round 0.075 0.075 0.025 0 0.02
+onLayer: Component [Top] round 0.075 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.075 0.075 0.025 0 0.02
+@padStack rnd-075-045 0.045 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .075 pad, .045 taladro
+template: round 0.075 0.075 0.025 0 0.02
+onLayer: Component [Top] round 0.075 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.075 0.075 0.025 0 0.02
+@padStack rnd-075-055 0.055 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .075 pad, .055 drill
+template: round 0.075 0.075 0.025 0 0.02
+onLayer: Component [Top] round 0.075 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.075 0.075 0.025 0 0.02
+@padStack rnd-080-030 0.03 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .080 pad, .030 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] round 0.08 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.08 0.08 0.025 0 0.02
+@padStack rnd-080-035 0.035 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .080 pad, .035 taladro
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] round 0.08 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.08 0.08 0.025 0 0.02
+@padStack rnd-080-040 0.04 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .080 pad, .040 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] round 0.08 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.08 0.08 0.025 0 0.02
+@padStack rnd-080-045 0.045 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .080 pad, .045 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] round 0.08 0.08 0.03 0 0.02
+onLayer: Solder [Bottom] round 0.08 0.08 0.03 0 0.02
+@padStack rnd-080-050 0.05 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .080 pad, .050 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] round 0.08 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.08 0.08 0.025 0 0.02
+@padStack rnd-080-060 0.06 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .080 pad, .060 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] round 0.08 0.08 0.02 0 0.02
+onLayer: Solder [Bottom] round 0.08 0.08 0.02 0 0.02
+@padStack rnd-081-061 0.061 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .081 pad, .061 drill
+template: round 0.081 0.081 0.025 0 0.02
+onLayer: Component [Top] round 0.081 0.081 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.081 0.081 0.025 0 0.02
+@padStack rnd-085-030 0.03 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .085 pad, .055 drill
+template: round 0.085 0.085 0.025 0 0.02
+onLayer: Component [Top] round 0.085 0.085 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.085 0.085 0.025 0 0.02
+@padStack rnd-085-055 0.055 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .085 pad, .055 drill
+template: round 0.085 0.085 0.025 0 0.02
+onLayer: Component [Top] round 0.085 0.085 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.085 0.085 0.025 0 0.02
+@padStack rnd-085-065 0.065 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .085 pad, .065 drill
+template: round 0.085 0.085 0.025 0 0.02
+onLayer: Component [Top] round 0.085 0.085 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.085 0.085 0.025 0 0.02
+@padStack rnd-090-040 0.04 0 0 0.0089 1 0.003 0 1
+description: rnd, thru, .090 pad, .040 drill
+template: round 0.09 0.09 0.03 0 0.025
+onLayer: Component [Top] round 0.09 0.09 0.03 0 0.02
+onLayer: Solder [Bottom] round 0.09 0.09 0.03 0 0.02
+@padStack rnd-090-070 0.07 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .090 pad, .070 drill
+template: round 0.09 0.09 0.025 0 0.02
+onLayer: Component [Top] round 0.09 0.09 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.09 0.09 0.025 0 0.02
+@padStack rnd-095-060 0.06 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .095 pad, .060 drill
+template: round 0.095 0.095 0.025 0 0.02
+onLayer: Component [Top] round 0.095 0.095 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.095 0.095 0.025 0 0.02
+@padStack rnd-095-065 0.065 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .095 pad, .065 drill
+template: round 0.095 0.095 0.025 0 0.02
+onLayer: Component [Top] round 0.095 0.095 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.095 0.095 0.025 0 0.02
+@padStack rnd-095-075 0.075 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .095 pad, .075 drill
+template: round 0.095 0.095 0.025 0 0.02
+onLayer: Component [Top] round 0.095 0.095 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.095 0.095 0.025 0 0.02
+@padStack rnd-1.00 0 0 0 0 0 0.003 0 1
+description: rnd, smt, 1.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] round 0.0393701 0.0393701 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0393701 0.0393701 0.025 0 0.02
+@padStack rnd-100-030 0.03 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .100 pad, .030 drill
+template: round 0.1 0.1 0.025 0 0.02
+onLayer: Component [Top] round 0.1 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.1 0.1 0.025 0 0.02
+@padStack rnd-100-075 0.075 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .100 pad, .075 drill
+template: round 0.1 0.1 0.025 0 0.02
+onLayer: Component [Top] round 0.1 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.1 0.1 0.025 0 0.02
+@padStack rnd-100-080 0.08 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .100 pad .080 drill
+template: round 0.1 0.1 0.025 0 0.02
+onLayer: Component [Top] round 0.1 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.1 0.1 0.025 0 0.02
+@padStack rnd-105-085 0.085 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .105 pad, .085 drill
+template: round 0.105 0.105 0.025 0 0.02
+onLayer: Component [Top] round 0.105 0.105 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.105 0.105 0.025 0 0.02
+@padStack rnd-13.5-5.1 0.200787 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, 13.5 pad, 5.1 drill
+template: round 0.531496 0.531496 0.025 0 0.02
+onLayer: Component [Top] round 0.531496 0.531496 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.531496 0.531496 0.025 0 0.02
+@padStack rnd-13.5-5.10 0.200787 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, 13.5mm pad, 5.10 drill
+template: round 0.531496 0.531496 0.025 0 0.02
+onLayer: Component [Top] round 0.531496 0.531496 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.531496 0.531496 0.025 0 0.02
+@padStack rnd-140-075 0.075 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .140 pad, .075 drill
+template: round 0.14 0.14 0.025 0 0.02
+onLayer: Component [Top] round 0.14 0.14 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.14 0.14 0.025 0 0.02
+@padStack rnd-150-100 0.1 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .150 pad x .100 drill
+template: round 0.15 0.15 0.025 0 0.02
+onLayer: Component [Top] round 0.15 0.15 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.15 0.15 0.025 0 0.02
+@padStack rnd-175-150 0.15 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .175 pad, .150 drill
+template: round 0.175 0.175 0.025 0 0.02
+onLayer: Component [Top] round 0.175 0.175 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.175 0.175 0.025 0 0.02
+@padStack rnd-2.03-1.52 0.0598425 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, 2.03mm pad, 1.52mm drill
+template: round 0.0799213 0.0799213 0.025 0 0.02
+onLayer: Component [Top] round 0.0799213 0.0799213 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.0799213 0.0799213 0.025 0 0.02
+@padStack rnd-200-156 0.156 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .200 pad, .156 drill
+template: round 0.2 0.2 0.025 0 0.02
+onLayer: Component [Top] round 0.2 0.2 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.2 0.2 0.025 0 0.02
+@padStack rnd-250-165 0.165 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .250 pad, .165 drill
+template: round 0.25 0.25 0.025 0 0.02
+onLayer: Component [Top] round 0.25 0.25 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.25 0.25 0.025 0 0.02
+@padStack rnd-250-200 0.2 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .250 pad, .200 drill
+template: round 0.25 0.25 0.025 0 0.02
+onLayer: Component [Top] round 0.25 0.25 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.25 0.25 0.025 0 0.02
+@padStack rnd-250-220 0.22 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .250 pad, .220 drill
+template: round 0.25 0.25 0.025 0 0.02
+onLayer: Component [Top] round 0.25 0.25 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.25 0.25 0.025 0 0.02
+@padStack rnd-270-135 0.135 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .270 pad, .135 drill
+template: round 0.27 0.27 0.025 0 0.02
+onLayer: Component [Top] round 0.27 0.27 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.27 0.27 0.025 0 0.02
+@padStack rnd-300-065 0.065 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .300 pad, .065 drill
+template: round 0.3 0.3 0.025 0 0.02
+onLayer: Component [Top] round 0.3 0.3 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.3 0.3 0.025 0 0.02
+@padStack rnd-300-160 0.16 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .300 pad, .160 drill
+template: round 0.3 0.3 0.025 0 0.02
+onLayer: Component [Top] round 0.3 0.3 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.3 0.3 0.025 0 0.02
+@padStack rnd-300-165 0.165 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .300 pad, .165 drill
+template: round 0.3 0.3 0.025 0 0.02
+onLayer: Component [Top] round 0.3 0.3 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.3 0.3 0.025 0 0.02
+@padStack rnd-300-175 0.175 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .300 pad, .175 drill
+template: round 0.3 0.3 0.025 0 0.02
+onLayer: Component [Top] round 0.3 0.3 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.3 0.3 0.025 0 0.02
+@padStack rnd-350-217 0.217 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .350 pad, .217 drill
+template: round 0.35 0.35 0.025 0 0.02
+onLayer: Component [Top] round 0.35 0.35 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.35 0.35 0.025 0 0.02
+@padStack rnd-350-300 0.3 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .350 pad, .300 drill
+template: round 0.35 0.35 0.025 0 0.02
+onLayer: Component [Top] round 0.35 0.35 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.35 0.35 0.025 0 0.02
+@padStack rnd-650-250 0.25 0 0 0.0089 0 0.003 0 1
+description: rnd, thru, .650 pad, .250 drill
+template: round 0.65 0.65 0.025 0 0.02
+onLayer: Component [Top] round 0.65 0.65 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.65 0.65 0.025 0 0.02
+@padStack rnd-750-250 0.25 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .750 pad, .250 drill
+template: round 0.75 0.75 0.025 0 0.02
+onLayer: Component [Top] round 0.75 0.75 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.75 0.75 0.025 0 0.02
+@padStack rnd-750-500 0.5 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .750 pad, .500 drill
+template: round 0.75 0.75 0.025 0 0.02
+onLayer: Component [Top] round 0.75 0.75 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.75 0.75 0.025 0 0.02
+@padStack rnd-850-270 0.27 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .850 pad, .270 drill
+template: round 0.85 0.85 0.025 0 0.02
+onLayer: Component [Top] round 0.85 0.85 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.85 0.85 0.025 0 0.02
+@padStack rnd_070-040 0.04 0 0 0.0089 1 0.005 0 1
+description: rnd, thru, .070 pad, .040 drill
+template: round 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] round 0.07 0.07 0.03 0 0.02
+onLayer: Solder [Bottom] round 0.07 0.07 0.03 0 0.02
+@padStack sq-.35 0 0 0 0 0 0.003 0 1
+description: square, smt, .35mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0137795 0.0137795 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0137795 0.0137795 0.025 0 0.02
+@padStack sq-.35x.35 0 0 0 0 0 0.005 0 1
+description: square, smt, .35mm x .35mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0137795 0.0137795 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0137795 0.0137795 0.025 0 0.02
+@padStack sq-.60 0 0 0 0 0 0.00511811 0 1
+description: square, smt, .60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.023622 0.023622 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.023622 0.023622 0.025 0 0.02
+@padStack sq-.63 0 0 0 0 0 0.003 0 1
+description: square, smt, .63mm x .63mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0248032 0.0248032 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0248032 0.0248032 0.025 0 0.02
+@padStack sq-.70 0 0 0 0 0 0.003 0 1
+description: square, smt, .70mm x .70mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0275591 0.0275591 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0275591 0.0275591 0.025 0 0.02
+@padStack sq-.75 0 0 0 0 0 0.003 0 1
+description: square, smt, .75mm x .75mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0295276 0.0295276 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0295276 0.0295276 0.025 0 0.02
+@padStack sq-.89 0 0 0 0 0 0.003 0 1
+description: square, smt, .89mm x .89mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0350394 0.0350394 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0350394 0.0350394 0.025 0 0.02
+@padStack sq-.90 0 0 0 0 0 0.003 0 1
+description: square, smt, .90mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0354331 0.0354331 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0354331 0.0354331 0.025 0 0.02
+@padStack sq-.93 0 0 0 0 0 0.003 0 1
+description: square, smt, .93mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0366142 0.0366142 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0366142 0.0366142 0.025 0 0.02
+@padStack sq-.9x1.1 0 0 0 0 0 0.003 0 1
+description: rect, smt, .9mm x 1.1mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] rectangular 0.0354331 0.0433071 0.025 0 0.0175197
+onLayer: Solder [Bottom] rectangular 0.0354331 0.0433071 0.025 0 0.0177165
+@padStack sq-035 0 0 0 0 0 0.003 0 1
+description: square, smt, .035
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.035 0.035 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.035 0.035 0.025 0 0.02
+@padStack sq-036-028 0.026 0 0 0.0089 1 0.005 0 1
+description: square, thru, .036 pad, .026 drill
+template: round 0.036 0.036 0.025 0 0.02
+onLayer: Component [Top] square 0.036 0.036 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.036 0.036 0.025 0 0.02
+@padStack sq-041-031 0.031 0 0 0.0089 1 0.005 0 1
+description: square, thru, .041 pad, .031 drill
+template: round 0.041 0.041 0.025 0 0.02
+onLayer: Component [Top] square 0.041 0.041 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.041 0.041 0.025 0 0.02
+@padStack sq-045-031 0.031 0 0 0.0089 1 0.005 0 1
+description: square, thru, .045 pad, .031 drill
+template: round 0.045 0.045 0.025 0 0.02
+onLayer: Component [Top] square 0.045 0.045 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.045 0.045 0.025 0 0.02
+@padStack sq-047-037 0.037 0 0 0.0089 1 0.005 0 1
+description: square, thru, .047 pad, .037 drill
+template: round 0.047 0.047 0.025 0 0.02
+onLayer: Component [Top] square 0.047 0.047 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.047 0.047 0.025 0 0.02
+@padStack sq-050-030 0.03 0 0 0.0089 1 0.005 0 1
+description: square, thru, .050 pad, .030 drill
+template: round 0.05 0.05 0.025 0 0.02
+onLayer: Component [Top] square 0.05 0.05 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.05 0.05 0.025 0 0.02
+@padStack sq-054-034 0.034 0 0 0.0089 1 0.005 0 1
+description: square, thru, .054 pad, .034 drill
+template: round 0.054 0.054 0.025 0 0.02
+onLayer: Component [Top] square 0.054 0.054 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.054 0.054 0.025 0 0.02
+@padStack sq-060 0 0 0 0 0 0.003 0 1
+description: square, smt .060 x.060
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.06 0.06 0.025 0 0.02
+@padStack sq-060-030 0.03 0 0 0.0089 1 0.005 0 1
+description: square, thru, .060 pad, .030 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] square 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.06 0.06 0.025 0 0.02
+@padStack sq-060-035 0.035 0 0 0.0089 1 0.005 0 1
+description: square, thru, .060 pad, .035 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] square 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.06 0.06 0.025 0 0.02
+@padStack sq-060-040 0.04 0 0 0.0089 1 0.005 0 1
+description: square, thru, .060 pad, .040 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] square 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.06 0.06 0.025 0 0.02
+@padStack sq-060-045 0.045 0 0 0.0089 0 0.003 0 1
+description: square, thru, .060 pad, .045 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] square 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.06 0.06 0.025 0 0.02
+@padStack sq-060-050 0.05 0 0 0.0089 0 0.003 0 1
+description: square, thru, .060 pad, .050 drill
+template: round 0.06 0.06 0.025 0 0.02
+onLayer: Component [Top] square 0.06 0.06 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.06 0.06 0.025 0 0.02
+@padStack sq-063-043 0.043 0 0 0.0089 1 0.005 0 1
+description: square, thru, .063 pad, .043 drill
+template: round 0.063 0.063 0.025 0 0.02
+onLayer: Component [Top] square 0.063 0.063 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.063 0.063 0.025 0 0.02
+@padStack sq-065-030 0.03 0 0 0.0089 1 0.005 0 1
+description: square, thru, .065 pad, .030 drill
+template: square 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] square 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.065 0.065 0.025 0 0.02
+@padStack sq-065-035 0.035 0 0 0.0089 1 0.005 0 1
+description: square, thru, .065 pad, .035 drill
+template: round 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] square 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.065 0.065 0.025 0 0.02
+@padStack sq-065-040 0.04 0 0 0.0089 1 0.005 0 1
+description: square, thru, .065 pad, .040 drill
+template: square 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] square 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.065 0.065 0.025 0 0.02
+@padStack sq-065-045 0.045 0 0 0.0089 1 0.005 0 1
+description: square, thru, .065 pad, .045 drill
+template: round 0.065 0.065 0.025 0 0.02
+onLayer: Component [Top] square 0.065 0.065 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.065 0.065 0.025 0 0.02
+@padStack sq-070-030 0.03 0 0 0.0089 0 0.003 0 1
+description: square, thru, .07 pad x .03 drill
+template: round 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] square 0.07 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.07 0.07 0.025 0 0.02
+@padStack sq-070-035 0.035 0 0 0.0089 1 0.005 0 1
+description: square, thru, .070 pad, .035 drill
+template: round 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] square 0.07 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.07 0.07 0.025 0 0.02
+@padStack sq-070-040 0.04 0 0 0.0089 1 0.005 0 1
+description: square, thru, .070 pad, .040 drill
+template: square 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] square 0.07 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.07 0.07 0.025 0 0.02
+@padStack sq-070-045 0.045 0 0 0.0089 1 0.005 0 1
+description: square, thru, .070 pad, .045 drill
+template: round 0.08 0.08 0.03 0 0.025
+onLayer: Component [Top] square 0.07 0.075 0.03 0 0.025
+onLayer: Solder [Bottom] square 0.07 0.07 0.03 0 0.025
+@padStack sq-070-050 0.05 0 0 0.0089 1 0.005 0 1
+description: square, thru, .070 pad, .050 drill
+template: round 0.07 0.07 0.025 0 0.02
+onLayer: Component [Top] square 0.07 0.07 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.07 0.07 0.025 0 0.02
+@padStack sq-075-035 0.035 0 0 0.0089 1 0.005 0 1
+description: cuadrado  pasante 75-35
+template: square 0.075 0.075 0.03 0 0.025
+onLayer: Component [Top] square 0.075 0.075 0.03 0 0.02
+onLayer: Solder [Bottom] square 0.075 0.075 0.03 0 0.02
+@padStack sq-075-040 0.04 0 0 0.0089 1 0.005 0 1
+description: square, thru, .075 pad, .040 drill
+template: round 0.075 0.075 0.025 0 0.02
+onLayer: Component [Top] square 0.075 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.075 0.075 0.025 0 0.02
+@padStack sq-075-045 0.045 0 0 0.0089 1 0.005 0 1
+description: square, thru, .075 pad, .045 drill
+template: round 0.08 0.08 0.03 0 0.025
+onLayer: Component [Top] square 0.075 0.08 0.03 0 0.02
+onLayer: Solder [Bottom] square 0.075 0.075 0.03 0 0.02
+@padStack sq-075-055 0.055 0 0 0.0089 1 0.005 0 1
+description: square, thru, .075 pad, .055 drill
+template: round 0.075 0.075 0.025 0 0.02
+onLayer: Component [Top] square 0.075 0.075 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.075 0.075 0.025 0 0.02
+@padStack sq-080-035 0.035 0 0 0.0089 1 0.005 0 1
+description: cuadrado pasante 80-35
+template: round 0.075 0.075 0.03 0 0.025
+onLayer: Component [Top] square 0.075 0.075 0.03 0 0.02
+onLayer: Solder [Bottom] square 0.075 0.075 0.03 0 0.02
+@padStack sq-080-040 0.04 0 0 0.0089 1 0.005 0 1
+description: square, thru, .080 pad, .040 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] square 0.08 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.08 0.08 0.025 0 0.02
+@padStack sq-080-045 0.045 0 0 0.0089 1 0.005 0 1
+description: square, thru, .080 pad, .040 drill
+template: round 0.08 0.08 0.03 0 0.025
+onLayer: Component [Top] square 0.08 0.08 0.03 0 0.02
+onLayer: Solder [Bottom] square 0.08 0.08 0.03 0 0.02
+@padStack sq-080-050 0.05 0 0 0.0089 0 0.003 0 1
+description: square, thru, .080 pad, .050 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] square 0.08 0.08 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.08 0.08 0.025 0 0.02
+@padStack sq-080-060 0.06 0 0 0.0089 0 0.003 0 1
+description: square, thru, .080 pad, .060 drill
+template: round 0.08 0.08 0.025 0 0.02
+onLayer: Component [Top] square 0.08 0.08 0.02 0 0.02
+onLayer: Solder [Bottom] square 0.08 0.08 0.02 0 0.02
+@padStack sq-085-055 0.055 0 0 0.0089 1 0.005 0 1
+description: square, thru, .085 pad, .055 drill
+template: round 0.085 0.085 0.025 0 0.02
+onLayer: Component [Top] square 0.085 0.085 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.085 0.085 0.025 0 0.02
+@padStack sq-085-065 0.065 0 0 0.0089 1 0 0 1
+description: square, thru, .085 pad, .065 drill
+template: round 0.085 0.085 0.025 0 0.02
+onLayer: Component [Top] square 0.085 0.085 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.085 0.085 0.025 0 0.02
+@padStack sq-090-070 0.07 0 0 0.0089 0 0.003 0 1
+description: square, thru, .090 pad, .070 drill
+template: round 0.09 0.09 0.025 0 0.02
+onLayer: Component [Top] square 0.09 0.09 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.09 0.09 0.025 0 0.02
+@padStack sq-095-075 0.075 0 0 0.0089 0 0.003 0 1
+description: square, thru, .095 pad, .075 drill
+template: round 0.095 0.095 0.025 0 0.02
+onLayer: Component [Top] square 0.095 0.095 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.095 0.095 0.025 0 0.02
+@padStack sq-1.00 0 0 0 0 0 0.003 0 1
+description: square, smt, 1.00mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0393701 0.0393701 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0393701 0.0393701 0.025 0 0.02
+@padStack sq-1.20 0 0 0 0 0 0.003 0 1
+description: square, smt, 1.20mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0472441 0.0472441 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0472441 0.0472441 0.025 0 0.02
+@padStack sq-1.30 0 0 0 0 0 0.003 0 1
+description: square, smt, 1.30mm pad
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0511811 0.0511811 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0511811 0.0511811 0.025 0 0.02
+@padStack sq-1.50 0 0 0 0 0 0.003 0 1
+description: square, smt, 1.50mm pad
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0590551 0.0590551 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0590551 0.0590551 0.025 0 0.02
+@padStack sq-1.60 0 0 0 0 0 0.003 0 1
+description: square, smt, 1.60mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0629921 0.0629921 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0629921 0.0629921 0.025 0 0.02
+@padStack sq-100-030 0.03 0 0 0.0089 0 0.003 0 1
+description: square, thru, .100 pad, .030 drill
+template: round 0.1 0.095 0.025 0 0.02
+onLayer: Component [Top] square 0.1 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] round 0.1 0.1 0.025 0 0.02
+@padStack sq-100-075 0.075 0 0 0.0089 1 0 0 1
+description: square, thru, .100 pad, .075 drill
+template: round 0.1 0.1 0.025 0 0.02
+onLayer: Component [Top] square 0.1 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.1 0.1 0.025 0 0.02
+@padStack sq-100-080 0.08 0 0 0.0089 0 0.003 0 1
+description: square, thru, .100 pad, .080 drill
+template: round 0.1 0.1 0.025 0 0.02
+onLayer: Component [Top] square 0.1 0.1 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.1 0.1 0.025 0 0.02
+@padStack sq-105-085 0.085 0 0 0.0089 0 0.003 0 1
+description: square, thru, .105 pad, .085 drill
+template: round 0.105 0.105 0.025 0 0.02
+onLayer: Component [Top] square 0.105 0.105 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.105 0.105 0.025 0 0.02
+@padStack sq-110 0 0 0 0 0 0.003 0 1
+description: square, smt .110 x .110
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.11 0.11 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.11 0.11 0.025 0 0.02
+@padStack sq-12x5.2 0.204724 0 0 0 1 0.003 0 1
+description: cuadrados tiristor SKKT
+template: square 0.472441 0.472441 0.0787402 0 0.0787402
+onLayer: Component [Top] square 0.472441 0.472441 0.0787402 0 0.02
+onLayer: Solder [Bottom] square 0.472441 0.472441 0.0787402 0 0.02
+@padStack sq-140-075 0.075 0 0 0.0089 1 0.005 0 1
+description: square, thru, .140 pad, .075 drill
+template: round 0.14 0.14 0.025 0 0.02
+onLayer: Component [Top] square 0.14 0.14 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.14 0.14 0.025 0 0.02
+@padStack sq-170 0 0 0 0 0 0.003 0 1
+description: square, smt, .170 x .170
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.17 0.17 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.17 0.17 0.025 0 0.02
+@padStack sq-2.00 0 0 0 0 0 0.003 0 1
+description: square, smt, 2.00mm pad
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0787402 0.0787402 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0787402 0.0787402 0.025 0 0.02
+@padStack sq-2.40 0 0 0 0 0 0.003 0 1
+description: square, smt, 2.40mm
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.0944882 0.0944882 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.0944882 0.0944882 0.025 0 0.02
+@padStack sq-220 0 0 0 0 0 0.005 0 1
+description: square, smt, .220 pad
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.22 0.22 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.22 0.22 0.025 0 0.02
+@padStack sq-230 0 0 0 0 0 0.003 0 1
+description: square, smt .230 x .230
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.23 0.23 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.23 0.23 0.025 0 0.02
+@padStack sq-250-220 0.22 0 0 0.0089 0 0.003 0 1
+description: square, thru, .250 pad, .220 drill
+template: round 0.25 0.25 0.025 0 0.02
+onLayer: Component [Top] square 0.25 0.25 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.25 0.25 0.025 0 0.02
+@padStack sq-250x250 0 0 0 0 0 0.003 0 1
+description: square, smt, 0.250 x 0.250
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.25 0.25 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.25 0.25 0.025 0 0.02
+@padStack sq-300x300 0 0 0 0 0 0.003 0 1
+description: square, smt, .300 x .300
+template: round 0 0 0 0 0
+onLayer: Component [Top] square 0.3 0.3 0.025 0 0.02
+onLayer: Solder [Bottom] square 0.3 0.3 0.025 0 0.02
+*line BoardOutline 3.3375 -0.5375 0.5825 -0.5375 0.01 0
+*line BoardOutline 0.5825 -0.5375 0.5825 3.3975 0.01 0
+*line BoardOutline 0.5825 3.3975 3.3375 3.3975 0.01 0
+*line BoardOutline 3.3375 3.3975 3.3375 -0.5375 0.01 0
+*component POT POT-C P6 1.692 -0.15 0 Component NONE
+@attribute TYPE_NAME=POT
+display  [AssyDrwTop] AssemblyTop 0.008 -0.184 4 0 0.06 0.008 0 0 0
+@attribute REFDES=P6
+display  [SilkTop] SilkTop 0.008 0.152 4 0 0.06 0.008 0 0 0
+*component R RC05 R2 2.2 0.3 180 Component NONE
+@attribute REFDES=R2
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=220
+*component BOTON 222AD B2 2.825 -0.235 0 Component NONE
+@attribute REFDES=B2
+display  [SilkTop] SilkTop 0.125 0.282 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=BOTON
+display  [AssyDrwTop] AssemblyTop 0.125 -0.153 4 0 0.06 0.008 0 0 0
+*component JUMPER1_4 HDR1X4 W1 2.35 2.15 0 Component NONE
+@attribute REFDES=W1
+display  [SilkTop] SilkTop 0.15 0.07 4 0 0.0625 0.005 0 0 0
+@attribute TYPE_NAME=JUMPER1_4
+display  [AssyDrwTop] AssemblyTop 0.15 -0.12 4 0 0.0625 0.005 0 0 0
+*component BOTON 222AD B1 2.175 -0.235 0 Component NONE
+@attribute TYPE_NAME=BOTON
+display  [AssyDrwTop] AssemblyTop 0.125 -0.153 4 0 0.06 0.008 0 0 0
+@attribute REFDES=B1
+display  [SilkTop] SilkTop 0.125 0.282 4 0 0.06 0.008 0 0 0
+*component BOT_ENCL BOTON-ENCL B3 0.875 -0.275 0 Component NONE
+@attribute TYPE_NAME=BOT_ENCL
+display  [AssyDrwTop] AssemblyTop 0.175 -0.075 4 0 0.06 0.008 0 0 0
+@attribute REFDES=B3
+display  [SilkTop] SilkTop 0.175 0.375 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-060-030
+@attribute PIN_PADSTACK=3,rnd-060-030
+@attribute PIN_PADSTACK=4,rnd-060-030
+@attribute PIN_PADSTACK=5,rnd-060-030
+@attribute PIN_PADSTACK=6,rnd-060-030
+@attribute PIN_PADSTACK=1,sq-060-030
+*component DISPLAY16x2 DISPLAY16x2 D3 0.65 0.38 0 Component NONE
+@attribute TYPE_NAME=DISPLAY16x2
+display  [AssyDrwTop] AssemblyTop 1.55 0.6 4 0 0.06 0.008 0 0 0
+@attribute REFDES=D3
+display  [SilkTop] SilkTop 1.525 0.825 4 0 0.06 0.008 0 0 0
+*component R RC05 R1 1.225 0.225 180 Component NONE
+@attribute REFDES=R1
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=2K
+*component R RC05 R4 2.05 -0.24 90 Component NONE
+@attribute REFDES=R4
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=30K
+*component R RC05 R3 2.65 -0.3 90 Component NONE
+@attribute REFDES=R3
+display  [SilkTop] SilkTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=30K
+*text 0.006
+@attribute TEXT=12V
+display  [SilkTop] SilkTop 3.225 3.15 4 0 0.05 0.007 0 0 0
+*component ARDUINO-NANO ARDUINO-NANO U1 2.05 2.65 270 Component NONE
+@attribute REFDES=U1
+display  [SilkTop] SilkTop 0 0.1 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=ARDUINO-NANO
+display  [AssyDrwTop] AssemblyTop 0 -0.15 4 0 0.06 0.008 0 0 0
+*component Jump2 jump2 P1 3.125 3.25 270 Component NONE
+@attribute TYPE_NAME=Jump2
+display  [AssyDrwTop] AssemblyTop 0.05 -0.13 4 0 0.06 0.008 0 0 0
+@attribute REFDES=P1
+display  [SilkTop] SilkTop 0.0257143 0.175714 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.05 0.07 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-095-060
+@attribute PIN_PADSTACK=1,rnd-095-060
+*component Jump2 jump2 P3 3.125 2.65 90 Component NONE
+@attribute REFDES=P3
+display  [SilkTop] SilkTop 0.0742857 -0.150714 4 270 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.05 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=Jump2
+display  [AssyDrwTop] AssemblyTop 0.05 -0.13 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-095-060
+@attribute PIN_PADSTACK=1,rnd-095-060
+*text 0.006
+@attribute TEXT=MOT
+display  [SilkTop] SilkTop 3.275 2.65 4 0 0.05 0.007 0 0 0
+*text 0.006
+@attribute TEXT=+
+display  [Bottom] Solder 3 2.625 4 0 0.05 0.007 0 0 0
+*text 0.006
+@attribute TEXT=+
+display  [Bottom] Solder 3.025 3.325 4 0 0.05 0.007 0 0 0
+*line SilkBot 1.12247 3.25575 1.10246 3.25553 0.001 0
+*line SilkBot 1.13814 3.27194 1.12247 3.25575 0.001 0
+*line SilkBot 1.14302 3.30422 1.13814 3.27194 0.001 0
+*line SilkBot 1.12839 3.32702 1.14302 3.30422 0.001 0
+*line SilkBot 1.10495 3.32467 1.12839 3.32702 0.001 0
+*line SilkBot 1.08863 3.30022 1.10495 3.32467 0.001 0
+*line SilkBot 1.08914 3.27329 1.08863 3.30022 0.001 0
+*line SilkBot 1.10246 3.25553 1.08914 3.27329 0.001 0
+*line SilkBot 1.1711 3.2332 1.1711 3.2332 0.001 0
+*line SilkBot 1.1794 3.23074 1.1711 3.2332 0.001 0
+*line SilkBot 1.19726 3.23878 1.1794 3.23074 0.001 0
+*line SilkBot 1.20953 3.25936 1.19726 3.23878 0.001 0
+*line SilkBot 1.21136 3.27701 1.20953 3.25936 0.001 0
+*line SilkBot 1.20117 3.30282 1.21136 3.27701 0.001 0
+*line SilkBot 1.17836 3.30652 1.20117 3.30282 0.001 0
+*line SilkBot 1.15902 3.28441 1.17836 3.30652 0.001 0
+*line SilkBot 1.15735 3.25119 1.15902 3.28441 0.001 0
+*line SilkBot 1.1711 3.2332 1.15735 3.25119 0.001 0
+*line SilkBot 1.03731 3.21048 1.03731 3.21048 0.001 0
+*line SilkBot 1.05227 3.21045 1.03731 3.21048 0.001 0
+*line SilkBot 1.07049 3.22599 1.05227 3.21045 0.001 0
+*line SilkBot 1.07735 3.25261 1.07049 3.22599 0.001 0
+*line SilkBot 1.07008 3.27723 1.07735 3.25261 0.001 0
+*line SilkBot 1.0514 3.28681 1.07008 3.27723 0.001 0
+*line SilkBot 1.03247 3.27841 1.0514 3.28681 0.001 0
+*line SilkBot 1.01902 3.23706 1.03247 3.27841 0.001 0
+*line SilkBot 1.03731 3.21048 1.01902 3.23706 0.001 0
+*line SilkBot 1.21179 3.16351 1.21179 3.16351 0.001 0
+*line SilkBot 1.23278 3.16572 1.21179 3.16351 0.001 0
+*line SilkBot 1.24886 3.18459 1.23278 3.16572 0.001 0
+*line SilkBot 1.25047 3.21452 1.24886 3.18459 0.001 0
+*line SilkBot 1.23645 3.2326 1.25047 3.21452 0.001 0
+*line SilkBot 1.21575 3.2337 1.23645 3.2326 0.001 0
+*line SilkBot 1.19805 3.21544 1.21575 3.2337 0.001 0
+*line SilkBot 1.19397 3.18834 1.19805 3.21544 0.001 0
+*line SilkBot 1.21179 3.16351 1.19397 3.18834 0.001 0
+*line SilkBot 0.876111 3.10344 0.876111 3.10344 0.001 0
+*line SilkBot 0.899993 3.10557 0.876111 3.10344 0.001 0
+*line SilkBot 0.910094 3.13287 0.899993 3.10557 0.001 0
+*line SilkBot 0.894276 3.1701 0.910094 3.13287 0.001 0
+*line SilkBot 0.876405 3.17746 0.894276 3.1701 0.001 0
+*line SilkBot 0.86037 3.16973 0.876405 3.17746 0.001 0
+*line SilkBot 0.853162 3.14925 0.86037 3.16973 0.001 0
+*line SilkBot 0.858794 3.12189 0.853162 3.14925 0.001 0
+*line SilkBot 0.876111 3.10344 0.858794 3.12189 0.001 0
+*line SilkBot 1.1444 3.09469 1.1444 3.09469 0.001 0
+*line SilkBot 1.17906 3.10061 1.1444 3.09469 0.001 0
+*line SilkBot 1.19168 3.12692 1.17906 3.10061 0.001 0
+*line SilkBot 1.18211 3.16233 1.19168 3.12692 0.001 0
+*line SilkBot 1.1639 3.19864 1.18211 3.16233 0.001 0
+*line SilkBot 1.15 3.225 1.1639 3.19864 0.001 0
+*line SilkBot 1.13059 3.234 1.15 3.225 0.001 0
+*line SilkBot 1.10606 3.22404 1.13059 3.234 0.001 0
+*line SilkBot 1.06889 3.20024 1.10606 3.22404 0.001 0
+*line SilkBot 1.04765 3.18722 1.06889 3.20024 0.001 0
+*line SilkBot 1.03424 3.17304 1.04765 3.18722 0.001 0
+*line SilkBot 1.03119 3.13479 1.03424 3.17304 0.001 0
+*line SilkBot 1.0482 3.11957 1.03119 3.13479 0.001 0
+*line SilkBot 1.0664 3.12017 1.0482 3.11957 0.001 0
+*line SilkBot 1.0927 3.12374 1.0664 3.12017 0.001 0
+*line SilkBot 1.11836 3.1153 1.0927 3.12374 0.001 0
+*line SilkBot 1.13182 3.10428 1.11836 3.1153 0.001 0
+*line SilkBot 1.1444 3.09469 1.13182 3.10428 0.001 0
+*line SilkBot 0.809053 3.09119 0.809053 3.09119 0.001 0
+*line SilkBot 0.830612 3.09664 0.809053 3.09119 0.001 0
+*line SilkBot 0.839786 3.12454 0.830612 3.09664 0.001 0
+*line SilkBot 0.827307 3.15497 0.839786 3.12454 0.001 0
+*line SilkBot 0.807124 3.1654 0.827307 3.15497 0.001 0
+*line SilkBot 0.788911 3.15697 0.807124 3.1654 0.001 0
+*line SilkBot 0.783475 3.12215 0.788911 3.15697 0.001 0
+*line SilkBot 0.809053 3.09119 0.783475 3.12215 0.001 0
+*line SilkBot 0.940626 3.05931 0.940626 3.05931 0.001 0
+*line SilkBot 0.95318 3.05714 0.940626 3.05931 0.001 0
+*line SilkBot 0.974259 3.0715 0.95318 3.05714 0.001 0
+*line SilkBot 0.977979 3.0884 0.974259 3.0715 0.001 0
+*line SilkBot 0.970608 3.11419 0.977979 3.0884 0.001 0
+*line SilkBot 0.951421 3.12868 0.970608 3.11419 0.001 0
+*line SilkBot 0.929788 3.12423 0.951421 3.12868 0.001 0
+*line SilkBot 0.918895 3.10135 0.929788 3.12423 0.001 0
+*line SilkBot 0.923822 3.0768 0.918895 3.10135 0.001 0
+*line SilkBot 0.940626 3.05931 0.923822 3.0768 0.001 0
+*line SilkBot 0.764321 3.02281 0.764321 3.02281 0.001 0
+*line SilkBot 0.791311 3.02748 0.764321 3.02281 0.001 0
+*line SilkBot 0.799636 3.06016 0.791311 3.02748 0.001 0
+*line SilkBot 0.787408 3.08661 0.799636 3.06016 0.001 0
+*line SilkBot 0.765607 3.09732 0.787408 3.08661 0.001 0
+*line SilkBot 0.74865 3.08971 0.765607 3.09732 0.001 0
+*line SilkBot 0.740287 3.06484 0.74865 3.08971 0.001 0
+*line SilkBot 0.748957 3.03648 0.740287 3.06484 0.001 0
+*line SilkBot 0.764321 3.02281 0.748957 3.03648 0.001 0
+*line SilkBot 0.81168 2.9465 0.81168 2.9465 0.001 0
+*line SilkBot 0.826846 2.94452 0.81168 2.9465 0.001 0
+*line SilkBot 0.83631 2.94479 0.826846 2.94452 0.001 0
+*line SilkBot 0.842832 2.9519 0.83631 2.94479 0.001 0
+*line SilkBot 0.870781 2.96957 0.842832 2.9519 0.001 0
+*line SilkBot 0.909236 2.96829 0.870781 2.96957 0.001 0
+*line SilkBot 0.934281 2.96809 0.909236 2.96829 0.001 0
+*line SilkBot 0.954101 2.98844 0.934281 2.96809 0.001 0
+*line SilkBot 0.951366 3.01859 0.954101 2.98844 0.001 0
+*line SilkBot 0.928229 3.0425 0.951366 3.01859 0.001 0
+*line SilkBot 0.893773 3.0685 0.928229 3.0425 0.001 0
+*line SilkBot 0.861122 3.08582 0.893773 3.0685 0.001 0
+*line SilkBot 0.848377 3.08286 0.861122 3.08582 0.001 0
+*line SilkBot 0.829452 3.05721 0.848377 3.08286 0.001 0
+*line SilkBot 0.817334 3.03589 0.829452 3.05721 0.001 0
+*line SilkBot 0.796036 3.00275 0.817334 3.03589 0.001 0
+*line SilkBot 0.791438 2.994 0.796036 3.00275 0.001 0
+*line SilkBot 0.79196 2.98252 0.791438 2.994 0.001 0
+*line SilkBot 0.797569 2.95916 0.79196 2.98252 0.001 0
+*line SilkBot 0.81168 2.9465 0.797569 2.95916 0.001 0
+*line SilkBot 1.10246 3.25553 1.10246 3.25553 0.001 0
+*hole Component Solder 3.335 -0.535 0.03 0.005
+*hole Component Solder 3.335 3.395 0.03 0.005
+*hole Component Solder 0.585 3.395 0.03 0.005
+*hole Component Solder 0.585 -0.535 0.03 0.005
+*net ANALOG_GND
++ U1.3 B3.1
++ B3.1 P6.3
++ P6.3 B3.4
+@seg Solder 1.125 2.725 1.45 2.725 0.04 0.005 -
+@seg Solder 1.45 2.725 1.55 2.825 0.04 0.005 -
+@seg Solder 1.55 2.825 1.55 2.95 0.04 0.005 -
+@seg Solder 0.65 -0.15 0.65 2.25 0.04 0.005 -
+@seg Solder 0.65 2.25 1.125 2.725 0.04 0.005 -
+@seg Solder 0.7 -0.2 0.65 -0.15 0.04 0.005 -
+@seg Solder 0.975 -0.2 0.7 -0.2 0.04 0.005 -
+@seg Solder 1.457 0 1.125 0 0.04 0.005 -
+@seg Solder 1.6035 0.1465 1.457 0 0.04 0.005 -
+@seg Solder 1.125 0 1.075 0 0.04 0.005 -
+@seg Solder 1.075 -9.0205621e-017 1.05 -0.025 0.04 0.005 -
+@seg Solder 1.05 -0.025 1.05 -0.175 0.04 0.005 -
+@seg Solder 1.05 -0.175 1.025 -0.2 0.04 0.005 -
+@seg Solder 1.025 -0.2 0.975 -0.2 0.04 0.005 -
+*net D4
++ D3.11 U1.24
+@seg Solder 1.95 2.35 1.95 1.725 0.04 0.005 -
+*net D5
++ D3.12 U1.23
+@seg Solder 2.05 2.35 2.05 1.7 0.04 0.005 -
+*net D6
++ D3.13 U1.22
+@seg Solder 2.15 2.35 2.15 1.7 0.04 0.005 -
+*net D7
++ D3.14 U1.21
+@seg Solder 2.25 2.35 2.25 1.7 0.04 0.005 -
+*net NET_0052
++ W1.1 U1.20
+@seg Solder 2.35 2.35 2.35 2.15 0.04 0.005 -
+*net NET_0055
++ U1.19 W1.2
+@seg Solder 2.45 2.15 2.45 2.35 0.04 0.005 -
+*net NET_0054
++ U1.18 W1.3
+@seg Solder 2.55 2.35 2.55 2.15 0.04 0.005 -
+*net NET_0053
++ U1.17 W1.4
+@seg Solder 2.65 2.35 2.65 2.15 0.04 0.005 -
+*net NET_0007
++ B3.2 R1.2
+@seg Solder 0.825 -0.025 0.825 0.225 0.04 0.005 -
+@seg Solder 0.975 -0.1 0.875 -0.1 0.04 0.005 -
+@seg Solder 0.875 -0.1 0.875 -0.075 0.04 0.005 -
+@seg Solder 0.875 -0.075 0.825 -0.025 0.04 0.005 -
+*net NET_0001
++ R1.1 D3.3
+@seg Solder 1.225 0.225 1.15 0.3 0.04 0.005 -
+@seg Solder 1.15 1.7 1.15 0.3 0.04 0.005 -
+*net D3
++ U1.25 D3.6
+@seg Solder 1.85 2.35 1.85 2.2 0.04 0.005 -
+@seg Solder 1.85 2.2 1.45 1.8 0.04 0.005 -
+@seg Solder 1.45 1.8 1.45 1.7 0.04 0.005 -
+*net D2
++ U1.26 D3.4
+@seg Solder 1.25 2.05 1.4 2.2 0.04 0.005 -
+@seg Solder 1.4 2.2 1.675 2.2 0.04 0.005 -
+@seg Solder 1.675 2.2 1.75 2.275 0.04 0.005 -
+@seg Solder 1.75 2.275 1.75 2.35 0.04 0.005 -
+@seg Solder 1.25 1.7 1.25 2.05 0.04 0.005 -
+*net D12
++ R4.1 B1.3
++ B1.3 B1.1
++ B1.1 U1.16
+@seg Solder 2.175 -0.2355 2.0545 -0.2355 0.04 0.005 -
+@seg Solder 2.0545 -0.2355 2.05 -0.24 0.04 0.005 -
+@seg Solder 2.43 -0.2355 2.4895 -0.2355 0.04 0.005 -
+@seg Solder 2.43 -0.2355 2.175 -0.2355 0.04 0.005 -
+@seg Solder 2.75 2.35 2.75 0.025 0.04 0.005 -
+@seg Solder 2.4895 -0.2355 2.75 0.025 0.04 0.005 -
+*net 5V
++ D3.2 P6.1
++ B1.4 P6.1
++ P6.1 B1.2
++ B2.4 P6.1
++ B2.2 P6.1
++ U1.4 P6.1
++ R2.2 P6.1
+@seg Solder 1.8035 -0.2535 1.9 -0.35 0.04 0.005 -
+@seg Solder 1.8035 -0.05 1.8035 -0.2535 0.04 0.005 -
+@seg Solder 1.8035 -0.05 1.8035 0.1465 0.04 0.005 -
+@seg Solder 1.809 -0.0555 1.8035 -0.05 0.04 0.005 -
+@seg Solder 2.175 -0.0555 1.809 -0.0555 0.04 0.005 -
+@seg Solder 3.08 -0.0555 2.825 -0.0555 0.04 0.005 -
+@seg Solder 2.43 -0.0555 2.175 -0.0555 0.04 0.005 -
+@seg Solder 1.8035 0.1465 1.8035 0.2965 0.04 0.005 -
+@seg Solder 1.8035 0.2965 1.8 0.3 0.04 0.005 -
+@seg Solder 2.825 -0.0555 2.8195 -0.05 0.04 0.005 -
+@seg Solder 2.8195 -0.05 2.775 -0.05 0.04 0.005 -
+@seg Solder 1.8 0.3 1.65 0.3 0.04 0.005 -
+@seg Solder 1.425 0.075 1.125 0.075 0.04 0.005 -
+@seg Solder 1.125 0.075 1.05 0.15 0.04 0.005 -
+@seg Solder 1.05 0.15 1.05 1.7 0.04 0.005 -
+@seg Solder 1.65 0.3 1.425 0.075 0.04 0.005 -
+@seg Solder 1.05 1.7 1.05 2.375 0.04 0.005 -
+@seg Solder 1.05 2.375 1.125 2.45 0.04 0.005 -
+@seg Solder 1.125 2.45 1.325 2.45 0.04 0.005 -
+@seg Solder 1.65 2.775 1.65 2.95 0.04 0.005 -
+@seg Solder 1.325 2.45 1.65 2.775 0.04 0.005 -
+@seg Solder 1.9 -0.35 2.475 -0.35 0.04 0.005 -
+@seg Solder 2.775 -0.05 2.475 -0.35 0.04 0.005 -
+*net NET_0002
++ R2.1 D3.15
+@seg Solder 2.35 1.95 2.4 2 0.04 0.005 -
+@seg Solder 2.625 2 2.675 1.95 0.04 0.005 -
+@seg Solder 2.4 2 2.625 2 0.04 0.005 -
+@seg Solder 2.675 0.35 2.675 1.95 0.04 0.005 -
+@seg Solder 2.35 1.7 2.35 1.95 0.04 0.005 -
+@seg Solder 2.675 0.35 2.625 0.3 0.04 0.005 -
+@seg Solder 2.625 0.3 2.2 0.3 0.04 0.005 -
+*net D13
++ B2.1 U1.15
++ B2.3 B2.1
++ R3.1 B2.3
+@seg Solder 2.875 1.775 2.875 2.1 0.04 0.005 -
+@seg Solder 2.875 2.1 3.075 2.3 0.04 0.005 -
+@seg Solder 3.075 2.3 3.075 2.375 0.04 0.005 -
+@seg Solder 3.175 1.475 2.875 1.775 0.04 0.005 -
+@seg Solder 3.175 -0.175 3.175 1.475 0.04 0.005 -
+@seg Solder 2.7145 -0.2355 2.825 -0.2355 0.04 0.005 -
+@seg Solder 2.65 -0.3 2.7145 -0.2355 0.04 0.005 -
+@seg Solder 3.08 -0.2355 2.825 -0.2355 0.04 0.005 -
+@seg Solder 2.75 2.95 2.75 2.7 0.04 0.005 -
+@seg Solder 3.1145 -0.2355 3.08 -0.2355 0.04 0.005 -
+@seg Solder 3.175 -0.175 3.1145 -0.2355 0.04 0.005 -
+@seg Solder 2.75 2.7 3.075 2.375 0.04 0.005 -
+*net NET_0004
++ U1.12 P6.2
+@seg Solder 2.95 1.8 2.95 2.075 0.04 0.005 -
+@seg Solder 2.95 2.075 3.175 2.3 0.04 0.005 -
+@seg Solder 3.175 2.3 3.175 2.35 0.04 0.005 -
+@seg Solder 3.225 1.525 2.95 1.8 0.04 0.005 -
+@seg Component 2.975 2.35 3.175 2.35 0.04 0.005 -
+@seg Solder 3.225 -0.225 3.225 1.525 0.04 0.005 -
+@seg Solder 3.025 -0.425 3.225 -0.225 0.04 0.005 -
+@seg Solder 1.875 -0.425 3.025 -0.425 0.04 0.005 -
+@seg Solder 1.7035 -0.2535 1.875 -0.425 0.04 0.005 -
+@seg Solder 1.7035 0.1465 1.7035 -0.2535 0.04 0.005 -
+@seg Solder 2.45 2.875 2.45 2.95 0.04 0.005 -
+@seg Solder 2.45 2.875 2.975 2.35 0.04 0.005 -
+@via Component Solder 3.175 2.35 rnd-065-040 0 ---
+@via Component Solder 2.975 2.35 rnd-065-040 0 ---
+*net DIGITAL_GND
++ R4.2 D3.1
++ R3.2 D3.5
++ D3.1 R3.2
+@seg Solder 2.05 0.16 2.05 0.9 0.04 0.005 -
+@seg Solder 1.35 1.6 2.05 0.9 0.04 0.005 -
+@seg Solder 2.65 0.1 2.59 0.16 0.04 0.005 -
+@seg Solder 2.59 0.16 2.05 0.16 0.04 0.005 -
+@seg Solder 0.95 1.875 0.95 1.7 0.04 0.005 -
+@seg Solder 1.35 1.6 1.35 1.7 0.04 0.005 -
+@seg Solder 1.35 1.7 1.35 1.875 0.04 0.005 -
+@seg Component 1.35 1.875 0.95 1.875 0.04 0.005 -
+@via Component Solder 0.95 1.875 rnd-065-040 0 ---
+@via Component Solder 1.35 1.875 rnd-065-040 0 ---
+*net NET_0005
++ D3.16 B3.5
+@seg Solder 3.275 -0.275 3.275 1.575 0.04 0.005 -
+@seg Solder 3.05 1.8 3.05 1.9 0.04 0.005 -
+@seg Solder 3.275 1.575 3.05 1.8 0.04 0.005 -
+@seg Solder 3.075 -0.475 1.675 -0.475 0.04 0.005 -
+@seg Solder 1.125 -0.1 1.3 -0.1 0.04 0.005 -
+@seg Solder 1.3 -0.1 1.675 -0.475 0.04 0.005 -
+@seg Solder 3.075 -0.475 3.275 -0.275 0.04 0.005 -
+@seg Component 3.05 1.9 2.575 1.9 0.04 0.005 -
+@seg Solder 2.45 1.775 2.45 1.7 0.04 0.005 -
+@seg Solder 2.575 1.9 2.45 1.775 0.04 0.005 -
+@via Component Solder 3.05 1.9 rnd-065-040 0 ---
+@via Component Solder 2.575 1.9 rnd-065-040 0 ---
+*net +12V
++ P1.1 U1.1
++ P3.1 P1.1
+@seg Solder 1.425 3.25 1.35 3.175 0.04 0.005 -
+@seg Solder 1.35 3.175 1.35 2.95 0.04 0.005 -
+@seg Solder 3.125 2.65 3.175 2.65 0.04 0.005 -
+@seg Solder 3.175 2.65 3.275 2.75 0.04 0.005 -
+@seg Solder 3.275 2.75 3.275 3.15 0.04 0.005 -
+@seg Solder 3.275 3.15 3.175 3.25 0.04 0.005 -
+@seg Solder 3.175 3.25 3.125 3.25 0.04 0.005 -
+@seg Solder 3.125 3.25 1.425 3.25 0.04 0.005 -
+*net NET_0008
++ P3.2 U1.2
++ U1.2 P1.2
+@seg Solder 1.45 3.1061023 1.45 2.95 0.04 0.005 -
+@seg Solder 1.4938977 3.15 1.45 3.1061023 0.04 0.005 -
+@seg Solder 3.125 3.15 1.4938977 3.15 0.04 0.005 -
+@seg Solder 3.125 2.75 3.175 2.75 0.04 0.005 -
+@seg Solder 3.225 2.8 3.225 3.1 0.04 0.005 -
+@seg Solder 3.225 2.8 3.175 2.75 0.04 0.005 -
+@seg Solder 3.225 3.1 3.175 3.15 0.04 0.005 -
+@seg Solder 3.125 3.15 3.175 3.15 0.04 0.005 -
+*netrules
+0.000000 0.000000 0.000000 - 6/U
+*CAM
+NCD -- 2 4 leading
+NCDsymbol cr+ 1
+textStyle NCDsymbol 0.05 0.001 0 6 0.01
+PP ---3 RS274X 2 4 leading
+PRN b-
+*aperture drawn round 0.01 0.01 0 10
+*aperture drawn round 0.008 0.008 0 11
+*aperture drawn round 0.005 0.005 0 12
+*aperture flashed round 0.07 0.07 0 13
+*aperture flashed square 0.07 0.07 0 14
+*aperture flashed round 0.09 0.09 0 15
+*aperture flashed round 0.105 0.105 0 16
+*aperture flashed round 0.08 0.08 0 17
+*aperture flashed square 0.08 0.08 0 18
+*aperture drawn round 0.002 0.002 0 19
+*aperture drawn round 0.007 0.007 0 20
+*aperture flashed round 0.064 0.064 0 21
+*aperture flashed round 0.06 0.06 0 22
+*aperture flashed square 0.06 0.06 0 23
+*aperture flashed round 0.095 0.095 0 24
+*aperture flashed round 0.096 0.096 0 25
+*aperture flashed round 0.056 0.056 0 26
+*aperture drawn round 0.04 0.04 0 27
+*aperture flashed round 0.065 0.065 0 28
+*aperture drawn round 0.001 0.001 0 29
+*aperture drawn round 0.01 0.01 0 30
+*aperture drawn round 0.01 0.01 0 31
+*aperture drawn round 0.008 0.008 0 32
+*aperture drawn round 0.005 0.005 0 33
+*aperture flashed round 0.07 0.07 0 34
+*aperture flashed square 0.07 0.07 0 35
+*aperture flashed round 0.09 0.09 0 36
+*aperture flashed round 0.105 0.105 0 37
+*aperture flashed round 0.08 0.08 0 38
+*aperture flashed square 0.08 0.08 0 39
+*aperture drawn round 0.002 0.002 0 40
+*aperture drawn round 0.005 0.005 0 41
+*aperture drawn round 0.007 0.007 0 42
+*aperture flashed round 0.064 0.064 0 43
+*aperture flashed round 0.06 0.06 0 44
+*aperture flashed square 0.06 0.06 0 45
+*aperture flashed round 0.095 0.095 0 46
+*aperture flashed round 0.096 0.096 0 47
+*aperture flashed round 0.056 0.056 0 48
+*aperture drawn round 0.04 0.04 0 49
+*aperture flashed round 0.065 0.065 0 50
+*aperture flashed round 0.024 0.024 0 51
+*aperture drawn round 0.001 0.001 0 52
+*aperture drawn round 0.001 0.001 0 53
+*drill 1 0.03 0 0 C
+*drill 2 0.035 0 0 A
+*drill 3 0.04 0 0 +
+*drill 4 0.06 0 0 B
+*drill 5 0.07 0 0 E
+*drill 6 0.08 0 0 F
+*drill 7 0.12 0 0 D
+*job Auto Photoplot Job
+type photoPlot
+flags -
+translation
+@page 7
+selFilter psvrfgthkm--e
+layer Solder
+@page 8
+selFilter psvrfgthkm--e
+layer SilkBot
+@page 13
+selFilter psvrfgthkm--e
+layer Drill
+*job Auto Print Job
+type print
+flags a
+translation
+repaintStyle - fill onePass
+@page 1
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer BoardSigKeepin
+@page 2
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer BoundaryTop
+@page 3
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer AssemblyTop
+@page 4
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer SMTAssemblyTop
+@page 5
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer PasteTop
+@page 6
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer MaskTop
+@page 7
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer SilkTop
+@page 8
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer Component
+@page 9
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer Solder
+@page 10
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer SilkBot
+@page 11
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer MaskBot
+@page 12
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer PasteBot
+@page 13
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer AssemblyBot
+@page 14
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer SMTAssemblyBot
+@page 15
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer BoundaryBot
+@page 16
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer Drill
+@page 17
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer Ratsnest
+@page 18
+selFilter psvrfgthkm--e
+layer BoardOutline
+layer DRC
+*job Auto NCD Job
+type drill
+flags a
+translation
+@page 1
+selFilter psvrfgthkm--e
+layer Component
+layer Solder
+*DRC 0.012 0.006 0.008 0.01 0.01 0.01
