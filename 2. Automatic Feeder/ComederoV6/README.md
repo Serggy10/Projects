@@ -7,7 +7,13 @@ These are some photos of the mechanism and 3D design.
 ![image](https://github.com/user-attachments/assets/675ad882-3fbd-40bc-9dbe-0ff23858be1f)
 ![Plano_page-0001](https://github.com/user-attachments/assets/94541705-51f9-4046-a5a0-672bfc82b8ee)
 
+
+This is the web user interface in a smartphone:
+![1735339142270](https://github.com/user-attachments/assets/4b8808dd-5b4a-402f-b37d-ebdf6dd1a71b)
+![1735339142259](https://github.com/user-attachments/assets/0d64d849-0e72-4812-a1fc-4f64325e4f8a)
+![1735339142252](https://github.com/user-attachments/assets/3088785a-9e42-4ef3-8f29-63b02bfd63da)
+
 For its construction, it uses some MDF and methacrylate boards and some 3D printed parts, all assembled with M3 screws. 
 
-# TODO 
-Upload some photos of the device, including the user interface in a smartphone.
+![1735339142200](https://github.com/user-attachments/assets/d70aa9ef-3391-46e8-979b-013c58c0afe4)
+![1735339142213](https://github.com/user-attachments/assets/946c3d54-c048-4c6b-8421-b5e34fa452be)
