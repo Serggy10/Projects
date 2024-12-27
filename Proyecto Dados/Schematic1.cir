@@ -1,0 +1,26 @@
+* C:\Users\sergi\OneDrive\Escritorio\proyecto\Schematic1.sch
+
+* Schematics Version 8.0 - July 1997
+* Mon Jul 04 16:48:19 2022
+
+
+
+** Analysis setup **
+.tran 20ns 100u 1u SKIPBP
+.OP 
+.STMLIB "C:\Users\sergi\OneDrive\Escritorio\Schematic1.stl"
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib "u:\Userlib\DTE_DIGITAL.lib"
+.lib "u:\UserLib\DTE_1.lib"
+.lib "nom.lib"
+
+.INC "Schematic1.net"
+.INC "Schematic1.als"
+
+
+.probe
+
+
+.END

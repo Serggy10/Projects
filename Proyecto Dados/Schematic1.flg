@@ -1,0 +1,182 @@
+*MicroSim Forward ECO Report
+
+Forward ECO's incorporated: Sun Jun 12 11:07:49 2022
+
+Beginning of automatic changes.
+        Delete component with ref C1.
+        Add component C_ELECTROLITICO in a 199D/A/A1 package and ref C1.
+        Add the attribute VALUE=22U to the component with ref C1.
+        Add pin C1.1 to net NN_0001(C1.1,L1.1,P2.1,P4.1,...).
+        Add pin C1.2 to net 0(C3.1,C4.1,P1.1,U1.1,...).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Sun Jun 12 11:10:55 2022
+
+Beginning of automatic changes.
+        Change packaging on the component with ref C1 to PLP3481/AA.
+End of automatic changes.
+
+
+Forward ECO's incorporated: Sun Jun 12 11:17:27 2022
+
+Beginning of automatic changes.
+        Add component Jump1 in a Jump1 package and ref P5.
+        Add pin P5.1 to net NN_0001(C1.1,L1.1,P2.1,P4.1,...).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Thu Jun 23 20:15:37 2022
+
+Beginning of automatic changes.
+        Add component r in a RC05 package and ref R4.
+        Add the attribute VALUE=1MEG to the component with ref R4.
+        Add pin R4.1 to net 0(C3.1,C4.1,P1.1,R4.1,...).
+        Add pin R4.2 to net NN_0006(Q1.1,R4.2,U1.3).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:31:23 2022
+
+Beginning of automatic changes.
+        Delete pin P5.1 from net NN_0001(C1.1,P2.1,P4.1,P5.1,...).
+        Rename component with ref P5 to neg2.
+        Add pin neg2.1 to net 0(C3.1,C4.1,neg.1,neg2.1,...).
+End of automatic changes.
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Rename component with ref P1 to neg.
+        Rename component with ref P2 to pos.
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:38:31 2022
+
+Beginning of automatic changes.
+        Rename component with ref pos to neg.
+End of automatic changes.
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Rename component with ref neg to pos.
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:39:23 2022
+
+Beginning of automatic changes.
+        Delete pin neg.1 from net NN_0001(C1.1,neg.1,P4.1,C2.2,...).
+End of automatic changes.
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Rename component with ref neg to positivo.
+        Add pin positivo.1 to net NN_0001(C1.1,P4.1,positivo.1,C2.2,...).
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:40:15 2022
+
+Beginning of automatic changes.
+        Add component Jump1 in a Jump1 package and ref neg.
+        Add component Jump1 in a Jump1 package and ref neg2.
+        Add component Jump1 in a Jump1 package and ref positivo.
+        Add pin neg2.1 to net 0(C3.1,C4.1,neg.1,neg2.1,...).
+End of automatic changes.
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Add pin neg.1 to net 0(C3.1,C4.1,neg.1,neg2.1,...).
+        Add pin positivo.1 to net NN_0001(C1.1,P4.1,positivo.1,C2.2,...).
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:40:55 2022
+
+Beginning of automatic changes.
+        Add component Jump1 in a Jump1 package and ref positivo.
+End of automatic changes.
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Add pin positivo.1 to net NN_0001(C1.1,P4.1,positivo.1,C2.2,...).
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:41:37 2022
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Rename component with ref positivo1 to pos.
+        Add pin pos.1 to net NN_0001(C1.1,P4.1,pos.1,C2.2,...).
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:42:19 2022
+
+Beginning of automatic changes.
+        Add component Jump1 in a Jump1 package and ref pos.
+End of automatic changes.
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Add pin pos.1 to net NN_0001(C1.1,P4.1,pos.1,C2.2,...).
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:43:20 2022
+
+Beginning of automatic changes.
+        Add component Jump1 in a Jump1 package and ref +.
+End of automatic changes.
+
+Beginning of invalid changes.
+Unable to apply the following forward ECO's.  
+Please verify changes against the original schematic.
+        Add pin +.1 to net NN_0001(+.1,C1.1,P4.1,C2.2,...).
+End of invalid changes.
+
+
+Forward ECO's incorporated: Fri Jun 24 15:44:30 2022
+
+Beginning of automatic changes.
+        Rename component with ref P3 to P5.
+        Add component Jump1 in a Jump1 package and ref P1.
+        Add component Jump1 in a Jump1 package and ref P2.
+        Add component Jump1 in a Jump1 package and ref P3.
+        Add pin P2.1 to net 0(C3.1,C4.1,P2.1,P3.1,...).
+        Add pin P3.1 to net 0(C3.1,C4.1,P2.1,P3.1,...).
+        Add pin P1.1 to net NN_0001(C1.1,P1.1,P4.1,C2.2,...).
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 12 18:54:36 2022
+
+Beginning of automatic changes.
+        Change packaging on the component with ref C1 to 199D/A/A1.
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 12 20:09:31 2022
+
+Beginning of automatic changes.
+        Change packaging on the component with ref R1 to RC07.
+        Change packaging on the component with ref R2 to RC07.
+        Change packaging on the component with ref R3 to RC07.
+End of automatic changes.
+
+
+Forward ECO's incorporated: Tue Jul 12 20:13:31 2022
+
+Beginning of automatic changes.
+        Change packaging on the component with ref R1 to RC05.
+End of automatic changes.
+

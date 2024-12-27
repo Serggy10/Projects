@@ -1,0 +1,63 @@
+*MicroSim backwardECO
+
+*ECOgroupheader 1655030316
+1655025434
+*synchronized 1655030316
+ 
+
+*ECOgroupheader 1656011057
+1656008132
+*synchronized 1656011057
+ 
+
+*ECOgroupheader 1656077578
+0
+*synchronized 1656077578
+ 
+*refrename 1656077578
+neg P1
+*refrename 1656077578
+pos P2
+
+*ECOgroupheader 1656077674
+1656077475
+*synchronized 1656077674
+ 
+
+*ECOgroupheader 1656077746
+1656077475
+*refrename 1656077746
+P2 neg
+*refrename 1656077746
+P1 pos
+
+*ECOgroupheader 1656077989
+1656077951
+*synchronized 1656077989
+ 
+*delcomp 1656077989
+neg2
+*delcomp 1656077989
+neg
+
+*ECOgroupheader 1656078125
+1656078092
+*synchronized 1656078125
+ 
+*delcomp 1656078125
+positivo1
+
+*ECOgroupheader 1656086469
+1656078264
+*synchronized 1656086469
+ 
+
+*ECOgroupheader 1657644822
+1656951595
+*synchronized 1657644822
+ 
+
+*ECOgroupheader 1657652726
+1657649487
+*synchronized 1657652726
+ 

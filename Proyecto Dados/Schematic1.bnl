@@ -1,0 +1,156 @@
+*PCBoards netlist extracted from  -- C:\Users\sergi\OneDrive\Escritorio\proyecto\Schematic1.pca --  by MicroSim PCBoards on Tue Jul 12 20:13:28 2022
+*component Jump1 Jump1 P2 0.1 0.1 90 Component NONE
+@attribute REFDES=P2
+display  [SilkTop] SilkTop 0 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=Jump1
+display  [AssyDrwTop] AssemblyTop 0 -0.13 4 0 0.06 0.008 0 0 0
+*component Jump1 Jump1 P3 0.2 0.2 90 Component NONE
+@attribute REFDES=P3
+display  [SilkTop] SilkTop 0 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=Jump1
+display  [AssyDrwTop] AssemblyTop 0 -0.13 4 0 0.06 0.008 0 0 0
+*component Jump1 Jump1 P1 0.1 0.3 90 Component NONE
+@attribute REFDES=P1
+display  [SilkTop] SilkTop 0 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=Jump1
+display  [AssyDrwTop] AssemblyTop 0 -0.13 4 0 0.06 0.008 0 0 0
+*component 555D DIP8 U1 1.1 0.5 270 Component NONE
+@attribute REFDES=U1
+display  [AssyDrwTop] AssemblyTop -0.08 0.15 4 90 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop -0.131429 0.15 4 270 0.06 0.008 0 0 0
+@attribute TYPE_NAME=555D
+display  [AssyDrwTop] AssemblyTop 0.15 -0.15 4 0 0.06 0.008 0 0 0
+*component C_ELECTROLITICO 199D/A/A1 C1 0.4 0.2 270 Component NONE
+@attribute REFDES=C1
+display  [SilkTop] SilkTop 0.125 -0.1 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.05 0.12 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=C_ELECTROLITICO
+display  [AssyDrwTop] AssemblyTop 0.05 -0.18 4 0 0.06 0.008 0 0 0
+@attribute VALUE=22U
+*component C CK05 C2 0.4 0.6 270 Component NONE
+@attribute VALUE=100n
+@attribute REFDES=C2
+display  [SilkTop] SilkTop -0.6 -0.5 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.1 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=c
+display  [AssyDrwTop] AssemblyTop 0.1 -0.13 4 0 0.06 0.008 0 0 0
+*component R RC05 R4 0.7 0.1 90 Component NONE
+@attribute REFDES=R4
+display  [SilkTop] SilkTop 0.9 0.6 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=R
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+@attribute VALUE=1MEG
+*component Jump1 Jump1 P4 0.2 0.6 0 Component NONE
+@attribute REFDES=P4
+display  [SilkTop] SilkTop 0 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=Jump1
+display  [AssyDrwTop] AssemblyTop 0 -0.13 4 0 0.06 0.008 0 0 0
+*component C CK05 C4 2 0.1 90 Component NONE
+@attribute VALUE=100p
+@attribute REFDES=C4
+display  [SilkTop] SilkTop 0.325 -1.91386e-012 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.1 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=C
+display  [AssyDrwTop] AssemblyTop 0.1 -0.13 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-070-035
+*component C CK05 C3 1.9 0.1 90 Component NONE
+@attribute VALUE=1n
+@attribute REFDES=C3
+display  [SilkTop] SilkTop 0.325 0.025 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.1 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=c
+display  [AssyDrwTop] AssemblyTop 0.1 -0.13 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=2,rnd-070-035
+*component R RC07 R1 0.6 0.6 270 Component NONE
+@attribute VALUE=10k
+@attribute REFDES=R1
+display  [SilkTop] SilkTop -0.3 7.65507e-012 4 90 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=r
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+*component R RC07 R2 1.8 1.2 0 Component NONE
+@attribute VALUE=10k
+@attribute REFDES=R2
+display  [SilkTop] SilkTop 0.525 -0.025 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=r
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+*component 1N4148 DO-35 D1 2.4 0.6 90 Component NONE
+@attribute REFDES=D1
+display  [AssyDrwTop] AssemblyTop -0.19 0.06 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop 0.125 -1.91377e-012 4 90 0.06 0.008 0 0 0
+@attribute TYPE_NAME=1N4148
+display  [AssyDrwTop] AssemblyTop -0.19 -0.13 4 0 0.06 0.008 0 0 0
+*component 1N4148 DO-35 D2 2.3 0.2 270 Component NONE
+@attribute REFDES=D2
+display  [AssyDrwTop] AssemblyTop -0.19 0.06 4 0 0.06 0.008 0 0 0
+display  [SilkTop] SilkTop -0.525 -0.025 4 270 0.06 0.008 0 0 0
+@attribute TYPE_NAME=1N4148
+display  [AssyDrwTop] AssemblyTop -0.19 -0.13 4 0 0.06 0.008 0 0 0
+*component IRF520 TO-220AB Q1 2.5509952 0.3 270 Component NONE
+@attribute REFDES=Q1
+display  [SilkTop] SilkTop 0.4 -0.025 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.1 0.15 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=IRF520
+display  [AssyDrwTop] AssemblyTop 0.1 -0.14 4 0 0.06 0.008 0 0 0
+@pinAttributes
+@attribute PIN_PADSTACK=3,rnd-060-040
+@attribute PIN_PADSTACK=2,rnd-060-040
+@attribute PIN_PADSTACK=1,sq-065-030
+*component Jump1 Jump1 P5 2.7 0.6 0 Component NONE
+@attribute TYPE_NAME=Jump1
+display  [AssyDrwTop] AssemblyTop 0 -0.13 4 0 0.06 0.008 0 0 0
+@attribute REFDES=P5
+display  [SilkTop] SilkTop 0 0.07 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0 0.07 4 0 0.06 0.008 0 0 0
+*component R RC07 R3 2.2 0.5 180 Component NONE
+@attribute VALUE=30k
+@attribute REFDES=R3
+display  [SilkTop] SilkTop 0.525 -0.025 4 0 0.06 0.008 0 0 0
+display  [AssyDrwTop] AssemblyTop 0.21 0.07 4 0 0.06 0.008 0 0 0
+@attribute TYPE_NAME=r
+display  [AssyDrwTop] AssemblyTop 0.21 -0.13 4 0 0.06 0.008 0 0 0
+*net NN_0007
++ U1.5 C3.2
+*net NN_0001
++ P4.1 P1.1
++ C1.1 P4.1
++ U1.8 C2.2
++ P1.1 U1.8
++ R1.2 U1.4
++ C2.2 R1.2
+*net NN_0005
++ R2.1 D1.1
+*net NN_0002
++ D1.2 C4.2
++ C4.2 U1.6
++ U1.2 D2.1
++ D2.1 D1.2
+*net NN_0006
++ R4.2 U1.3
++ U1.3 Q1.1
+*net 0
++ P3.1 U1.1
++ P2.1 P3.1
++ U1.1 C4.1
++ C4.1 R4.1
++ C3.1 P2.1
++ C1.2 C3.1
++ Q1.3 C1.2
+*net NN_0008
++ C2.1 Q1.2
++ P5.1 C2.1
+*net NN_0003
++ D2.2 R3.1
+*net NN_0004
++ R1.1 U1.7
++ U1.7 R2.2
++ R2.2 R3.2
+*end

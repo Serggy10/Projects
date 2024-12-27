@@ -1,0 +1,25 @@
+* C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+* Schematics Version 8.0 - July 1997
+* Mon Jul 04 20:14:08 2022
+
+
+
+** Analysis setup **
+.tran/OP 20000ns 0.0001s 0.00001 SKIPBP
+.OP 
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib "u:\Userlib\DTE_DIGITAL.lib"
+.lib "u:\UserLib\DTE_1.lib"
+.lib "nom.lib"
+
+.INC "Prueba 2.net"
+.INC "Prueba 2.als"
+
+
+.probe
+
+
+.END

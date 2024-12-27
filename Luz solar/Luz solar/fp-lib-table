@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "8205A")(type "KiCad")(uri "${KIPRJMOD}/lib/8205A")(options "")(descr ""))
+  (lib (name "DW01A")(type "KiCad")(uri "${KIPRJMOD}/lib/DW01A")(options "")(descr ""))
+  (lib (name "PMIC-CN3063_SOIC8_")(type "KiCad")(uri "${KIPRJMOD}/lib/PMIC-CN3063_SOIC8_")(options "")(descr ""))
+)

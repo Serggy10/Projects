@@ -1,0 +1,485 @@
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 8.0 - July 1997
+* Mon Jul 04 20:14:08 2022
+
+
+
+** Analysis setup **
+.tran/OP 20000ns 0.0001s 0.00001 SKIPBP
+.OP 
+
+
+* From [SCHEMATICS NETLIST] section of msim.ini:
+.lib "u:\Userlib\DTE_DIGITAL.lib"
+.lib "u:\UserLib\DTE_1.lib"
+.lib "nom.lib"
+
+.INC "Prueba 2.net"
+
+**** INCLUDING "Prueba 2.net" ****
+* Schematics Netlist *
+
+
+
+D_D2         $N_0001 $N_0002 D1N4148 
+R_R1         $N_0004 $N_0003  10k  
+D_D1         $N_0005 $N_0001 D1N4148 
+C_C2         $N_0006 $N_0003  100n  
+R_R2         $N_0005 $N_0004  10000  
+L_L1         $N_0006 $N_0003  5.11u  
+V_V2         $N_0007 0  
++PULSE 0 5 2.632u 0.0000001 0.0000001 1.754u 4.38595u
+V_V1         $N_0003 0 5V
+M_Q1         $N_0006 $N_0007 0 0 IRF520
+C_C3         0 $N_0008  1n  
+X_U1         0 $N_0001 $N_0009 $N_0003 $N_0008 $N_0001 $N_0004 $N_0003 555d
++  PARAMS: MAXFREQ=3E6
+C_C1         $N_0003 0  22U  
+R_R4         0 $N_0009  1MEG  
+C_C4         0 $N_0001  100p  
+R_R3         $N_0002 $N_0004  30000  
+
+**** RESUMING "Prueba 2.cir" ****
+.INC "Prueba 2.als"
+
+
+
+**** INCLUDING "Prueba 2.als" ****
+* Schematics Aliases *
+
+.ALIASES
+D_D2            D2(1=$N_0001 2=$N_0002 )
+R_R1            R1(1=$N_0004 2=$N_0003 )
+D_D1            D1(1=$N_0005 2=$N_0001 )
+C_C2            C2(1=$N_0006 2=$N_0003 )
+R_R2            R2(1=$N_0005 2=$N_0004 )
+L_L1            L1(1=$N_0006 2=$N_0003 )
+V_V2            V2(+=$N_0007 -=0 )
+V_V1            V1(+=$N_0003 -=0 )
+M_Q1            Q1(d=$N_0006 g=$N_0007 s=0 s=0 )
+C_C3            C3(1=0 2=$N_0008 )
+X_U1            U1(GND=0 TRIGGER=$N_0001 OUTPUT=$N_0009 RESET=$N_0003
++  CONTROL=$N_0008 THRESHOLD=$N_0001 DISCHARGE=$N_0004 VCC=$N_0003 )
+C_C1            C1(1=$N_0003 2=0 )
+R_R4            R4(1=0 2=$N_0009 )
+C_C4            C4(1=0 2=$N_0001 )
+R_R3            R3(1=$N_0002 2=$N_0004 )
+.ENDALIASES
+
+
+**** RESUMING "Prueba 2.cir" ****
+.probe
+
+
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node X_U1.qb
+*
+* Moving X_U1.u1:QBAR1 from analog node X_U1.qb to new digital node X_U1.qb$DtoA
+X$X_U1.qb_DtoA1
++ X_U1.qb$DtoA
++ X_U1.qb
++ $N_0003
++ 0
++ dtoa_555
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $N_0003
+*
+* Moving X_U1.u1:CLRBAR from analog node $N_0003 to new digital node $N_0003$AtoD
+X$$N_0003_AtoD1
++ $N_0003
++ $N_0003$AtoD
++ $N_0003
++ 0
++ atod_555
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node $N_0009
+*
+* Moving X_U1.u1:Q1 from analog node $N_0009 to new digital node $N_0009$DtoA
+X$$N_0009_DtoA1
++ $N_0009$DtoA
++ $N_0009
++ $N_0003
++ 0
++ dtoa_555
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+
+X$DIGIFPWR 0 DIGIFPWR
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148         
+          IS    2.682000E-09 
+           N    1.836        
+         ISR    1.565000E-09 
+         IKF     .04417      
+          BV  100            
+         IBV  100.000000E-06 
+          RS     .5664       
+          TT   11.540000E-09 
+         CJO    4.000000E-12 
+          VJ     .5          
+           M     .3333       
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IRF520          X_U1.nchan      
+               NMOS            NMOS            
+       LEVEL    3               1            
+           L    2.000000E-06  100.000000E-06 
+           W     .73          100.000000E-06 
+         VTO    3.59            0            
+          KP   20.790000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+          RD     .08023                      
+          RS     .1459                       
+          RG    6.675                        
+         RDS  444.400000E+03                 
+          IS    2.438000E-12   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+         CBD  622.100000E-12                 
+          CJ    0               0            
+        CJSW    0               0            
+          TT  137.000000E-09                 
+        CGSO  517.900000E-12    1.000000E-12 
+        CGDO  137.300000E-12    1.000000E-12 
+        CGBO                    1.000000E-12 
+         TOX  100.000000E-09    0            
+          XJ    0               0            
+       DELTA    0                            
+         ETA    0                            
+      DIOMOD    1               1            
+         VFB    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    0               0            
+       XPART    0               0            
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               din555          
+        FILE DSO_DTOA        
+      FORMAT    6            
+    TIMESTEP  100.000000E-12 
+      S0NAME 0               
+       S0TSW  700.000000E-12 
+       S0RLO  100            
+       S0RHI    1.000000E+06 
+      S1NAME 1               
+       S1TSW  700.000000E-12 
+       S1RLO    1.000000E+06 
+       S1RHI  300            
+      S2NAME x               
+       S2TSW  700.000000E-12 
+       S2RLO  200            
+       S2RHI  200            
+      S3NAME r               
+       S3TSW  700.000000E-12 
+       S3RLO  200            
+       S3RHI  200            
+      S4NAME f               
+       S4TSW  700.000000E-12 
+       S4RLO  200            
+       S4RHI  200            
+      S5NAME z               
+       S5TSW  700.000000E-12 
+       S5RLO  200.000000E+03 
+       S5RHI  200.000000E+03 
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.cmp        do555           
+        FILE DSO_ATOD        DSO_ATOD        
+      FORMAT    6               6            
+     CHGONLY    1               1            
+    TIMESTEP  100.000000E-12  100.000000E-12 
+      S0NAME 0               1               
+       S0VHI                   18            
+       S0VLO -500                .4          
+      S1NAME 1               0               
+       S1VHI  500                .4          
+       S1VLO                   -1.5          
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     Digital Gated FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.t_srff     
+    TPDQLHMN    0            
+    TPDQLHTY    0            
+    TPDQLHMX    0            
+    TPDQHLMN    0            
+    TPDQHLTY    0            
+    TPDQHLMX    0            
+    TPGQLHMN    0            
+    TPGQLHTY    0            
+    TPGQLHMX    0            
+    TPGQHLMN    0            
+    TPGQHLTY    0            
+    TPGQHLMX    0            
+   TPPCQLHMN   48.000000E-09 
+   TPPCQLHTY  120.000000E-09 
+   TPPCQLHMX  192.000000E-09 
+   TPPCQHLMN    0            
+   TPPCQHLTY    0            
+   TPPCQHLMX    0            
+      TWGHMN    0            
+      TWGHTY    0            
+      TWGHMX    0            
+     TWPCLMN    0            
+     TWPCLTY    0            
+     TWPCLMX    0            
+     TSUDGMN    0            
+     TSUDGTY    0            
+     TSUDGMX    0            
+   TSUPCGHMN    0            
+   TSUPCGHTY    0            
+   TSUPCGHMX    0            
+      THDGMN    0            
+      THDGTY    0            
+      THDGMX    0            
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     Digital Delay Line MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dlymod     
+       DLYMN  166.666700E-09 
+       DLYTY  166.666700E-09 
+       DLYMX  166.666700E-09 
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.io_555     io_std          io_stm          
+        DRVL  104             104               0            
+        DRVH   96.4            96.4             0            
+       AtoD1 atod_555        AtoD_STD                        
+       AtoD2 atod_555        AtoD_STD_NX                     
+       AtoD3 atod_555        AtoD_STD                        
+       AtoD4 atod_555        AtoD_STD_NX                     
+       DtoA1 dtoa_555        DtoA_STD        DtoA_STM        
+       DtoA2 dtoa_555        DtoA_STD        DtoA_STM        
+       DtoA3 dtoa_555        DtoA_STD        DtoA_STM        
+       DtoA4 dtoa_555        DtoA_STD        DtoA_STM        
+      TSWHL1                    1.511000E-09                 
+      TSWHL2                    1.487000E-09                 
+      TSWHL3                    1.511000E-09                 
+      TSWHL4                    1.487000E-09                 
+      TSWLH1                    3.517000E-09                 
+      TSWLH2                    3.564000E-09                 
+      TSWLH3                    3.517000E-09                 
+      TSWLH4                    3.564000E-09                 
+       TPWRT  100.000000E+03  100.000000E+03  100.000000E+03 
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($G_DGND)    0.0000                   ($G_DPWR)    5.0000                       
+
+($N_0001)    5.0000                   ($N_0002)    5.0000                       
+
+($N_0003)    5.0000                   ($N_0004)    5.0000                       
+
+($N_0005)    5.0000                   ($N_0006)    5.0000                       
+
+($N_0007)    0.0000                   ($N_0008)    3.3333                       
+
+($N_0009)    4.9970                   (X_U1.qb) 500.0E-06                       
+
+(X_U1.botm)    1.6667                 
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(X_U1.strt) : 0    ($N_0009$DtoA) : 1                    (  X_U1.s) : 0         
+
+( X_U1.sd) : 0     ($N_0003$AtoD) : 1                    ( X_U1.rd) : 1         
+
+( X_U1.hi) : 1     (  X_U1.r) : 1     (X_U1.qb$DtoA) : 0                    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         0.000E+00
+    V_V1        -1.545E-04
+    X$DIGIFPWR.VDPWR  -5.000E-06
+    X$DIGIFPWR.VDGND  -5.000E-06
+
+    TOTAL POWER DISSIPATION   7.97E-04  WATTS
+
+
+**** 07/04/122 20:14:10 ****** NT PSpice 8.0 (July 1997) ****** ID# 98242 ****
+
+ * C:\Users\sergi\OneDrive\Escritorio\proyecto\Prueba 2.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** DIODES
+
+
+NAME         D_D2        D_D1      
+MODEL        D1N4148     D1N4148   
+ID          -2.50E-12    2.50E-12 
+VD          -2.88E-05    2.88E-05 
+REQ          1.15E+07    1.15E+07 
+CAP          4.00E-12    4.00E-12 
+
+
+**** MOSFETS
+
+
+NAME         M_Q1        X_U1.m1   
+MODEL        IRF520      X_U1.nchan
+ID           1.13E-05    1.25E-09 
+VGS          0.00E+00    5.00E-04 
+VDS          5.00E+00    5.00E+00 
+VBS          0.00E+00    0.00E+00 
+VTH          3.59E+00    0.00E+00 
+VDSAT        0.00E+00    5.00E-04 
+GM           0.00E+00    5.00E-06 
+GDS          2.25E-06    0.00E+00 
+GMB          0.00E+00    0.00E+00 
+CBD          2.31E-10    0.00E+00 
+CBS          1.31E-17    0.00E+00 
+CGSOV        3.78E-10    1.00E-15 
+CGDOV        1.00E-10    1.00E-15 
+CGBOV        0.00E+00    2.00E-18 
+CGS          0.00E+00    0.00E+00 
+CGD          0.00E+00    0.00E+00 
+CGB          5.04E-10    0.00E+00 
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            1.31
+

@@ -1,0 +1,73 @@
+*PCBoards Netlist Version 8.0: Format 1.0
+*timestamp: netlist 1656958979
+*component C_ELECTROLITICO PLP3481/AA C1
+@attribute VALUE=22U
+*component c CK05 C2
+@attribute VALUE=100n
+*component c CK05 C3
+@attribute VALUE=1n
+*component C CK05 C4
+@attribute VALUE=100p
+*component 1N4148 DO-35 D1
+*component 1N4148 DO-35 D2
+*component L L2012C L1
+@attribute VALUE=5.11u
+*component Jump1 Jump1 P1
+*component Jump1 Jump1 P2
+*component Jump1 Jump1 P3
+*component IRF520 TO-220AB Q1
+*component r RC05 R1
+@attribute VALUE=10k
+*component r RC05 R2
+@attribute VALUE=10000
+*component r RC05 R3
+@attribute VALUE=30000
+*component r RC05 R4
+@attribute VALUE=1MEG
+*component 555D DIP8 U1
+*net 0
++ C3.1
++ U1.1
++ C1.2
++ R4.1
++ P2.1
++ P3.1
++ C4.1
++ Q1.3
+*net NN_0001
++ D2.1
++ D1.2
++ U1.2
++ U1.6
++ C4.2
+*net NN_0002
++ D2.2
++ R3.1
+*net NN_0003
++ R1.2
++ C2.2
++ P1.1
++ L1.2
++ U1.4
++ U1.8
++ C1.1
+*net NN_0004
++ R1.1
++ R2.2
++ U1.7
++ R3.2
+*net NN_0005
++ D1.1
++ R2.1
+*net NN_0006
++ C2.1
++ L1.1
++ Q1.2
+*net NN_0007
++ C3.2
++ U1.5
+*net NN_0008
++ U1.3
++ R4.2
++ Q1.1
+*End

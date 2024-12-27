@@ -1,0 +1,18 @@
+* C:\Users\sergi\OneDrive\Escritorio\Schematic1.stl written on Sat Jun 11 13:07:32 2022
+* by Stimulus Editor -- Serial Number: 98242 -- Version 8.0
+;!Stimulus Get
+;! DSTM1 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 28us
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS DSTM1 STIM (1, 1) ;! CLOCK 150k 0.3 0 0
++   +0s 0
++   +4.666666666667us 1
++   Repeat Forever
++      +2us 0
++      +4.666666666667us 1
++   EndRepeat

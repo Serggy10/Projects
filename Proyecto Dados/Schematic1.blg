@@ -1,0 +1,25 @@
+*MicroSim Backward ECO Report
+
+Backward ECO's incorporated: Fri Jun 24 15:35:54 2022
+
+Beginning of manual changes required.
+Please make these changes, save the schematic and generate a layout netlist.
+        Rename component with ref P2 to NEG.
+        Rename component with ref P1 to POS.
+End of manual changes.
+
+
+Backward ECO's incorporated: Fri Jun 24 15:39:58 2022
+
+Beginning of discarded changes.
+        Delete component with ref NEG2.
+        Delete component with ref NEG.
+End of discarded changes.
+
+
+Backward ECO's incorporated: Fri Jun 24 15:42:08 2022
+
+Beginning of discarded changes.
+        Delete component with ref POSITIVO1.
+End of discarded changes.
+
