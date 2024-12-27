@@ -1,6 +1,6 @@
 # Description
 This project consists of an infinity dodecahedron with WS2812B LEDs and an ESP32S3. The device is portable thanks to some batteries with its corresponding BMS. It has connection with Alexa to control colours, modes, brightness and so on.
-These are some pictures of the building proccess and the final results:
+These are some pictures of the building proccess. Some videos are included in the media folder.
 ![WhatsApp Image 2024-12-27 at 22 18 53](https://github.com/user-attachments/assets/f97acc9b-c3f5-444a-bd96-749d46a6a538)
 
 ![WhatsApp Image 2024-12-27 at 22 18 53 (1)](https://github.com/user-attachments/assets/6b4b1f70-a8e8-4fd0-bddd-4fe2c34e11c8)
