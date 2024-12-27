@@ -1,0 +1,2 @@
+# Description
+This project is a homemade variable power supply using an ATX power supply. This device can supply fixed voltages of 12V 5V and 3.3V. Other outputs are current controlled with voltages of 1.2V-12V and 12V-70V.
