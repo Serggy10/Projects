@@ -1,0 +1,1162 @@
+
+
+
+
+
+
+
+
+
+<!-- TAG INFORMACION CARGADA POR -->
+
+			<!-- DIRECTORIO ID  -->
+		
+
+<!doctype html>
+<html lang="es" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+	<!--
+	<base href="https://www.uva.es" target="_blank">
+	<GOOGLE>
+	-->
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y5BJ1G01D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6Y5BJ1G01D');
+</script>
+	
+
+
+
+
+
+
+
+<!-- Google Tag -->
+
+<script type="text/javascript">
+var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-6227200-1"]);_gaq.push(["_trackPageview"]);(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-6227200-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227200-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-6227200-1');
+	</script><script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "jz16mywoea");
+	</script>
+	<title>UVa</title>
+	<meta name="description" content="La Universidad de Valladolid (UVa) es una universidad publica fundada en 1241 con cuatro campus. Imparte estudios de Grado, Master y Doctorado. Miembro del Campus de Excelencia Internacional.">
+	<meta name="keywords" content="universidad, valladolid, uva">
+	<link rel="icon" type="image/png" href="https://www.uva.es/resources/enterprise/img/favicon.icon">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="7 days">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="UVa">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="La Universidad de Valladolid (UVa) es una universidad publica fundada en 1241 con cuatro campus. Imparte estudios de Grado, Master y Doctorado. Miembro del Campus de Excelencia Internacional.">
+	<!-- La Universidad de Valladolid (UVa) es una universidad publica fundada en 1241 con cuatro campus. Imparte estudios de Grado, Master y Doctorado. Miembro del Campus de Excelencia Internacional. -->
+	<meta property="twitter:card" content="sumary_large_image">
+	<meta property="twitter:site" content="@UVa_es">
+	<meta property="twitter:title" content="UVa">
+	<meta property="twitter:description" content="La Universidad de Valladolid (UVa) es una universidad publica fundada en 1241 con cuatro campus. Imparte estudios de Grado, Master y Doctorado. Miembro del Campus de Excelencia Internacional.">
+	<meta property="twitter:creator" content="@UVa_es">
+		<meta name="twitter:image" content="https://www.uva.es/resources/enterprise/img/logo_uva_small.jpg">
+	<!--
+	<meta http-equiv="Content-Security-Policy" content="default-src https:">
+	-->
+	
+    <!-- Storage -->
+	<!--
+	<script src="/resources/uva50/js/storage.js" ></script>
+	-->
+   	
+	<!-- Estilos UVa Viejos -->
+	<!--
+	<link rel="stylesheet" href="/resources/uva/css/uva_estilo.css" />
+	-->
+	<link rel="shortcut icon" href="/resources/uva/img/favicon.ico" />
+	
+	<!-- Scripts UVa -->
+	<!-- Estilos UVa -->
+	<link rel="stylesheet" type="text/css" href="/resources/enterprise/css/uva.min.css" crossorigin="anonymous" >
+	
+<style type="text/css">
+.row,div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}
+.row>*,div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}
+.col{flex:1 0 0}.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}
+.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2,.col-3{flex:0 0 auto}
+.col-2{width:16.66666667%}.col-3{width:25%}.col-4,.col-5{flex:0 0 auto}.col-4{width:33.33333333%}
+.col-5{width:41.66666667%}.col-6,.col-7{flex:0 0 auto}.col-6{width:50%}.col-7{width:58.33333333%}
+.col-8,.col-9{flex:0 0 auto}.col-8{width:66.66666667%}.col-9{width:75%}.col-10{flex:0 0 auto;width:83.33333333%}
+.col-11{flex:0 0 auto;width:91.66666667%}.col-12,div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div{flex:0 0 auto;width:100%}
+.offset-1{margin-left:8.33333333%}.offset-2{margin-left:16.66666667%}.offset-3{margin-left:25%}
+.offset-4{margin-left:33.33333333%}.offset-5{margin-left:41.66666667%}.offset-6{margin-left:50%}
+.offset-7{margin-left:58.33333333%}.offset-8{margin-left:66.66666667%}.offset-9{margin-left:75%}
+.offset-10{margin-left:83.33333333%}.offset-11{margin-left:91.66666667%}.g-0,.gx-0{--bs-gutter-x:0}
+.g-0,.gy-0{--bs-gutter-y:0}.g-1,.gx-1{--bs-gutter-x:.25rem}.g-1,.gy-1{--bs-gutter-y:.25rem}
+.g-2,.gx-2{--bs-gutter-x:.5rem}.g-2,.gy-2{--bs-gutter-y:.5rem}.g-3,.gx-3{--bs-gutter-x:1rem}
+.g-3,.gy-3{--bs-gutter-y:1rem}.g-4,.gx-4{--bs-gutter-x:1.5rem}.g-4,.gy-4{--bs-gutter-y:1.5rem}
+.g-5,.gx-5{--bs-gutter-x:3rem}.g-5,.gy-5{--bs-gutter-y:3rem}@media(min-width:576px){.col-sm{flex:1 0 0}
+.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}
+.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}
+.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}.col-sm-auto{flex:0 0 auto;width:auto}
+.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}
+.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}
+.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}
+.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}
+.col-sm-12{flex:0 0 auto;width:100%}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333333%}
+.offset-sm-2{margin-left:16.66666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333333%}
+.offset-sm-5{margin-left:41.66666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333333%}
+.offset-sm-8{margin-left:66.66666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333333%}
+.offset-sm-11{margin-left:91.66666667%}.g-sm-0,.gx-sm-0{--bs-gutter-x:0}.g-sm-0,.gy-sm-0{--bs-gutter-y:0}
+.g-sm-1,.gx-sm-1{--bs-gutter-x:.25rem}.g-sm-1,.gy-sm-1{--bs-gutter-y:.25rem}.g-sm-2,.gx-sm-2{--bs-gutter-x:.5rem}
+.g-sm-2,.gy-sm-2{--bs-gutter-y:.5rem}.g-sm-3,.gx-sm-3{--bs-gutter-x:1rem}.g-sm-3,.gy-sm-3{--bs-gutter-y:1rem}
+.g-sm-4,.gx-sm-4{--bs-gutter-x:1.5rem}.g-sm-4,.gy-sm-4{--bs-gutter-y:1.5rem}.g-sm-5,.gx-sm-5{--bs-gutter-x:3rem}
+.g-sm-5,.gy-sm-5{--bs-gutter-y:3rem}}@media(min-width:768px){.col-md{flex:1 0 0}.row-cols-md-auto>*{flex:0 0 auto;width:auto}
+.row-cols-md-1>*{flex:0 0 auto;width:100%}.row-cols-md-2>*{flex:0 0 auto;width:50%}
+.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}
+.row-cols-md-5>*{flex:0 0 auto;width:20%}.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-md-auto{flex:0 0 auto;width:auto}.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}
+.col-md-3{flex:0 0 auto;width:25%}.col-md-4{flex:0 0 auto;width:33.33333333%}.col-md-5{flex:0 0 auto;width:41.66666667%}
+.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}.col-md-8{flex:0 0 auto;width:66.66666667%}
+.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}.col-md-11{flex:0 0 auto;width:91.66666667%}
+.col-md-12{flex:0 0 auto;width:100%}.offset-md-0{margin-left:0}.offset-md-1{margin-left:8.33333333%}
+.offset-md-2{margin-left:16.66666667%}.offset-md-3{margin-left:25%}.offset-md-4{margin-left:33.33333333%}
+.offset-md-5{margin-left:41.66666667%}.offset-md-6{margin-left:50%}.offset-md-7{margin-left:58.33333333%}
+.offset-md-8{margin-left:66.66666667%}.offset-md-9{margin-left:75%}.offset-md-10{margin-left:83.33333333%}
+.offset-md-11{margin-left:91.66666667%}.g-md-0,.gx-md-0{--bs-gutter-x:0}.g-md-0,.gy-md-0{--bs-gutter-y:0}
+.g-md-1,.gx-md-1{--bs-gutter-x:.25rem}.g-md-1,.gy-md-1{--bs-gutter-y:.25rem}.g-md-2,.gx-md-2{--bs-gutter-x:.5rem}
+.g-md-2,.gy-md-2{--bs-gutter-y:.5rem}.g-md-3,.gx-md-3{--bs-gutter-x:1rem}.g-md-3,.gy-md-3{--bs-gutter-y:1rem}
+.g-md-4,.gx-md-4{--bs-gutter-x:1.5rem}.g-md-4,.gy-md-4{--bs-gutter-y:1.5rem}.g-md-5,.gx-md-5{--bs-gutter-x:3rem}
+.g-md-5,.gy-md-5{--bs-gutter-y:3rem}}@media(min-width:992px){.col-lg{flex:1 0 0}.row-cols-lg-auto>*{flex:0 0 auto;width:auto}
+.row-cols-lg-1>*{flex:0 0 auto;width:100%}.row-cols-lg-2>*{flex:0 0 auto;width:50%}
+.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-lg-4>*{flex:0 0 auto;width:25%}
+.row-cols-lg-5>*{flex:0 0 auto;width:20%}.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-lg-auto{flex:0 0 auto;width:auto}.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}
+.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-5{flex:0 0 auto;width:41.66666667%}
+.col-lg-6{flex:0 0 auto;width:50%}.col-lg-7{flex:0 0 auto;width:58.33333333%}.col-lg-8{flex:0 0 auto;width:66.66666667%}
+.col-lg-9{flex:0 0 auto;width:75%}.col-lg-10{flex:0 0 auto;width:83.33333333%}.col-lg-11{flex:0 0 auto;width:91.66666667%}
+.col-lg-12{flex:0 0 auto;width:100%}.offset-lg-0{margin-left:0}.offset-lg-1{margin-left:8.33333333%}
+.offset-lg-2{margin-left:16.66666667%}.offset-lg-3{margin-left:25%}.offset-lg-4{margin-left:33.33333333%}
+.offset-lg-5{margin-left:41.66666667%}.offset-lg-6{margin-left:50%}.offset-lg-7{margin-left:58.33333333%}
+.offset-lg-8{margin-left:66.66666667%}.offset-lg-9{margin-left:75%}.offset-lg-10{margin-left:83.33333333%}
+.offset-lg-11{margin-left:91.66666667%}.g-lg-0,.gx-lg-0{--bs-gutter-x:0}.g-lg-0,.gy-lg-0{--bs-gutter-y:0}
+.g-lg-1,.gx-lg-1{--bs-gutter-x:.25rem}.g-lg-1,.gy-lg-1{--bs-gutter-y:.25rem}.g-lg-2,.gx-lg-2{--bs-gutter-x:.5rem}
+.g-lg-2,.gy-lg-2{--bs-gutter-y:.5rem}.g-lg-3,.gx-lg-3{--bs-gutter-x:1rem}.g-lg-3,.gy-lg-3{--bs-gutter-y:1rem}
+.g-lg-4,.gx-lg-4{--bs-gutter-x:1.5rem}.g-lg-4,.gy-lg-4{--bs-gutter-y:1.5rem}.g-lg-5,.gx-lg-5{--bs-gutter-x:3rem}
+.g-lg-5,.gy-lg-5{--bs-gutter-y:3rem}}@media(min-width:1200px){.col-xl{flex:1 0 0}
+.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xl-auto{flex:0 0 auto;width:auto}
+.col-xl-1{flex:0 0 auto;width:8.33333333%}.col-xl-2{flex:0 0 auto;width:16.66666667%}
+.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4{flex:0 0 auto;width:33.33333333%}.col-xl-5{flex:0 0 auto;width:41.66666667%}
+.col-xl-6{flex:0 0 auto;width:50%}.col-xl-7{flex:0 0 auto;width:58.33333333%}.col-xl-8{flex:0 0 auto;width:66.66666667%}
+.col-xl-9{flex:0 0 auto;width:75%}.col-xl-10{flex:0 0 auto;width:83.33333333%}.col-xl-11{flex:0 0 auto;width:91.66666667%}
+.col-xl-12{flex:0 0 auto;width:100%}.offset-xl-0{margin-left:0}.offset-xl-1{margin-left:8.33333333%}
+.offset-xl-2{margin-left:16.66666667%}.offset-xl-3{margin-left:25%}.offset-xl-4{margin-left:33.33333333%}
+.offset-xl-5{margin-left:41.66666667%}.offset-xl-6{margin-left:50%}.offset-xl-7{margin-left:58.33333333%}
+.offset-xl-8{margin-left:66.66666667%}.offset-xl-9{margin-left:75%}.offset-xl-10{margin-left:83.33333333%}
+.offset-xl-11{margin-left:91.66666667%}.g-xl-0,.gx-xl-0{--bs-gutter-x:0}.g-xl-0,.gy-xl-0{--bs-gutter-y:0}
+.g-xl-1,.gx-xl-1{--bs-gutter-x:.25rem}.g-xl-1,.gy-xl-1{--bs-gutter-y:.25rem}.g-xl-2,.gx-xl-2{--bs-gutter-x:.5rem}
+.g-xl-2,.gy-xl-2{--bs-gutter-y:.5rem}.g-xl-3,.gx-xl-3{--bs-gutter-x:1rem}.g-xl-3,.gy-xl-3{--bs-gutter-y:1rem}
+.g-xl-4,.gx-xl-4{--bs-gutter-x:1.5rem}.g-xl-4,.gy-xl-4{--bs-gutter-y:1.5rem}.g-xl-5,.gx-xl-5{--bs-gutter-x:3rem}
+.g-xl-5,.gy-xl-5{--bs-gutter-y:3rem}}@media(min-width:1400px){.col-xxl{flex:1 0 0}
+.row-cols-xxl-auto>*{flex:0 0 auto;width:auto}.row-cols-xxl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xxl-2>*{flex:0 0 auto;width:50%}.row-cols-xxl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xxl-4>*{flex:0 0 auto;width:25%}.row-cols-xxl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xxl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xxl-auto{flex:0 0 auto;width:auto}
+.col-xxl-1{flex:0 0 auto;width:8.33333333%}.col-xxl-2{flex:0 0 auto;width:16.66666667%}
+.col-xxl-3{flex:0 0 auto;width:25%}.col-xxl-4{flex:0 0 auto;width:33.33333333%}.col-xxl-5{flex:0 0 auto;width:41.66666667%}
+.col-xxl-6{flex:0 0 auto;width:50%}.col-xxl-7{flex:0 0 auto;width:58.33333333%}.col-xxl-8{flex:0 0 auto;width:66.66666667%}
+.col-xxl-9{flex:0 0 auto;width:75%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}.col-xxl-11{flex:0 0 auto;width:91.66666667%}
+.col-xxl-12{flex:0 0 auto;width:100%}.offset-xxl-0{margin-left:0}.offset-xxl-1{margin-left:8.33333333%}
+.offset-xxl-2{margin-left:16.66666667%}.offset-xxl-3{margin-left:25%}.offset-xxl-4{margin-left:33.33333333%}
+.offset-xxl-5{margin-left:41.66666667%}.offset-xxl-6{margin-left:50%}.offset-xxl-7{margin-left:58.33333333%}
+.offset-xxl-8{margin-left:66.66666667%}.offset-xxl-9{margin-left:75%}.offset-xxl-10{margin-left:83.33333333%}
+.offset-xxl-11{margin-left:91.66666667%}.g-xxl-0,.gx-xxl-0{--bs-gutter-x:0}.g-xxl-0,.gy-xxl-0{--bs-gutter-y:0}
+.g-xxl-1,.gx-xxl-1{--bs-gutter-x:.25rem}.g-xxl-1,.gy-xxl-1{--bs-gutter-y:.25rem}.g-xxl-2,.gx-xxl-2{--bs-gutter-x:.5rem}
+.g-xxl-2,.gy-xxl-2{--bs-gutter-y:.5rem}.g-xxl-3,.gx-xxl-3{--bs-gutter-x:1rem}.g-xxl-3,.gy-xxl-3{--bs-gutter-y:1rem}
+.g-xxl-4,.gx-xxl-4{--bs-gutter-x:1.5rem}.g-xxl-4,.gy-xxl-4{--bs-gutter-y:1.5rem}.g-xxl-5,.gx-xxl-5{--bs-gutter-x:3rem}
+.g-xxl-5,.gy-xxl-5{--bs-gutter-y:3rem}}@keyframes moveArrow{0%,100%{opacity:1}
+50%{-webkit-transform:translateX(5px);opacity:1}}div.noticiascarrusel{margin:0;padding:0}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido{background-color:#d3d3d3}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div{padding:0;min-height:25vh !important;height:auto;background-size:cover;background-repeat:no-repeat;background-position:center;display:flex;flex-direction:column;flex:1}
+@media(min-width:576px){div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div{min-height:350px !important}
+}@media(min-width:768px){div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div{min-height:400px !important}
+}@media(min-width:992px){div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div{min-height:450px !important}
+}@media(min-width:1200px){div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div{min-height:500px !important}
+}@media(min-width:1400px){div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div{min-height:550px !important}
+}div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div.hidden{display:none}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div>.title{font-family:Lato,sans-serif;font-size:1.5rem;margin-top:auto;padding:.3em;color:#000;background-color:rgba(255,255,255,.5);text-align:center}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div>.subtitle{font-family:Lato,sans-serif;font-size:1.2rem;padding:.3em;color:#000;background-color:rgba(255,255,255,.5);text-align:center}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div>.boton{text-align:center}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div>.boton>a{display:inline-block;appearance:button;color:#FFF;background-color:#2d5089;font-weight:400;text-align:center;text-transform:none;vertical-align:middle;user-select:none;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;box-sizing:border-box;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;border-radius:.25rem;border-top:1px solid rgba(12,12,12,.6);border-left:1px solid rgba(12,12,12,.6);border-right:1px solid rgba(12,12,12,.6);border-bottom:1px solid rgba(12,12,12,.6);margin-bottom:5px;margin-right:5px;white-space:normal;word-break:break-word}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div.desktop>.subtitle{margin-bottom:20px}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div.mobile>img{width:100%;height:auto}
+div.noticiascarrusel>.uva-noticiascarrusel>.uva-noticiascarrusel-contenido>div.mobile>.subtitle{margin-bottom:0}
+div.noticiascarrusel>.uva-noticiascarrusel>.slideshow-dots{margin-top:10px !important;--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x));flex:0 0 auto;width:100%;text-align:center}
+div.noticiascarrusel>.uva-noticiascarrusel>.slideshow-dots>a>.slideshow-dot{margin:0 .2em;width:40px;height:5px;border:1px solid #000;background-color:#fff;display:inline-block;text-align:center}
+div.noticiascarrusel>.uva-noticiascarrusel>.slideshow-dots>a>.slideshow-dot.active{background-color:#000}
+
+.row,div.noticias,div.noticias>.uva-noticias>.uva-noticias-resultados,div.noticias>.uva-noticias>.uva-noticias-titulo{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}
+.row>*,div.noticias>*,div.noticias>.uva-noticias>.uva-noticias-resultados>*,div.noticias>.uva-noticias>.uva-noticias-titulo>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}
+.col,div.noticias>.uva-noticias>.uva-noticias-titulo>.information,div.noticias>.uva-noticias>.uva-noticias-titulo>.uva-noticias-title{flex:1 0 0}
+.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}
+.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2,.col-3{flex:0 0 auto}
+.col-2{width:16.66666667%}.col-3{width:25%}.col-4,.col-5{flex:0 0 auto}.col-4{width:33.33333333%}
+.col-5{width:41.66666667%}.col-6,.col-7{flex:0 0 auto}.col-6{width:50%}.col-7{width:58.33333333%}
+.col-8,.col-9{flex:0 0 auto}.col-8{width:66.66666667%}.col-9{width:75%}.col-10{flex:0 0 auto;width:83.33333333%}
+.col-11{flex:0 0 auto;width:91.66666667%}.col-12,div.noticias>.uva-noticias,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia{flex:0 0 auto;width:100%}
+.offset-1{margin-left:8.33333333%}.offset-2{margin-left:16.66666667%}.offset-3{margin-left:25%}
+.offset-4{margin-left:33.33333333%}.offset-5{margin-left:41.66666667%}.offset-6{margin-left:50%}
+.offset-7{margin-left:58.33333333%}.offset-8{margin-left:66.66666667%}.offset-9{margin-left:75%}
+.offset-10{margin-left:83.33333333%}.offset-11{margin-left:91.66666667%}.g-0,.gx-0{--bs-gutter-x:0}
+.g-0,.gy-0{--bs-gutter-y:0}.g-1,.gx-1{--bs-gutter-x:.25rem}.g-1,.gy-1{--bs-gutter-y:.25rem}
+.g-2,.gx-2{--bs-gutter-x:.5rem}.g-2,.gy-2{--bs-gutter-y:.5rem}.g-3,.gx-3{--bs-gutter-x:1rem}
+.g-3,.gy-3{--bs-gutter-y:1rem}.g-4,.gx-4{--bs-gutter-x:1.5rem}.g-4,.gy-4{--bs-gutter-y:1.5rem}
+.g-5,.gx-5{--bs-gutter-x:3rem}.g-5,.gy-5{--bs-gutter-y:3rem}@media(min-width:576px){.col-sm{flex:1 0 0}
+.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}
+.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}
+.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}.col-sm-auto{flex:0 0 auto;width:auto}
+.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}
+.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}
+.col-sm-6,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia{flex:0 0 auto;width:50%}
+.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}
+.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}
+.col-sm-12{flex:0 0 auto;width:100%}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333333%}
+.offset-sm-2{margin-left:16.66666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333333%}
+.offset-sm-5{margin-left:41.66666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333333%}
+.offset-sm-8{margin-left:66.66666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333333%}
+.offset-sm-11{margin-left:91.66666667%}.g-sm-0,.gx-sm-0{--bs-gutter-x:0}.g-sm-0,.gy-sm-0{--bs-gutter-y:0}
+.g-sm-1,.gx-sm-1{--bs-gutter-x:.25rem}.g-sm-1,.gy-sm-1{--bs-gutter-y:.25rem}.g-sm-2,.gx-sm-2{--bs-gutter-x:.5rem}
+.g-sm-2,.gy-sm-2{--bs-gutter-y:.5rem}.g-sm-3,.gx-sm-3{--bs-gutter-x:1rem}.g-sm-3,.gy-sm-3{--bs-gutter-y:1rem}
+.g-sm-4,.gx-sm-4{--bs-gutter-x:1.5rem}.g-sm-4,.gy-sm-4{--bs-gutter-y:1.5rem}.g-sm-5,.gx-sm-5{--bs-gutter-x:3rem}
+.g-sm-5,.gy-sm-5{--bs-gutter-y:3rem}}@media(min-width:768px){.col-md{flex:1 0 0}.row-cols-md-auto>*{flex:0 0 auto;width:auto}
+.row-cols-md-1>*{flex:0 0 auto;width:100%}.row-cols-md-2>*{flex:0 0 auto;width:50%}
+.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}
+.row-cols-md-5>*{flex:0 0 auto;width:20%}.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-md-auto{flex:0 0 auto;width:auto}.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}
+.col-md-3{flex:0 0 auto;width:25%}.col-md-4,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia{flex:0 0 auto;width:33.33333333%}
+.col-md-5{flex:0 0 auto;width:41.66666667%}.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}
+.col-md-8{flex:0 0 auto;width:66.66666667%}.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}
+.col-md-11{flex:0 0 auto;width:91.66666667%}.col-md-12{flex:0 0 auto;width:100%}.offset-md-0{margin-left:0}
+.offset-md-1{margin-left:8.33333333%}.offset-md-2{margin-left:16.66666667%}.offset-md-3{margin-left:25%}
+.offset-md-4{margin-left:33.33333333%}.offset-md-5{margin-left:41.66666667%}.offset-md-6{margin-left:50%}
+.offset-md-7{margin-left:58.33333333%}.offset-md-8{margin-left:66.66666667%}.offset-md-9{margin-left:75%}
+.offset-md-10{margin-left:83.33333333%}.offset-md-11{margin-left:91.66666667%}.g-md-0,.gx-md-0{--bs-gutter-x:0}
+.g-md-0,.gy-md-0{--bs-gutter-y:0}.g-md-1,.gx-md-1{--bs-gutter-x:.25rem}.g-md-1,.gy-md-1{--bs-gutter-y:.25rem}
+.g-md-2,.gx-md-2{--bs-gutter-x:.5rem}.g-md-2,.gy-md-2{--bs-gutter-y:.5rem}.g-md-3,.gx-md-3{--bs-gutter-x:1rem}
+.g-md-3,.gy-md-3{--bs-gutter-y:1rem}.g-md-4,.gx-md-4{--bs-gutter-x:1.5rem}.g-md-4,.gy-md-4{--bs-gutter-y:1.5rem}
+.g-md-5,.gx-md-5{--bs-gutter-x:3rem}.g-md-5,.gy-md-5{--bs-gutter-y:3rem}}@media(min-width:992px){.col-lg{flex:1 0 0}
+.row-cols-lg-auto>*{flex:0 0 auto;width:auto}.row-cols-lg-1>*{flex:0 0 auto;width:100%}
+.row-cols-lg-2>*{flex:0 0 auto;width:50%}.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-lg-4>*{flex:0 0 auto;width:25%}.row-cols-lg-5>*{flex:0 0 auto;width:20%}
+.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}.col-lg-auto{flex:0 0 auto;width:auto}
+.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}
+.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia{flex:0 0 auto;width:33.33333333%}
+.col-lg-5{flex:0 0 auto;width:41.66666667%}.col-lg-6{flex:0 0 auto;width:50%}.col-lg-7{flex:0 0 auto;width:58.33333333%}
+.col-lg-8{flex:0 0 auto;width:66.66666667%}.col-lg-9{flex:0 0 auto;width:75%}.col-lg-10{flex:0 0 auto;width:83.33333333%}
+.col-lg-11{flex:0 0 auto;width:91.66666667%}.col-lg-12{flex:0 0 auto;width:100%}.offset-lg-0{margin-left:0}
+.offset-lg-1{margin-left:8.33333333%}.offset-lg-2{margin-left:16.66666667%}.offset-lg-3{margin-left:25%}
+.offset-lg-4{margin-left:33.33333333%}.offset-lg-5{margin-left:41.66666667%}.offset-lg-6{margin-left:50%}
+.offset-lg-7{margin-left:58.33333333%}.offset-lg-8{margin-left:66.66666667%}.offset-lg-9{margin-left:75%}
+.offset-lg-10{margin-left:83.33333333%}.offset-lg-11{margin-left:91.66666667%}.g-lg-0,.gx-lg-0{--bs-gutter-x:0}
+.g-lg-0,.gy-lg-0{--bs-gutter-y:0}.g-lg-1,.gx-lg-1{--bs-gutter-x:.25rem}.g-lg-1,.gy-lg-1{--bs-gutter-y:.25rem}
+.g-lg-2,.gx-lg-2{--bs-gutter-x:.5rem}.g-lg-2,.gy-lg-2{--bs-gutter-y:.5rem}.g-lg-3,.gx-lg-3{--bs-gutter-x:1rem}
+.g-lg-3,.gy-lg-3{--bs-gutter-y:1rem}.g-lg-4,.gx-lg-4{--bs-gutter-x:1.5rem}.g-lg-4,.gy-lg-4{--bs-gutter-y:1.5rem}
+.g-lg-5,.gx-lg-5{--bs-gutter-x:3rem}.g-lg-5,.gy-lg-5{--bs-gutter-y:3rem}}@media(min-width:1200px){.col-xl{flex:1 0 0}
+.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xl-auto{flex:0 0 auto;width:auto}
+.col-xl-1{flex:0 0 auto;width:8.33333333%}.col-xl-2{flex:0 0 auto;width:16.66666667%}
+.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia{flex:0 0 auto;width:33.33333333%}
+.col-xl-5{flex:0 0 auto;width:41.66666667%}.col-xl-6{flex:0 0 auto;width:50%}.col-xl-7{flex:0 0 auto;width:58.33333333%}
+.col-xl-8{flex:0 0 auto;width:66.66666667%}.col-xl-9{flex:0 0 auto;width:75%}.col-xl-10{flex:0 0 auto;width:83.33333333%}
+.col-xl-11{flex:0 0 auto;width:91.66666667%}.col-xl-12{flex:0 0 auto;width:100%}.offset-xl-0{margin-left:0}
+.offset-xl-1{margin-left:8.33333333%}.offset-xl-2{margin-left:16.66666667%}.offset-xl-3{margin-left:25%}
+.offset-xl-4{margin-left:33.33333333%}.offset-xl-5{margin-left:41.66666667%}.offset-xl-6{margin-left:50%}
+.offset-xl-7{margin-left:58.33333333%}.offset-xl-8{margin-left:66.66666667%}.offset-xl-9{margin-left:75%}
+.offset-xl-10{margin-left:83.33333333%}.offset-xl-11{margin-left:91.66666667%}.g-xl-0,.gx-xl-0{--bs-gutter-x:0}
+.g-xl-0,.gy-xl-0{--bs-gutter-y:0}.g-xl-1,.gx-xl-1{--bs-gutter-x:.25rem}.g-xl-1,.gy-xl-1{--bs-gutter-y:.25rem}
+.g-xl-2,.gx-xl-2{--bs-gutter-x:.5rem}.g-xl-2,.gy-xl-2{--bs-gutter-y:.5rem}.g-xl-3,.gx-xl-3{--bs-gutter-x:1rem}
+.g-xl-3,.gy-xl-3{--bs-gutter-y:1rem}.g-xl-4,.gx-xl-4{--bs-gutter-x:1.5rem}.g-xl-4,.gy-xl-4{--bs-gutter-y:1.5rem}
+.g-xl-5,.gx-xl-5{--bs-gutter-x:3rem}.g-xl-5,.gy-xl-5{--bs-gutter-y:3rem}}@media(min-width:1400px){.col-xxl{flex:1 0 0}
+.row-cols-xxl-auto>*{flex:0 0 auto;width:auto}.row-cols-xxl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xxl-2>*{flex:0 0 auto;width:50%}.row-cols-xxl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xxl-4>*{flex:0 0 auto;width:25%}.row-cols-xxl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xxl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xxl-auto{flex:0 0 auto;width:auto}
+.col-xxl-1{flex:0 0 auto;width:8.33333333%}.col-xxl-2{flex:0 0 auto;width:16.66666667%}
+.col-xxl-3{flex:0 0 auto;width:25%}.col-xxl-4{flex:0 0 auto;width:33.33333333%}.col-xxl-5{flex:0 0 auto;width:41.66666667%}
+.col-xxl-6{flex:0 0 auto;width:50%}.col-xxl-7{flex:0 0 auto;width:58.33333333%}.col-xxl-8{flex:0 0 auto;width:66.66666667%}
+.col-xxl-9{flex:0 0 auto;width:75%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}.col-xxl-11{flex:0 0 auto;width:91.66666667%}
+.col-xxl-12{flex:0 0 auto;width:100%}.offset-xxl-0{margin-left:0}.offset-xxl-1{margin-left:8.33333333%}
+.offset-xxl-2{margin-left:16.66666667%}.offset-xxl-3{margin-left:25%}.offset-xxl-4{margin-left:33.33333333%}
+.offset-xxl-5{margin-left:41.66666667%}.offset-xxl-6{margin-left:50%}.offset-xxl-7{margin-left:58.33333333%}
+.offset-xxl-8{margin-left:66.66666667%}.offset-xxl-9{margin-left:75%}.offset-xxl-10{margin-left:83.33333333%}
+.offset-xxl-11{margin-left:91.66666667%}.g-xxl-0,.gx-xxl-0{--bs-gutter-x:0}.g-xxl-0,.gy-xxl-0{--bs-gutter-y:0}
+.g-xxl-1,.gx-xxl-1{--bs-gutter-x:.25rem}.g-xxl-1,.gy-xxl-1{--bs-gutter-y:.25rem}.g-xxl-2,.gx-xxl-2{--bs-gutter-x:.5rem}
+.g-xxl-2,.gy-xxl-2{--bs-gutter-y:.5rem}.g-xxl-3,.gx-xxl-3{--bs-gutter-x:1rem}.g-xxl-3,.gy-xxl-3{--bs-gutter-y:1rem}
+.g-xxl-4,.gx-xxl-4{--bs-gutter-x:1.5rem}.g-xxl-4,.gy-xxl-4{--bs-gutter-y:1.5rem}.g-xxl-5,.gx-xxl-5{--bs-gutter-x:3rem}
+.g-xxl-5,.gy-xxl-5{--bs-gutter-y:3rem}}@keyframes moveArrow{0%,100%{opacity:1}
+50%{-webkit-transform:translateX(5px);opacity:1}}div.noticias>.uva-noticias{margin-bottom:10px}
+div.noticias>.uva-noticias>.uva-noticias-titulo>.uva-noticias-title{font-family:Montserrat,sans-serif;border-bottom:1px solid #000}
+div.noticias>.uva-noticias>.uva-noticias-titulo>.uva-noticias-title>h1{position:relative;bottom:-7px;font-size:1.9em;font-weight:500;padding-right:20px;padding-bottom:7px;text-transform:uppercase;margin-right:15px;font-family:Montserrat,sans-serif;color:#000;line-height:1em;margin-bottom:.1em;margin-top:.1em}
+div.noticias>.uva-noticias>.uva-noticias-titulo>.information{border-bottom:1px solid #000}
+div.noticias>.uva-noticias>.uva-noticias-titulo>.information>.flecha{transition:all .5s}
+div.noticias>.uva-noticias>.uva-noticias-titulo>.information>a{text-decoration:none;border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;text-transform:uppercase;display:inline-block;font-family:Lato,sans-serif;color:#000;font-size:1.3em;padding:5px 20px}
+div.noticias>.uva-noticias>.uva-noticias-titulo>.information>a:hover{display:inline-block;color:#fff;background-color:#13347d}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia{margin-top:10px;margin-bottom:10px;min-height:150px;overflow:hidden}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia>a{text-decoration:none;color:#13347d}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia>a:focus,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia>a:hover{text-decoration:underline;color:#13347d}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia>a:active,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia>a:visited{text-decoration:none;color:#13347d}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-texto>a:hover{text-decoration:underline}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-texto>a>h1{font-family:Lato,sans-serif;font-size:1.5em;color:rgba(12,12,12,.9);margin:0 .5em}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-texto>a>h1:hover{color:rgba(12,12,12,.8);cursor:pointer;text-decoration:underline}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen:focus-within,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen:hover,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a:focus-within,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a:hover{text-decoration:none;cursor:pointer}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-texto>a>p{font-family:Lato,sans-serif;font-size:1.5em;color:rgba(12,12,12,.9);margin:0 .5em}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-texto>a>p:hover{color:rgba(12,12,12,.8);cursor:pointer}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-texto>a>div.fecha>p{display:none;font-family:Lato,sans-serif;font-size:1em;color:rgba(12,12,12,.9);margin:0 .5em}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen{overflow:hidden}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a:focus-within>div#photo,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a:hover>div#photo{filter:grayscale(.8)}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a:focus-within>div#photo>p.desktop,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a:hover>div#photo>p.desktop{color:#000;visibility:visible;transform:translateY(-410px);transition:all .8s}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a>img{width:100%;height:auto}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>#photo,div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a>div#photo{height:100%;min-height:200px;background-position:center;background-repeat:no-repeat;background-size:cover}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a>p{font-family:Lato,sans-serif}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a>p.mobile{font-size:1.2em;padding-left:.5em;padding-right:.5em;padding-bottom:.5em;background-color:rgba(0,0,0,.5);position:relative;bottom:0;left:0;color:#fff}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a>div#photo>p{font-family:Lato,sans-serif;transition:all .8s}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a>div#photo>p.mobile{font-size:1.2em;padding-left:.5em;padding-right:.5em;padding-bottom:.5em;background-color:rgba(0,0,0,.5);position:absolute;bottom:0;left:0;color:#fff}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>a>div#photo>p.desktop{font-family:Lato,sans-serif;font-size:1.5em;margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0;padding:.3em;color:#fff;background-color:#fff;visibility:hidden;position:relative;top:420px}
+div.noticias>.uva-noticias>.uva-noticias-resultados>.uva-noticia-imagen>#photo{margin-left:5px;margin-right:5px}
+
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.sg>a>p:hover,div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.so>a>p:hover,div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-fecha:hover,div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-titulo:hover{cursor:pointer}
+.row,div.eventos,div.eventos>.uva-eventos>.uva-eventos-contenido,div.eventos>.uva-eventos>.uva-eventos-titulo{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}
+.row>*,div.eventos>*,div.eventos>.uva-eventos>.uva-eventos-contenido>*,div.eventos>.uva-eventos>.uva-eventos-titulo>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}
+.col,div.eventos>.uva-eventos>.uva-eventos-titulo>.information,div.eventos>.uva-eventos>.uva-eventos-titulo>.title{flex:1 0 0}
+.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}
+.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2,.col-3{flex:0 0 auto}
+.col-2{width:16.66666667%}.col-3{width:25%}.col-4,.col-5{flex:0 0 auto}.col-4{width:33.33333333%}
+.col-5{width:41.66666667%}.col-6,.col-7{flex:0 0 auto}.col-6{width:50%}.col-7{width:58.33333333%}
+.col-8,.col-9{flex:0 0 auto}.col-8{width:66.66666667%}.col-9{width:75%}.col-10{flex:0 0 auto;width:83.33333333%}
+.col-11{flex:0 0 auto;width:91.66666667%}.col-12,div.eventos>.uva-eventos,div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto{flex:0 0 auto;width:100%}
+.offset-1{margin-left:8.33333333%}.offset-2{margin-left:16.66666667%}.offset-3{margin-left:25%}
+.offset-4{margin-left:33.33333333%}.offset-5{margin-left:41.66666667%}.offset-6{margin-left:50%}
+.offset-7{margin-left:58.33333333%}.offset-8{margin-left:66.66666667%}.offset-9{margin-left:75%}
+.offset-10{margin-left:83.33333333%}.offset-11{margin-left:91.66666667%}.g-0,.gx-0{--bs-gutter-x:0}
+.g-0,.gy-0{--bs-gutter-y:0}.g-1,.gx-1{--bs-gutter-x:.25rem}.g-1,.gy-1{--bs-gutter-y:.25rem}
+.g-2,.gx-2{--bs-gutter-x:.5rem}.g-2,.gy-2{--bs-gutter-y:.5rem}.g-3,.gx-3{--bs-gutter-x:1rem}
+.g-3,.gy-3{--bs-gutter-y:1rem}.g-4,.gx-4{--bs-gutter-x:1.5rem}.g-4,.gy-4{--bs-gutter-y:1.5rem}
+.g-5,.gx-5{--bs-gutter-x:3rem}.g-5,.gy-5{--bs-gutter-y:3rem}@media(min-width:576px){.col-sm{flex:1 0 0}
+.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}
+.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}
+.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}.col-sm-auto{flex:0 0 auto;width:auto}
+.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}
+.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}
+.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}
+.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}
+.col-sm-12{flex:0 0 auto;width:100%}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333333%}
+.offset-sm-2{margin-left:16.66666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333333%}
+.offset-sm-5{margin-left:41.66666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333333%}
+.offset-sm-8{margin-left:66.66666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333333%}
+.offset-sm-11{margin-left:91.66666667%}.g-sm-0,.gx-sm-0{--bs-gutter-x:0}.g-sm-0,.gy-sm-0{--bs-gutter-y:0}
+.g-sm-1,.gx-sm-1{--bs-gutter-x:.25rem}.g-sm-1,.gy-sm-1{--bs-gutter-y:.25rem}.g-sm-2,.gx-sm-2{--bs-gutter-x:.5rem}
+.g-sm-2,.gy-sm-2{--bs-gutter-y:.5rem}.g-sm-3,.gx-sm-3{--bs-gutter-x:1rem}.g-sm-3,.gy-sm-3{--bs-gutter-y:1rem}
+.g-sm-4,.gx-sm-4{--bs-gutter-x:1.5rem}.g-sm-4,.gy-sm-4{--bs-gutter-y:1.5rem}.g-sm-5,.gx-sm-5{--bs-gutter-x:3rem}
+.g-sm-5,.gy-sm-5{--bs-gutter-y:3rem}}@media(min-width:768px){.col-md{flex:1 0 0}.row-cols-md-auto>*{flex:0 0 auto;width:auto}
+.row-cols-md-1>*{flex:0 0 auto;width:100%}.row-cols-md-2>*{flex:0 0 auto;width:50%}
+.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}
+.row-cols-md-5>*{flex:0 0 auto;width:20%}.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-md-auto{flex:0 0 auto;width:auto}.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}
+.col-md-3,div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto{flex:0 0 auto;width:25%}
+.col-md-4{flex:0 0 auto;width:33.33333333%}.col-md-5{flex:0 0 auto;width:41.66666667%}
+.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}.col-md-8{flex:0 0 auto;width:66.66666667%}
+.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}.col-md-11{flex:0 0 auto;width:91.66666667%}
+.col-md-12{flex:0 0 auto;width:100%}.offset-md-0{margin-left:0}.offset-md-1{margin-left:8.33333333%}
+.offset-md-2{margin-left:16.66666667%}.offset-md-3{margin-left:25%}.offset-md-4{margin-left:33.33333333%}
+.offset-md-5{margin-left:41.66666667%}.offset-md-6{margin-left:50%}.offset-md-7{margin-left:58.33333333%}
+.offset-md-8{margin-left:66.66666667%}.offset-md-9{margin-left:75%}.offset-md-10{margin-left:83.33333333%}
+.offset-md-11{margin-left:91.66666667%}.g-md-0,.gx-md-0{--bs-gutter-x:0}.g-md-0,.gy-md-0{--bs-gutter-y:0}
+.g-md-1,.gx-md-1{--bs-gutter-x:.25rem}.g-md-1,.gy-md-1{--bs-gutter-y:.25rem}.g-md-2,.gx-md-2{--bs-gutter-x:.5rem}
+.g-md-2,.gy-md-2{--bs-gutter-y:.5rem}.g-md-3,.gx-md-3{--bs-gutter-x:1rem}.g-md-3,.gy-md-3{--bs-gutter-y:1rem}
+.g-md-4,.gx-md-4{--bs-gutter-x:1.5rem}.g-md-4,.gy-md-4{--bs-gutter-y:1.5rem}.g-md-5,.gx-md-5{--bs-gutter-x:3rem}
+.g-md-5,.gy-md-5{--bs-gutter-y:3rem}}@media(min-width:992px){.col-lg{flex:1 0 0}.row-cols-lg-auto>*{flex:0 0 auto;width:auto}
+.row-cols-lg-1>*{flex:0 0 auto;width:100%}.row-cols-lg-2>*{flex:0 0 auto;width:50%}
+.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-lg-4>*{flex:0 0 auto;width:25%}
+.row-cols-lg-5>*{flex:0 0 auto;width:20%}.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-lg-auto{flex:0 0 auto;width:auto}.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}
+.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-5{flex:0 0 auto;width:41.66666667%}
+.col-lg-6{flex:0 0 auto;width:50%}.col-lg-7{flex:0 0 auto;width:58.33333333%}.col-lg-8{flex:0 0 auto;width:66.66666667%}
+.col-lg-9{flex:0 0 auto;width:75%}.col-lg-10{flex:0 0 auto;width:83.33333333%}.col-lg-11{flex:0 0 auto;width:91.66666667%}
+.col-lg-12{flex:0 0 auto;width:100%}.offset-lg-0{margin-left:0}.offset-lg-1{margin-left:8.33333333%}
+.offset-lg-2{margin-left:16.66666667%}.offset-lg-3{margin-left:25%}.offset-lg-4{margin-left:33.33333333%}
+.offset-lg-5{margin-left:41.66666667%}.offset-lg-6{margin-left:50%}.offset-lg-7{margin-left:58.33333333%}
+.offset-lg-8{margin-left:66.66666667%}.offset-lg-9{margin-left:75%}.offset-lg-10{margin-left:83.33333333%}
+.offset-lg-11{margin-left:91.66666667%}.g-lg-0,.gx-lg-0{--bs-gutter-x:0}.g-lg-0,.gy-lg-0{--bs-gutter-y:0}
+.g-lg-1,.gx-lg-1{--bs-gutter-x:.25rem}.g-lg-1,.gy-lg-1{--bs-gutter-y:.25rem}.g-lg-2,.gx-lg-2{--bs-gutter-x:.5rem}
+.g-lg-2,.gy-lg-2{--bs-gutter-y:.5rem}.g-lg-3,.gx-lg-3{--bs-gutter-x:1rem}.g-lg-3,.gy-lg-3{--bs-gutter-y:1rem}
+.g-lg-4,.gx-lg-4{--bs-gutter-x:1.5rem}.g-lg-4,.gy-lg-4{--bs-gutter-y:1.5rem}.g-lg-5,.gx-lg-5{--bs-gutter-x:3rem}
+.g-lg-5,.gy-lg-5{--bs-gutter-y:3rem}}@media(min-width:1200px){.col-xl{flex:1 0 0}
+.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xl-auto{flex:0 0 auto;width:auto}
+.col-xl-1{flex:0 0 auto;width:8.33333333%}.col-xl-2{flex:0 0 auto;width:16.66666667%}
+.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4{flex:0 0 auto;width:33.33333333%}.col-xl-5{flex:0 0 auto;width:41.66666667%}
+.col-xl-6{flex:0 0 auto;width:50%}.col-xl-7{flex:0 0 auto;width:58.33333333%}.col-xl-8{flex:0 0 auto;width:66.66666667%}
+.col-xl-9{flex:0 0 auto;width:75%}.col-xl-10{flex:0 0 auto;width:83.33333333%}.col-xl-11{flex:0 0 auto;width:91.66666667%}
+.col-xl-12{flex:0 0 auto;width:100%}.offset-xl-0{margin-left:0}.offset-xl-1{margin-left:8.33333333%}
+.offset-xl-2{margin-left:16.66666667%}.offset-xl-3{margin-left:25%}.offset-xl-4{margin-left:33.33333333%}
+.offset-xl-5{margin-left:41.66666667%}.offset-xl-6{margin-left:50%}.offset-xl-7{margin-left:58.33333333%}
+.offset-xl-8{margin-left:66.66666667%}.offset-xl-9{margin-left:75%}.offset-xl-10{margin-left:83.33333333%}
+.offset-xl-11{margin-left:91.66666667%}.g-xl-0,.gx-xl-0{--bs-gutter-x:0}.g-xl-0,.gy-xl-0{--bs-gutter-y:0}
+.g-xl-1,.gx-xl-1{--bs-gutter-x:.25rem}.g-xl-1,.gy-xl-1{--bs-gutter-y:.25rem}.g-xl-2,.gx-xl-2{--bs-gutter-x:.5rem}
+.g-xl-2,.gy-xl-2{--bs-gutter-y:.5rem}.g-xl-3,.gx-xl-3{--bs-gutter-x:1rem}.g-xl-3,.gy-xl-3{--bs-gutter-y:1rem}
+.g-xl-4,.gx-xl-4{--bs-gutter-x:1.5rem}.g-xl-4,.gy-xl-4{--bs-gutter-y:1.5rem}.g-xl-5,.gx-xl-5{--bs-gutter-x:3rem}
+.g-xl-5,.gy-xl-5{--bs-gutter-y:3rem}}@media(min-width:1400px){.col-xxl{flex:1 0 0}
+.row-cols-xxl-auto>*{flex:0 0 auto;width:auto}.row-cols-xxl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xxl-2>*{flex:0 0 auto;width:50%}.row-cols-xxl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xxl-4>*{flex:0 0 auto;width:25%}.row-cols-xxl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xxl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xxl-auto{flex:0 0 auto;width:auto}
+.col-xxl-1{flex:0 0 auto;width:8.33333333%}.col-xxl-2{flex:0 0 auto;width:16.66666667%}
+.col-xxl-3{flex:0 0 auto;width:25%}.col-xxl-4{flex:0 0 auto;width:33.33333333%}.col-xxl-5{flex:0 0 auto;width:41.66666667%}
+.col-xxl-6{flex:0 0 auto;width:50%}.col-xxl-7{flex:0 0 auto;width:58.33333333%}.col-xxl-8{flex:0 0 auto;width:66.66666667%}
+.col-xxl-9{flex:0 0 auto;width:75%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}.col-xxl-11{flex:0 0 auto;width:91.66666667%}
+.col-xxl-12{flex:0 0 auto;width:100%}.offset-xxl-0{margin-left:0}.offset-xxl-1{margin-left:8.33333333%}
+.offset-xxl-2{margin-left:16.66666667%}.offset-xxl-3{margin-left:25%}.offset-xxl-4{margin-left:33.33333333%}
+.offset-xxl-5{margin-left:41.66666667%}.offset-xxl-6{margin-left:50%}.offset-xxl-7{margin-left:58.33333333%}
+.offset-xxl-8{margin-left:66.66666667%}.offset-xxl-9{margin-left:75%}.offset-xxl-10{margin-left:83.33333333%}
+.offset-xxl-11{margin-left:91.66666667%}.g-xxl-0,.gx-xxl-0{--bs-gutter-x:0}.g-xxl-0,.gy-xxl-0{--bs-gutter-y:0}
+.g-xxl-1,.gx-xxl-1{--bs-gutter-x:.25rem}.g-xxl-1,.gy-xxl-1{--bs-gutter-y:.25rem}.g-xxl-2,.gx-xxl-2{--bs-gutter-x:.5rem}
+.g-xxl-2,.gy-xxl-2{--bs-gutter-y:.5rem}.g-xxl-3,.gx-xxl-3{--bs-gutter-x:1rem}.g-xxl-3,.gy-xxl-3{--bs-gutter-y:1rem}
+.g-xxl-4,.gx-xxl-4{--bs-gutter-x:1.5rem}.g-xxl-4,.gy-xxl-4{--bs-gutter-y:1.5rem}.g-xxl-5,.gx-xxl-5{--bs-gutter-x:3rem}
+.g-xxl-5,.gy-xxl-5{--bs-gutter-y:3rem}}@keyframes moveArrow{0%,100%{opacity:1}
+50%{-webkit-transform:translateX(5px);opacity:1}}div.eventos>.uva-eventos{margin-bottom:10px}
+div.eventos>.uva-eventos>.uva-eventos-titulo>.title{font-family:Montserrat,sans-serif;border-bottom:1px solid #000}
+div.eventos>.uva-eventos>.uva-eventos-titulo>.title>h1{position:relative;bottom:-7px;font-size:1.9em;font-weight:500;padding-right:20px;padding-bottom:7px;text-transform:uppercase;margin-right:15px;font-family:Montserrat,sans-serif;color:#000;line-height:1em;margin-bottom:.1em;margin-top:.1em}
+div.eventos>.uva-eventos>.uva-eventos-titulo>.information{border-bottom:1px solid #000}
+div.eventos>.uva-eventos>.uva-eventos-titulo>.information>.flecha{transition:all .5s}
+div.eventos>.uva-eventos>.uva-eventos-titulo>.information>a{text-decoration:none;border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;text-transform:uppercase;display:inline-block;font-family:Lato,sans-serif;color:#000;font-size:1.3em;padding:5px 20px}
+div.eventos>.uva-eventos>.uva-eventos-titulo>.information>a:hover{display:inline-block;color:#fff;background-color:#13347d}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.sg>a>p,div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.so>a>p{color:rgba(12,12,12,.8)}
+div.eventos>.uva-eventos>.uva-eventos-contenido{margin-top:10px;margin-bottom:10px;flex-wrap:wrap}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div{border-radius:4px;margin-bottom:10px;height:100% !important}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.uva_general{background-color:#0e3675}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.va{background-color:#5534ae}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.pa{background-color:#93198f}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.so{background-color:#add000}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div.sg{background-color:#ff9000}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a,div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a:hover{text-decoration:none}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-fecha{font-family:Lato,sans-serif;font-weight:400;font-size:2.3em;margin:0 .5em;color:#fff}
+div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-fecha>small{font-size:.4em}
+@media screen and (max-width:540px){div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-fecha{font-size:2em}
+}@media screen and (min-width:540px) and (max-width:960px){div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-fecha{font-size:2.3em}
+}@media screen and (min-width:960px) and (max-width:1200px){div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-fecha{font-size:2.5em}
+}@media screen and (min-width:1200px){div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-fecha{font-size:3.2em}
+}div.eventos>.uva-eventos>.uva-eventos-contenido>.uva-evento-texto>div>a>.uva-evento-titulo{font-family:Montserrat,sans-serif;color:#fff;margin:0 .5em;font-size:1em}
+div.eventos>.uva-eventos>.uva-eventos-slideshow-dots{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x));flex:0 0 auto;width:100%;text-align:center}
+div.eventos>.uva-eventos>.uva-eventos-slideshow-dots>a>.uva-eventos-slideshow-dot{margin:0 .2em;width:40px;height:5px;border:1px solid #000;background-color:#fff;display:inline-block;text-align:center}
+div.eventos>.uva-eventos>.uva-eventos-slideshow-dots>a>.uva-eventos-slideshow-dot.active{background-color:#000}
+
+@charset "UTF-8";#contenedor_superior>.imagen>.imagen-contenido,#contenedor_superior>.imagen>.imagen-titulo,.main>.imagen>.imagen-contenido,.main>.imagen>.imagen-titulo,.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}
+#contenedor_superior>.imagen>.imagen-contenido>*,#contenedor_superior>.imagen>.imagen-titulo>*,.main>.imagen>.imagen-contenido>*,.main>.imagen>.imagen-titulo>*,.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}
+.col{flex:1 0 0}.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}
+.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2,.col-3{flex:0 0 auto}
+.col-2{width:16.66666667%}.col-3{width:25%}.col-4,.col-5{flex:0 0 auto}.col-4{width:33.33333333%}
+.col-5{width:41.66666667%}.col-6,.col-7{flex:0 0 auto}.col-6{width:50%}.col-7{width:58.33333333%}
+.col-8,.col-9{flex:0 0 auto}.col-8{width:66.66666667%}.col-9{width:75%}.col-10{flex:0 0 auto;width:83.33333333%}
+.col-11{flex:0 0 auto;width:91.66666667%}#contenedor_superior>.imagen>.imagen-titulo>.title,.col-12,.main>.imagen>.imagen-titulo>.title{flex:0 0 auto;width:100%}
+.offset-1{margin-left:8.33333333%}.offset-2{margin-left:16.66666667%}.offset-3{margin-left:25%}
+.offset-4{margin-left:33.33333333%}.offset-5{margin-left:41.66666667%}.offset-6{margin-left:50%}
+.offset-7{margin-left:58.33333333%}.offset-8{margin-left:66.66666667%}.offset-9{margin-left:75%}
+.offset-10{margin-left:83.33333333%}.offset-11{margin-left:91.66666667%}.g-0,.gx-0{--bs-gutter-x:0}
+.g-0,.gy-0{--bs-gutter-y:0}.g-1,.gx-1{--bs-gutter-x:.25rem}.g-1,.gy-1{--bs-gutter-y:.25rem}
+.g-2,.gx-2{--bs-gutter-x:.5rem}.g-2,.gy-2{--bs-gutter-y:.5rem}.g-3,.gx-3{--bs-gutter-x:1rem}
+.g-3,.gy-3{--bs-gutter-y:1rem}.g-4,.gx-4{--bs-gutter-x:1.5rem}.g-4,.gy-4{--bs-gutter-y:1.5rem}
+.g-5,.gx-5{--bs-gutter-x:3rem}.g-5,.gy-5{--bs-gutter-y:3rem}@media(min-width:576px){.col-sm{flex:1 0 0}
+.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}
+.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}
+.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}.col-sm-auto{flex:0 0 auto;width:auto}
+.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}
+.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}
+.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}
+.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}
+.col-sm-12{flex:0 0 auto;width:100%}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333333%}
+.offset-sm-2{margin-left:16.66666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333333%}
+.offset-sm-5{margin-left:41.66666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333333%}
+.offset-sm-8{margin-left:66.66666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333333%}
+.offset-sm-11{margin-left:91.66666667%}.g-sm-0,.gx-sm-0{--bs-gutter-x:0}.g-sm-0,.gy-sm-0{--bs-gutter-y:0}
+.g-sm-1,.gx-sm-1{--bs-gutter-x:.25rem}.g-sm-1,.gy-sm-1{--bs-gutter-y:.25rem}.g-sm-2,.gx-sm-2{--bs-gutter-x:.5rem}
+.g-sm-2,.gy-sm-2{--bs-gutter-y:.5rem}.g-sm-3,.gx-sm-3{--bs-gutter-x:1rem}.g-sm-3,.gy-sm-3{--bs-gutter-y:1rem}
+.g-sm-4,.gx-sm-4{--bs-gutter-x:1.5rem}.g-sm-4,.gy-sm-4{--bs-gutter-y:1.5rem}.g-sm-5,.gx-sm-5{--bs-gutter-x:3rem}
+.g-sm-5,.gy-sm-5{--bs-gutter-y:3rem}}@media(min-width:768px){.col-md{flex:1 0 0}.row-cols-md-auto>*{flex:0 0 auto;width:auto}
+.row-cols-md-1>*{flex:0 0 auto;width:100%}.row-cols-md-2>*{flex:0 0 auto;width:50%}
+.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}
+.row-cols-md-5>*{flex:0 0 auto;width:20%}.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-md-auto{flex:0 0 auto;width:auto}.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}
+.col-md-3{flex:0 0 auto;width:25%}.col-md-4{flex:0 0 auto;width:33.33333333%}.col-md-5{flex:0 0 auto;width:41.66666667%}
+.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}.col-md-8{flex:0 0 auto;width:66.66666667%}
+.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}.col-md-11{flex:0 0 auto;width:91.66666667%}
+.col-md-12{flex:0 0 auto;width:100%}.offset-md-0{margin-left:0}.offset-md-1{margin-left:8.33333333%}
+.offset-md-2{margin-left:16.66666667%}.offset-md-3{margin-left:25%}.offset-md-4{margin-left:33.33333333%}
+.offset-md-5{margin-left:41.66666667%}.offset-md-6{margin-left:50%}.offset-md-7{margin-left:58.33333333%}
+.offset-md-8{margin-left:66.66666667%}.offset-md-9{margin-left:75%}.offset-md-10{margin-left:83.33333333%}
+.offset-md-11{margin-left:91.66666667%}.g-md-0,.gx-md-0{--bs-gutter-x:0}.g-md-0,.gy-md-0{--bs-gutter-y:0}
+.g-md-1,.gx-md-1{--bs-gutter-x:.25rem}.g-md-1,.gy-md-1{--bs-gutter-y:.25rem}.g-md-2,.gx-md-2{--bs-gutter-x:.5rem}
+.g-md-2,.gy-md-2{--bs-gutter-y:.5rem}.g-md-3,.gx-md-3{--bs-gutter-x:1rem}.g-md-3,.gy-md-3{--bs-gutter-y:1rem}
+.g-md-4,.gx-md-4{--bs-gutter-x:1.5rem}.g-md-4,.gy-md-4{--bs-gutter-y:1.5rem}.g-md-5,.gx-md-5{--bs-gutter-x:3rem}
+.g-md-5,.gy-md-5{--bs-gutter-y:3rem}}@media(min-width:992px){.col-lg{flex:1 0 0}.row-cols-lg-auto>*{flex:0 0 auto;width:auto}
+.row-cols-lg-1>*{flex:0 0 auto;width:100%}.row-cols-lg-2>*{flex:0 0 auto;width:50%}
+.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-lg-4>*{flex:0 0 auto;width:25%}
+.row-cols-lg-5>*{flex:0 0 auto;width:20%}.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-lg-auto{flex:0 0 auto;width:auto}.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}
+.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-5{flex:0 0 auto;width:41.66666667%}
+.col-lg-6{flex:0 0 auto;width:50%}.col-lg-7{flex:0 0 auto;width:58.33333333%}.col-lg-8{flex:0 0 auto;width:66.66666667%}
+.col-lg-9{flex:0 0 auto;width:75%}.col-lg-10{flex:0 0 auto;width:83.33333333%}.col-lg-11{flex:0 0 auto;width:91.66666667%}
+.col-lg-12{flex:0 0 auto;width:100%}.offset-lg-0{margin-left:0}.offset-lg-1{margin-left:8.33333333%}
+.offset-lg-2{margin-left:16.66666667%}.offset-lg-3{margin-left:25%}.offset-lg-4{margin-left:33.33333333%}
+.offset-lg-5{margin-left:41.66666667%}.offset-lg-6{margin-left:50%}.offset-lg-7{margin-left:58.33333333%}
+.offset-lg-8{margin-left:66.66666667%}.offset-lg-9{margin-left:75%}.offset-lg-10{margin-left:83.33333333%}
+.offset-lg-11{margin-left:91.66666667%}.g-lg-0,.gx-lg-0{--bs-gutter-x:0}.g-lg-0,.gy-lg-0{--bs-gutter-y:0}
+.g-lg-1,.gx-lg-1{--bs-gutter-x:.25rem}.g-lg-1,.gy-lg-1{--bs-gutter-y:.25rem}.g-lg-2,.gx-lg-2{--bs-gutter-x:.5rem}
+.g-lg-2,.gy-lg-2{--bs-gutter-y:.5rem}.g-lg-3,.gx-lg-3{--bs-gutter-x:1rem}.g-lg-3,.gy-lg-3{--bs-gutter-y:1rem}
+.g-lg-4,.gx-lg-4{--bs-gutter-x:1.5rem}.g-lg-4,.gy-lg-4{--bs-gutter-y:1.5rem}.g-lg-5,.gx-lg-5{--bs-gutter-x:3rem}
+.g-lg-5,.gy-lg-5{--bs-gutter-y:3rem}}@media(min-width:1200px){.col-xl{flex:1 0 0}
+.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xl-auto{flex:0 0 auto;width:auto}
+.col-xl-1{flex:0 0 auto;width:8.33333333%}.col-xl-2{flex:0 0 auto;width:16.66666667%}
+.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4{flex:0 0 auto;width:33.33333333%}.col-xl-5{flex:0 0 auto;width:41.66666667%}
+.col-xl-6{flex:0 0 auto;width:50%}.col-xl-7{flex:0 0 auto;width:58.33333333%}.col-xl-8{flex:0 0 auto;width:66.66666667%}
+.col-xl-9{flex:0 0 auto;width:75%}.col-xl-10{flex:0 0 auto;width:83.33333333%}.col-xl-11{flex:0 0 auto;width:91.66666667%}
+.col-xl-12{flex:0 0 auto;width:100%}.offset-xl-0{margin-left:0}.offset-xl-1{margin-left:8.33333333%}
+.offset-xl-2{margin-left:16.66666667%}.offset-xl-3{margin-left:25%}.offset-xl-4{margin-left:33.33333333%}
+.offset-xl-5{margin-left:41.66666667%}.offset-xl-6{margin-left:50%}.offset-xl-7{margin-left:58.33333333%}
+.offset-xl-8{margin-left:66.66666667%}.offset-xl-9{margin-left:75%}.offset-xl-10{margin-left:83.33333333%}
+.offset-xl-11{margin-left:91.66666667%}.g-xl-0,.gx-xl-0{--bs-gutter-x:0}.g-xl-0,.gy-xl-0{--bs-gutter-y:0}
+.g-xl-1,.gx-xl-1{--bs-gutter-x:.25rem}.g-xl-1,.gy-xl-1{--bs-gutter-y:.25rem}.g-xl-2,.gx-xl-2{--bs-gutter-x:.5rem}
+.g-xl-2,.gy-xl-2{--bs-gutter-y:.5rem}.g-xl-3,.gx-xl-3{--bs-gutter-x:1rem}.g-xl-3,.gy-xl-3{--bs-gutter-y:1rem}
+.g-xl-4,.gx-xl-4{--bs-gutter-x:1.5rem}.g-xl-4,.gy-xl-4{--bs-gutter-y:1.5rem}.g-xl-5,.gx-xl-5{--bs-gutter-x:3rem}
+.g-xl-5,.gy-xl-5{--bs-gutter-y:3rem}}@media(min-width:1400px){.col-xxl{flex:1 0 0}
+.row-cols-xxl-auto>*{flex:0 0 auto;width:auto}.row-cols-xxl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xxl-2>*{flex:0 0 auto;width:50%}.row-cols-xxl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xxl-4>*{flex:0 0 auto;width:25%}.row-cols-xxl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xxl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xxl-auto{flex:0 0 auto;width:auto}
+.col-xxl-1{flex:0 0 auto;width:8.33333333%}.col-xxl-2{flex:0 0 auto;width:16.66666667%}
+.col-xxl-3{flex:0 0 auto;width:25%}.col-xxl-4{flex:0 0 auto;width:33.33333333%}.col-xxl-5{flex:0 0 auto;width:41.66666667%}
+.col-xxl-6{flex:0 0 auto;width:50%}.col-xxl-7{flex:0 0 auto;width:58.33333333%}.col-xxl-8{flex:0 0 auto;width:66.66666667%}
+.col-xxl-9{flex:0 0 auto;width:75%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}.col-xxl-11{flex:0 0 auto;width:91.66666667%}
+.col-xxl-12{flex:0 0 auto;width:100%}.offset-xxl-0{margin-left:0}.offset-xxl-1{margin-left:8.33333333%}
+.offset-xxl-2{margin-left:16.66666667%}.offset-xxl-3{margin-left:25%}.offset-xxl-4{margin-left:33.33333333%}
+.offset-xxl-5{margin-left:41.66666667%}.offset-xxl-6{margin-left:50%}.offset-xxl-7{margin-left:58.33333333%}
+.offset-xxl-8{margin-left:66.66666667%}.offset-xxl-9{margin-left:75%}.offset-xxl-10{margin-left:83.33333333%}
+.offset-xxl-11{margin-left:91.66666667%}.g-xxl-0,.gx-xxl-0{--bs-gutter-x:0}.g-xxl-0,.gy-xxl-0{--bs-gutter-y:0}
+.g-xxl-1,.gx-xxl-1{--bs-gutter-x:.25rem}.g-xxl-1,.gy-xxl-1{--bs-gutter-y:.25rem}.g-xxl-2,.gx-xxl-2{--bs-gutter-x:.5rem}
+.g-xxl-2,.gy-xxl-2{--bs-gutter-y:.5rem}.g-xxl-3,.gx-xxl-3{--bs-gutter-x:1rem}.g-xxl-3,.gy-xxl-3{--bs-gutter-y:1rem}
+.g-xxl-4,.gx-xxl-4{--bs-gutter-x:1.5rem}.g-xxl-4,.gy-xxl-4{--bs-gutter-y:1.5rem}.g-xxl-5,.gx-xxl-5{--bs-gutter-x:3rem}
+.g-xxl-5,.gy-xxl-5{--bs-gutter-y:3rem}}@keyframes moveArrow{0%,100%{opacity:1}
+50%{-webkit-transform:translateX(5px);opacity:1}}#contenedor_superior>.imagen,.main>.imagen{margin-bottom:10px}
+#contenedor_superior>.imagen>.imagen-titulo>.title>h2,.main>.imagen>.imagen-titulo>.title>h2{font-family:Lato,sans-serif;font-weight:700;font-size:2em;color:#13347d}
+@media(min-width:576px){#contenedor_superior>.imagen>.imagen-contenido>div,.main>.imagen>.imagen-contenido>div{flex:0 0 auto;width:100%}
+}@media(min-width:768px){#contenedor_superior>.imagen>.imagen-contenido>div.columnas-1,.main>.imagen>.imagen-contenido>div.columnas-1{flex:0 0 auto;width:8.33333333%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-2,.main>.imagen>.imagen-contenido>div.columnas-2{flex:0 0 auto;width:16.66666667%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-3,.main>.imagen>.imagen-contenido>div.columnas-3{flex:0 0 auto;width:25%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-4,.main>.imagen>.imagen-contenido>div.columnas-4{flex:0 0 auto;width:33.33333333%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-5,.main>.imagen>.imagen-contenido>div.columnas-5{flex:0 0 auto;width:41.66666667%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-6,.main>.imagen>.imagen-contenido>div.columnas-6{flex:0 0 auto;width:50%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-7,.main>.imagen>.imagen-contenido>div.columnas-7{flex:0 0 auto;width:58.33333333%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-8,.main>.imagen>.imagen-contenido>div.columnas-8{flex:0 0 auto;width:66.66666667%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-9,.main>.imagen>.imagen-contenido>div.columnas-9{flex:0 0 auto;width:75%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-10,.main>.imagen>.imagen-contenido>div.columnas-10{flex:0 0 auto;width:83.33333333%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-11,.main>.imagen>.imagen-contenido>div.columnas-11{flex:0 0 auto;width:91.66666667%}
+#contenedor_superior>.imagen>.imagen-contenido>div.columnas-12,.main>.imagen>.imagen-contenido>div.columnas-12{flex:0 0 auto;width:100%}
+}#contenedor_superior>.imagen>.imagen-contenido>div>a>img,#contenedor_superior>.imagen>.imagen-contenido>div>img,.main>.imagen>.imagen-contenido>div>a>img,.main>.imagen>.imagen-contenido>div>img{width:100%;height:auto}
+#contenedor_superior>.imagen>.imagen-contenido>span,.main>.imagen>.imagen-contenido>span{font-family:Montserrat;font-size:.9em;font-weight:300}
+
+.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto}
+@media(min-width:576px){.container,.container-sm{max-width:540px}}@media(min-width:768px){.container,.container-md,.container-sm{max-width:720px}
+}@media(min-width:992px){.container,.container-lg,.container-md,.container-sm{max-width:960px}
+}@media(min-width:1200px){.container,.container-lg,.container-md,.container-sm,.container-xl{max-width:1140px}
+}@media(min-width:1400px){.container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{max-width:1320px}
+}.row,div.cifras,div.cifras>.uva-cifras>.uva-cifras-contenido,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-contenido,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-titulo,div.cifras>.uva-cifras>.uva-cifras-puntos,div.cifras>.uva-cifras>.uva-cifras-titulo{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}
+.row>*,div.cifras>*,div.cifras>.uva-cifras>.uva-cifras-contenido>*,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-contenido>*,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-titulo>*,div.cifras>.uva-cifras>.uva-cifras-puntos>*,div.cifras>.uva-cifras>.uva-cifras-titulo>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}
+.col,div.cifras>.uva-cifras>.uva-cifras-titulo>div{flex:1 0 0}.row-cols-auto>*{flex:0 0 auto;width:auto}
+.row-cols-1>*{flex:0 0 auto;width:100%}.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2,.col-3{flex:0 0 auto}
+.col-2{width:16.66666667%}.col-3{width:25%}.col-4,.col-5{flex:0 0 auto}.col-4{width:33.33333333%}
+.col-5{width:41.66666667%}.col-6,.col-7{flex:0 0 auto}.col-6{width:50%}.col-7{width:58.33333333%}
+.col-8,.col-9{flex:0 0 auto}.col-8{width:66.66666667%}.col-9{width:75%}.col-10{flex:0 0 auto;width:83.33333333%}
+.col-11{flex:0 0 auto;width:91.66666667%}.col-12,div.cifras>.uva-cifras,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-contenido>.uva-cifras-contenido-pagina-elemento,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-titulo>h3,div.cifras>.uva-cifras>.uva-cifras-puntos>div{flex:0 0 auto;width:100%}
+.offset-1{margin-left:8.33333333%}.offset-2{margin-left:16.66666667%}.offset-3{margin-left:25%}
+.offset-4{margin-left:33.33333333%}.offset-5{margin-left:41.66666667%}.offset-6{margin-left:50%}
+.offset-7{margin-left:58.33333333%}.offset-8{margin-left:66.66666667%}.offset-9{margin-left:75%}
+.offset-10{margin-left:83.33333333%}.offset-11{margin-left:91.66666667%}.g-0,.gx-0{--bs-gutter-x:0}
+.g-0,.gy-0{--bs-gutter-y:0}.g-1,.gx-1{--bs-gutter-x:.25rem}.g-1,.gy-1{--bs-gutter-y:.25rem}
+.g-2,.gx-2{--bs-gutter-x:.5rem}.g-2,.gy-2{--bs-gutter-y:.5rem}.g-3,.gx-3{--bs-gutter-x:1rem}
+.g-3,.gy-3{--bs-gutter-y:1rem}.g-4,.gx-4{--bs-gutter-x:1.5rem}.g-4,.gy-4{--bs-gutter-y:1.5rem}
+.g-5,.gx-5{--bs-gutter-x:3rem}.g-5,.gy-5{--bs-gutter-y:3rem}@media(min-width:576px){.col-sm{flex:1 0 0}
+.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}
+.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}
+.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}.col-sm-auto{flex:0 0 auto;width:auto}
+.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}
+.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}
+.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}
+.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}
+.col-sm-12{flex:0 0 auto;width:100%}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333333%}
+.offset-sm-2{margin-left:16.66666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333333%}
+.offset-sm-5{margin-left:41.66666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333333%}
+.offset-sm-8{margin-left:66.66666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333333%}
+.offset-sm-11{margin-left:91.66666667%}.g-sm-0,.gx-sm-0{--bs-gutter-x:0}.g-sm-0,.gy-sm-0{--bs-gutter-y:0}
+.g-sm-1,.gx-sm-1{--bs-gutter-x:.25rem}.g-sm-1,.gy-sm-1{--bs-gutter-y:.25rem}.g-sm-2,.gx-sm-2{--bs-gutter-x:.5rem}
+.g-sm-2,.gy-sm-2{--bs-gutter-y:.5rem}.g-sm-3,.gx-sm-3{--bs-gutter-x:1rem}.g-sm-3,.gy-sm-3{--bs-gutter-y:1rem}
+.g-sm-4,.gx-sm-4{--bs-gutter-x:1.5rem}.g-sm-4,.gy-sm-4{--bs-gutter-y:1.5rem}.g-sm-5,.gx-sm-5{--bs-gutter-x:3rem}
+.g-sm-5,.gy-sm-5{--bs-gutter-y:3rem}}@media(min-width:768px){.col-md,div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-contenido>.uva-cifras-contenido-pagina-elemento{flex:1 0 0}
+.row-cols-md-auto>*{flex:0 0 auto;width:auto}.row-cols-md-1>*{flex:0 0 auto;width:100%}
+.row-cols-md-2>*{flex:0 0 auto;width:50%}.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-md-4>*{flex:0 0 auto;width:25%}.row-cols-md-5>*{flex:0 0 auto;width:20%}
+.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}.col-md-auto{flex:0 0 auto;width:auto}
+.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}
+.col-md-3{flex:0 0 auto;width:25%}.col-md-4{flex:0 0 auto;width:33.33333333%}.col-md-5{flex:0 0 auto;width:41.66666667%}
+.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}.col-md-8{flex:0 0 auto;width:66.66666667%}
+.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}.col-md-11{flex:0 0 auto;width:91.66666667%}
+.col-md-12{flex:0 0 auto;width:100%}.offset-md-0{margin-left:0}.offset-md-1{margin-left:8.33333333%}
+.offset-md-2{margin-left:16.66666667%}.offset-md-3{margin-left:25%}.offset-md-4{margin-left:33.33333333%}
+.offset-md-5{margin-left:41.66666667%}.offset-md-6{margin-left:50%}.offset-md-7{margin-left:58.33333333%}
+.offset-md-8{margin-left:66.66666667%}.offset-md-9{margin-left:75%}.offset-md-10{margin-left:83.33333333%}
+.offset-md-11{margin-left:91.66666667%}.g-md-0,.gx-md-0{--bs-gutter-x:0}.g-md-0,.gy-md-0{--bs-gutter-y:0}
+.g-md-1,.gx-md-1{--bs-gutter-x:.25rem}.g-md-1,.gy-md-1{--bs-gutter-y:.25rem}.g-md-2,.gx-md-2{--bs-gutter-x:.5rem}
+.g-md-2,.gy-md-2{--bs-gutter-y:.5rem}.g-md-3,.gx-md-3{--bs-gutter-x:1rem}.g-md-3,.gy-md-3{--bs-gutter-y:1rem}
+.g-md-4,.gx-md-4{--bs-gutter-x:1.5rem}.g-md-4,.gy-md-4{--bs-gutter-y:1.5rem}.g-md-5,.gx-md-5{--bs-gutter-x:3rem}
+.g-md-5,.gy-md-5{--bs-gutter-y:3rem}}@media(min-width:992px){.col-lg{flex:1 0 0}.row-cols-lg-auto>*{flex:0 0 auto;width:auto}
+.row-cols-lg-1>*{flex:0 0 auto;width:100%}.row-cols-lg-2>*{flex:0 0 auto;width:50%}
+.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-lg-4>*{flex:0 0 auto;width:25%}
+.row-cols-lg-5>*{flex:0 0 auto;width:20%}.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-lg-auto{flex:0 0 auto;width:auto}.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}
+.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-5{flex:0 0 auto;width:41.66666667%}
+.col-lg-6{flex:0 0 auto;width:50%}.col-lg-7{flex:0 0 auto;width:58.33333333%}.col-lg-8{flex:0 0 auto;width:66.66666667%}
+.col-lg-9{flex:0 0 auto;width:75%}.col-lg-10{flex:0 0 auto;width:83.33333333%}.col-lg-11{flex:0 0 auto;width:91.66666667%}
+.col-lg-12{flex:0 0 auto;width:100%}.offset-lg-0{margin-left:0}.offset-lg-1{margin-left:8.33333333%}
+.offset-lg-2{margin-left:16.66666667%}.offset-lg-3{margin-left:25%}.offset-lg-4{margin-left:33.33333333%}
+.offset-lg-5{margin-left:41.66666667%}.offset-lg-6{margin-left:50%}.offset-lg-7{margin-left:58.33333333%}
+.offset-lg-8{margin-left:66.66666667%}.offset-lg-9{margin-left:75%}.offset-lg-10{margin-left:83.33333333%}
+.offset-lg-11{margin-left:91.66666667%}.g-lg-0,.gx-lg-0{--bs-gutter-x:0}.g-lg-0,.gy-lg-0{--bs-gutter-y:0}
+.g-lg-1,.gx-lg-1{--bs-gutter-x:.25rem}.g-lg-1,.gy-lg-1{--bs-gutter-y:.25rem}.g-lg-2,.gx-lg-2{--bs-gutter-x:.5rem}
+.g-lg-2,.gy-lg-2{--bs-gutter-y:.5rem}.g-lg-3,.gx-lg-3{--bs-gutter-x:1rem}.g-lg-3,.gy-lg-3{--bs-gutter-y:1rem}
+.g-lg-4,.gx-lg-4{--bs-gutter-x:1.5rem}.g-lg-4,.gy-lg-4{--bs-gutter-y:1.5rem}.g-lg-5,.gx-lg-5{--bs-gutter-x:3rem}
+.g-lg-5,.gy-lg-5{--bs-gutter-y:3rem}}@media(min-width:1200px){.col-xl{flex:1 0 0}
+.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xl-auto{flex:0 0 auto;width:auto}
+.col-xl-1{flex:0 0 auto;width:8.33333333%}.col-xl-2{flex:0 0 auto;width:16.66666667%}
+.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4{flex:0 0 auto;width:33.33333333%}.col-xl-5{flex:0 0 auto;width:41.66666667%}
+.col-xl-6{flex:0 0 auto;width:50%}.col-xl-7{flex:0 0 auto;width:58.33333333%}.col-xl-8{flex:0 0 auto;width:66.66666667%}
+.col-xl-9{flex:0 0 auto;width:75%}.col-xl-10{flex:0 0 auto;width:83.33333333%}.col-xl-11{flex:0 0 auto;width:91.66666667%}
+.col-xl-12{flex:0 0 auto;width:100%}.offset-xl-0{margin-left:0}.offset-xl-1{margin-left:8.33333333%}
+.offset-xl-2{margin-left:16.66666667%}.offset-xl-3{margin-left:25%}.offset-xl-4{margin-left:33.33333333%}
+.offset-xl-5{margin-left:41.66666667%}.offset-xl-6{margin-left:50%}.offset-xl-7{margin-left:58.33333333%}
+.offset-xl-8{margin-left:66.66666667%}.offset-xl-9{margin-left:75%}.offset-xl-10{margin-left:83.33333333%}
+.offset-xl-11{margin-left:91.66666667%}.g-xl-0,.gx-xl-0{--bs-gutter-x:0}.g-xl-0,.gy-xl-0{--bs-gutter-y:0}
+.g-xl-1,.gx-xl-1{--bs-gutter-x:.25rem}.g-xl-1,.gy-xl-1{--bs-gutter-y:.25rem}.g-xl-2,.gx-xl-2{--bs-gutter-x:.5rem}
+.g-xl-2,.gy-xl-2{--bs-gutter-y:.5rem}.g-xl-3,.gx-xl-3{--bs-gutter-x:1rem}.g-xl-3,.gy-xl-3{--bs-gutter-y:1rem}
+.g-xl-4,.gx-xl-4{--bs-gutter-x:1.5rem}.g-xl-4,.gy-xl-4{--bs-gutter-y:1.5rem}.g-xl-5,.gx-xl-5{--bs-gutter-x:3rem}
+.g-xl-5,.gy-xl-5{--bs-gutter-y:3rem}}@media(min-width:1400px){.col-xxl{flex:1 0 0}
+.row-cols-xxl-auto>*{flex:0 0 auto;width:auto}.row-cols-xxl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xxl-2>*{flex:0 0 auto;width:50%}.row-cols-xxl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xxl-4>*{flex:0 0 auto;width:25%}.row-cols-xxl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xxl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xxl-auto{flex:0 0 auto;width:auto}
+.col-xxl-1{flex:0 0 auto;width:8.33333333%}.col-xxl-2{flex:0 0 auto;width:16.66666667%}
+.col-xxl-3{flex:0 0 auto;width:25%}.col-xxl-4{flex:0 0 auto;width:33.33333333%}.col-xxl-5{flex:0 0 auto;width:41.66666667%}
+.col-xxl-6{flex:0 0 auto;width:50%}.col-xxl-7{flex:0 0 auto;width:58.33333333%}.col-xxl-8{flex:0 0 auto;width:66.66666667%}
+.col-xxl-9{flex:0 0 auto;width:75%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}.col-xxl-11{flex:0 0 auto;width:91.66666667%}
+.col-xxl-12{flex:0 0 auto;width:100%}.offset-xxl-0{margin-left:0}.offset-xxl-1{margin-left:8.33333333%}
+.offset-xxl-2{margin-left:16.66666667%}.offset-xxl-3{margin-left:25%}.offset-xxl-4{margin-left:33.33333333%}
+.offset-xxl-5{margin-left:41.66666667%}.offset-xxl-6{margin-left:50%}.offset-xxl-7{margin-left:58.33333333%}
+.offset-xxl-8{margin-left:66.66666667%}.offset-xxl-9{margin-left:75%}.offset-xxl-10{margin-left:83.33333333%}
+.offset-xxl-11{margin-left:91.66666667%}.g-xxl-0,.gx-xxl-0{--bs-gutter-x:0}.g-xxl-0,.gy-xxl-0{--bs-gutter-y:0}
+.g-xxl-1,.gx-xxl-1{--bs-gutter-x:.25rem}.g-xxl-1,.gy-xxl-1{--bs-gutter-y:.25rem}.g-xxl-2,.gx-xxl-2{--bs-gutter-x:.5rem}
+.g-xxl-2,.gy-xxl-2{--bs-gutter-y:.5rem}.g-xxl-3,.gx-xxl-3{--bs-gutter-x:1rem}.g-xxl-3,.gy-xxl-3{--bs-gutter-y:1rem}
+.g-xxl-4,.gx-xxl-4{--bs-gutter-x:1.5rem}.g-xxl-4,.gy-xxl-4{--bs-gutter-y:1.5rem}.g-xxl-5,.gx-xxl-5{--bs-gutter-x:3rem}
+.g-xxl-5,.gy-xxl-5{--bs-gutter-y:3rem}}@keyframes moveArrow{0%,100%{opacity:1}
+50%{-webkit-transform:translateX(5px);opacity:1}}div.cifras{margin-top:10px;margin-bottom:10px}
+div.cifras>.uva-cifras>.uva-cifras-titulo{margin-bottom:10px}div.cifras>.uva-cifras>.uva-cifras-titulo>div{font-family:Montserrat,sans-serif;border-bottom:1px solid #000}
+div.cifras>.uva-cifras>.uva-cifras-titulo>div>h1{position:relative;bottom:-7px;font-size:1.9em;font-weight:500;padding-right:20px;padding-bottom:7px;text-transform:uppercase;margin-right:15px;font-family:Montserrat,sans-serif;color:#000;line-height:1em;margin-bottom:.1em;margin-top:.1em}
+div.cifras>.uva-cifras>.uva-cifras-contenido{background-color:#2d5089;padding:1em;margin-bottom:10px}
+div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-titulo{border-bottom:1px solid #fff}
+div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-titulo>h3{color:#fff;font-family:Lato,sans-serif;font-weight:400;font-size:1.5em}
+div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-contenido>.uva-cifras-contenido-pagina-elemento{padding:1em}
+div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-contenido>.uva-cifras-contenido-pagina-elemento>.uva-cifras-contenido-pagina-elemento-cifra{color:#fff;text-align:center;font-family:Montserrat,sans-serif;font-weight:700;font-size:2.2em}
+div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina>.uva-cifras-contenido-pagina-contenido>.uva-cifras-contenido-pagina-elemento>.uva-cifras-contenido-pagina-elemento-texto{color:#fff;text-align:center;font-family:Montserrat,sans-serif;font-weight:400;font-size:1.2em}
+div.cifras>.uva-cifras>.uva-cifras-contenido>.uva-cifras-contenido-pagina.hidden{display:none}
+div.cifras>.uva-cifras>.uva-cifras-puntos{text-align:center}div.cifras>.uva-cifras>.uva-cifras-puntos>div>a>.slideshow-dot{margin:0 .2em;width:40px;height:5px;border:1px solid #000;background-color:#fff;display:inline-block;text-align:center}
+div.cifras>.uva-cifras>.uva-cifras-puntos>div>a>.slideshow-dot.active{background-color:#000}
+
+@charset "UTF-8";.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto}
+@media(min-width:576px){.container,.container-sm{max-width:540px}}@media(min-width:768px){.container,.container-md,.container-sm{max-width:720px}
+}@media(min-width:992px){.container,.container-lg,.container-md,.container-sm{max-width:960px}
+}@media(min-width:1200px){.container,.container-lg,.container-md,.container-sm,.container-xl{max-width:1140px}
+}@media(min-width:1400px){.container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{max-width:1320px}
+}.filaimagenes,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-titulo,.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}
+.filaimagenes>*,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>*,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>*,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-titulo>*,.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}
+.col{flex:1 0 0}.row-cols-auto>*{flex:0 0 auto;width:auto}.row-cols-1>*{flex:0 0 auto;width:100%}
+.row-cols-2>*{flex:0 0 auto;width:50%}.row-cols-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-4>*{flex:0 0 auto;width:25%}.row-cols-5>*{flex:0 0 auto;width:20%}.row-cols-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-auto{flex:0 0 auto;width:auto}.col-1{flex:0 0 auto;width:8.33333333%}.col-2,.col-3{flex:0 0 auto}
+.col-2{width:16.66666667%}.col-3{width:25%}.col-4,.col-5{flex:0 0 auto}.col-4{width:33.33333333%}
+.col-5{width:41.66666667%}.col-6,.col-7{flex:0 0 auto}.col-6{width:50%}.col-7{width:58.33333333%}
+.col-8,.col-9{flex:0 0 auto}.col-8{width:66.66666667%}.col-9{width:75%}.col-10{flex:0 0 auto;width:83.33333333%}
+.col-11{flex:0 0 auto;width:91.66666667%}.col-12,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-titulo>.title,.filaimagenes>.filaimagenes-titulo{flex:0 0 auto;width:100%}
+.offset-1{margin-left:8.33333333%}.offset-2{margin-left:16.66666667%}.offset-3{margin-left:25%}
+.offset-4{margin-left:33.33333333%}.offset-5{margin-left:41.66666667%}.offset-6{margin-left:50%}
+.offset-7{margin-left:58.33333333%}.offset-8{margin-left:66.66666667%}.offset-9{margin-left:75%}
+.offset-10{margin-left:83.33333333%}.offset-11{margin-left:91.66666667%}.g-0,.gx-0{--bs-gutter-x:0}
+.g-0,.gy-0{--bs-gutter-y:0}.g-1,.gx-1{--bs-gutter-x:.25rem}.g-1,.gy-1{--bs-gutter-y:.25rem}
+.g-2,.gx-2{--bs-gutter-x:.5rem}.g-2,.gy-2{--bs-gutter-y:.5rem}.g-3,.gx-3{--bs-gutter-x:1rem}
+.g-3,.gy-3{--bs-gutter-y:1rem}.g-4,.gx-4{--bs-gutter-x:1.5rem}.g-4,.gy-4{--bs-gutter-y:1.5rem}
+.g-5,.gx-5{--bs-gutter-x:3rem}.g-5,.gy-5{--bs-gutter-y:3rem}@media(min-width:576px){.col-sm{flex:1 0 0}
+.row-cols-sm-auto>*{flex:0 0 auto;width:auto}.row-cols-sm-1>*{flex:0 0 auto;width:100%}
+.row-cols-sm-2>*{flex:0 0 auto;width:50%}.row-cols-sm-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-sm-4>*{flex:0 0 auto;width:25%}.row-cols-sm-5>*{flex:0 0 auto;width:20%}
+.row-cols-sm-6>*{flex:0 0 auto;width:16.6666666667%}.col-sm-auto{flex:0 0 auto;width:auto}
+.col-sm-1{flex:0 0 auto;width:8.33333333%}.col-sm-2{flex:0 0 auto;width:16.66666667%}
+.col-sm-3{flex:0 0 auto;width:25%}.col-sm-4{flex:0 0 auto;width:33.33333333%}.col-sm-5{flex:0 0 auto;width:41.66666667%}
+.col-sm-6{flex:0 0 auto;width:50%}.col-sm-7{flex:0 0 auto;width:58.33333333%}.col-sm-8{flex:0 0 auto;width:66.66666667%}
+.col-sm-9{flex:0 0 auto;width:75%}.col-sm-10{flex:0 0 auto;width:83.33333333%}.col-sm-11{flex:0 0 auto;width:91.66666667%}
+.col-sm-12{flex:0 0 auto;width:100%}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333333%}
+.offset-sm-2{margin-left:16.66666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333333%}
+.offset-sm-5{margin-left:41.66666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333333%}
+.offset-sm-8{margin-left:66.66666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333333%}
+.offset-sm-11{margin-left:91.66666667%}.g-sm-0,.gx-sm-0{--bs-gutter-x:0}.g-sm-0,.gy-sm-0{--bs-gutter-y:0}
+.g-sm-1,.gx-sm-1{--bs-gutter-x:.25rem}.g-sm-1,.gy-sm-1{--bs-gutter-y:.25rem}.g-sm-2,.gx-sm-2{--bs-gutter-x:.5rem}
+.g-sm-2,.gy-sm-2{--bs-gutter-y:.5rem}.g-sm-3,.gx-sm-3{--bs-gutter-x:1rem}.g-sm-3,.gy-sm-3{--bs-gutter-y:1rem}
+.g-sm-4,.gx-sm-4{--bs-gutter-x:1.5rem}.g-sm-4,.gy-sm-4{--bs-gutter-y:1.5rem}.g-sm-5,.gx-sm-5{--bs-gutter-x:3rem}
+.g-sm-5,.gy-sm-5{--bs-gutter-y:3rem}}@media(min-width:768px){.col-md{flex:1 0 0}.row-cols-md-auto>*{flex:0 0 auto;width:auto}
+.row-cols-md-1>*{flex:0 0 auto;width:100%}.row-cols-md-2>*{flex:0 0 auto;width:50%}
+.row-cols-md-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-md-4>*{flex:0 0 auto;width:25%}
+.row-cols-md-5>*{flex:0 0 auto;width:20%}.row-cols-md-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-md-auto{flex:0 0 auto;width:auto}.col-md-1{flex:0 0 auto;width:8.33333333%}.col-md-2{flex:0 0 auto;width:16.66666667%}
+.col-md-3{flex:0 0 auto;width:25%}.col-md-4{flex:0 0 auto;width:33.33333333%}.col-md-5{flex:0 0 auto;width:41.66666667%}
+.col-md-6{flex:0 0 auto;width:50%}.col-md-7{flex:0 0 auto;width:58.33333333%}.col-md-8{flex:0 0 auto;width:66.66666667%}
+.col-md-9{flex:0 0 auto;width:75%}.col-md-10{flex:0 0 auto;width:83.33333333%}.col-md-11{flex:0 0 auto;width:91.66666667%}
+.col-md-12{flex:0 0 auto;width:100%}.offset-md-0{margin-left:0}.offset-md-1{margin-left:8.33333333%}
+.offset-md-2{margin-left:16.66666667%}.offset-md-3{margin-left:25%}.offset-md-4{margin-left:33.33333333%}
+.offset-md-5{margin-left:41.66666667%}.offset-md-6{margin-left:50%}.offset-md-7{margin-left:58.33333333%}
+.offset-md-8{margin-left:66.66666667%}.offset-md-9{margin-left:75%}.offset-md-10{margin-left:83.33333333%}
+.offset-md-11{margin-left:91.66666667%}.g-md-0,.gx-md-0{--bs-gutter-x:0}.g-md-0,.gy-md-0{--bs-gutter-y:0}
+.g-md-1,.gx-md-1{--bs-gutter-x:.25rem}.g-md-1,.gy-md-1{--bs-gutter-y:.25rem}.g-md-2,.gx-md-2{--bs-gutter-x:.5rem}
+.g-md-2,.gy-md-2{--bs-gutter-y:.5rem}.g-md-3,.gx-md-3{--bs-gutter-x:1rem}.g-md-3,.gy-md-3{--bs-gutter-y:1rem}
+.g-md-4,.gx-md-4{--bs-gutter-x:1.5rem}.g-md-4,.gy-md-4{--bs-gutter-y:1.5rem}.g-md-5,.gx-md-5{--bs-gutter-x:3rem}
+.g-md-5,.gy-md-5{--bs-gutter-y:3rem}}@media(min-width:992px){.col-lg{flex:1 0 0}.row-cols-lg-auto>*{flex:0 0 auto;width:auto}
+.row-cols-lg-1>*{flex:0 0 auto;width:100%}.row-cols-lg-2>*{flex:0 0 auto;width:50%}
+.row-cols-lg-3>*{flex:0 0 auto;width:33.3333333333%}.row-cols-lg-4>*{flex:0 0 auto;width:25%}
+.row-cols-lg-5>*{flex:0 0 auto;width:20%}.row-cols-lg-6>*{flex:0 0 auto;width:16.6666666667%}
+.col-lg-auto{flex:0 0 auto;width:auto}.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}
+.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-5{flex:0 0 auto;width:41.66666667%}
+.col-lg-6{flex:0 0 auto;width:50%}.col-lg-7{flex:0 0 auto;width:58.33333333%}.col-lg-8{flex:0 0 auto;width:66.66666667%}
+.col-lg-9{flex:0 0 auto;width:75%}.col-lg-10{flex:0 0 auto;width:83.33333333%}.col-lg-11{flex:0 0 auto;width:91.66666667%}
+.col-lg-12{flex:0 0 auto;width:100%}.offset-lg-0{margin-left:0}.offset-lg-1{margin-left:8.33333333%}
+.offset-lg-2{margin-left:16.66666667%}.offset-lg-3{margin-left:25%}.offset-lg-4{margin-left:33.33333333%}
+.offset-lg-5{margin-left:41.66666667%}.offset-lg-6{margin-left:50%}.offset-lg-7{margin-left:58.33333333%}
+.offset-lg-8{margin-left:66.66666667%}.offset-lg-9{margin-left:75%}.offset-lg-10{margin-left:83.33333333%}
+.offset-lg-11{margin-left:91.66666667%}.g-lg-0,.gx-lg-0{--bs-gutter-x:0}.g-lg-0,.gy-lg-0{--bs-gutter-y:0}
+.g-lg-1,.gx-lg-1{--bs-gutter-x:.25rem}.g-lg-1,.gy-lg-1{--bs-gutter-y:.25rem}.g-lg-2,.gx-lg-2{--bs-gutter-x:.5rem}
+.g-lg-2,.gy-lg-2{--bs-gutter-y:.5rem}.g-lg-3,.gx-lg-3{--bs-gutter-x:1rem}.g-lg-3,.gy-lg-3{--bs-gutter-y:1rem}
+.g-lg-4,.gx-lg-4{--bs-gutter-x:1.5rem}.g-lg-4,.gy-lg-4{--bs-gutter-y:1.5rem}.g-lg-5,.gx-lg-5{--bs-gutter-x:3rem}
+.g-lg-5,.gy-lg-5{--bs-gutter-y:3rem}}@media(min-width:1200px){.col-xl{flex:1 0 0}
+.row-cols-xl-auto>*{flex:0 0 auto;width:auto}.row-cols-xl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xl-2>*{flex:0 0 auto;width:50%}.row-cols-xl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xl-4>*{flex:0 0 auto;width:25%}.row-cols-xl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xl-auto{flex:0 0 auto;width:auto}
+.col-xl-1{flex:0 0 auto;width:8.33333333%}.col-xl-2{flex:0 0 auto;width:16.66666667%}
+.col-xl-3{flex:0 0 auto;width:25%}.col-xl-4{flex:0 0 auto;width:33.33333333%}.col-xl-5{flex:0 0 auto;width:41.66666667%}
+.col-xl-6{flex:0 0 auto;width:50%}.col-xl-7{flex:0 0 auto;width:58.33333333%}.col-xl-8{flex:0 0 auto;width:66.66666667%}
+.col-xl-9{flex:0 0 auto;width:75%}.col-xl-10{flex:0 0 auto;width:83.33333333%}.col-xl-11{flex:0 0 auto;width:91.66666667%}
+.col-xl-12{flex:0 0 auto;width:100%}.offset-xl-0{margin-left:0}.offset-xl-1{margin-left:8.33333333%}
+.offset-xl-2{margin-left:16.66666667%}.offset-xl-3{margin-left:25%}.offset-xl-4{margin-left:33.33333333%}
+.offset-xl-5{margin-left:41.66666667%}.offset-xl-6{margin-left:50%}.offset-xl-7{margin-left:58.33333333%}
+.offset-xl-8{margin-left:66.66666667%}.offset-xl-9{margin-left:75%}.offset-xl-10{margin-left:83.33333333%}
+.offset-xl-11{margin-left:91.66666667%}.g-xl-0,.gx-xl-0{--bs-gutter-x:0}.g-xl-0,.gy-xl-0{--bs-gutter-y:0}
+.g-xl-1,.gx-xl-1{--bs-gutter-x:.25rem}.g-xl-1,.gy-xl-1{--bs-gutter-y:.25rem}.g-xl-2,.gx-xl-2{--bs-gutter-x:.5rem}
+.g-xl-2,.gy-xl-2{--bs-gutter-y:.5rem}.g-xl-3,.gx-xl-3{--bs-gutter-x:1rem}.g-xl-3,.gy-xl-3{--bs-gutter-y:1rem}
+.g-xl-4,.gx-xl-4{--bs-gutter-x:1.5rem}.g-xl-4,.gy-xl-4{--bs-gutter-y:1.5rem}.g-xl-5,.gx-xl-5{--bs-gutter-x:3rem}
+.g-xl-5,.gy-xl-5{--bs-gutter-y:3rem}}@media(min-width:1400px){.col-xxl{flex:1 0 0}
+.row-cols-xxl-auto>*{flex:0 0 auto;width:auto}.row-cols-xxl-1>*{flex:0 0 auto;width:100%}
+.row-cols-xxl-2>*{flex:0 0 auto;width:50%}.row-cols-xxl-3>*{flex:0 0 auto;width:33.3333333333%}
+.row-cols-xxl-4>*{flex:0 0 auto;width:25%}.row-cols-xxl-5>*{flex:0 0 auto;width:20%}
+.row-cols-xxl-6>*{flex:0 0 auto;width:16.6666666667%}.col-xxl-auto{flex:0 0 auto;width:auto}
+.col-xxl-1{flex:0 0 auto;width:8.33333333%}.col-xxl-2{flex:0 0 auto;width:16.66666667%}
+.col-xxl-3{flex:0 0 auto;width:25%}.col-xxl-4{flex:0 0 auto;width:33.33333333%}.col-xxl-5{flex:0 0 auto;width:41.66666667%}
+.col-xxl-6{flex:0 0 auto;width:50%}.col-xxl-7{flex:0 0 auto;width:58.33333333%}.col-xxl-8{flex:0 0 auto;width:66.66666667%}
+.col-xxl-9{flex:0 0 auto;width:75%}.col-xxl-10{flex:0 0 auto;width:83.33333333%}.col-xxl-11{flex:0 0 auto;width:91.66666667%}
+.col-xxl-12{flex:0 0 auto;width:100%}.offset-xxl-0{margin-left:0}.offset-xxl-1{margin-left:8.33333333%}
+.offset-xxl-2{margin-left:16.66666667%}.offset-xxl-3{margin-left:25%}.offset-xxl-4{margin-left:33.33333333%}
+.offset-xxl-5{margin-left:41.66666667%}.offset-xxl-6{margin-left:50%}.offset-xxl-7{margin-left:58.33333333%}
+.offset-xxl-8{margin-left:66.66666667%}.offset-xxl-9{margin-left:75%}.offset-xxl-10{margin-left:83.33333333%}
+.offset-xxl-11{margin-left:91.66666667%}.g-xxl-0,.gx-xxl-0{--bs-gutter-x:0}.g-xxl-0,.gy-xxl-0{--bs-gutter-y:0}
+.g-xxl-1,.gx-xxl-1{--bs-gutter-x:.25rem}.g-xxl-1,.gy-xxl-1{--bs-gutter-y:.25rem}.g-xxl-2,.gx-xxl-2{--bs-gutter-x:.5rem}
+.g-xxl-2,.gy-xxl-2{--bs-gutter-y:.5rem}.g-xxl-3,.gx-xxl-3{--bs-gutter-x:1rem}.g-xxl-3,.gy-xxl-3{--bs-gutter-y:1rem}
+.g-xxl-4,.gx-xxl-4{--bs-gutter-x:1.5rem}.g-xxl-4,.gy-xxl-4{--bs-gutter-y:1.5rem}.g-xxl-5,.gx-xxl-5{--bs-gutter-x:3rem}
+.g-xxl-5,.gy-xxl-5{--bs-gutter-y:3rem}}@keyframes moveArrow{0%,100%{opacity:1}
+50%{-webkit-transform:translateX(5px);opacity:1}}.filaimagenes,.filaimagenes>.filaimagenes-titulo>.title{margin-bottom:10px}
+.filaimagenes>.filaimagenes-titulo>.title>h2{font-family:Lato,sans-serif;font-weight:700;font-size:2em;color:#13347d}
+@media(min-width:576px){.filaimagenes>.filaimagenes-contenido{flex:0 0 auto;width:100%}
+}@media(min-width:768px){.filaimagenes>.filaimagenes-contenido.columnas-1{flex:0 0 auto;width:8.33333333%}
+.filaimagenes>.filaimagenes-contenido.columnas-2{flex:0 0 auto;width:16.66666667%}
+.filaimagenes>.filaimagenes-contenido.columnas-3{flex:0 0 auto;width:25%}.filaimagenes>.filaimagenes-contenido.columnas-4{flex:0 0 auto;width:33.33333333%}
+.filaimagenes>.filaimagenes-contenido.columnas-5{flex:0 0 auto;width:41.66666667%}
+.filaimagenes>.filaimagenes-contenido.columnas-6{flex:0 0 auto;width:50%}.filaimagenes>.filaimagenes-contenido.columnas-7{flex:0 0 auto;width:58.33333333%}
+.filaimagenes>.filaimagenes-contenido.columnas-8{flex:0 0 auto;width:66.66666667%}
+.filaimagenes>.filaimagenes-contenido.columnas-9{flex:0 0 auto;width:75%}.filaimagenes>.filaimagenes-contenido.columnas-10{flex:0 0 auto;width:83.33333333%}
+.filaimagenes>.filaimagenes-contenido.columnas-11{flex:0 0 auto;width:91.66666667%}
+.filaimagenes>.filaimagenes-contenido.columnas-12{flex:0 0 auto;width:100%}}.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento{margin-bottom:10px}
+@media(min-width:576px){.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento{flex:0 0 auto;width:100%}
+}@media(min-width:768px){.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-1{flex:0 0 auto;width:8.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-2{flex:0 0 auto;width:16.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-3{flex:0 0 auto;width:25%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-4{flex:0 0 auto;width:33.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-5{flex:0 0 auto;width:41.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-6{flex:0 0 auto;width:50%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-7{flex:0 0 auto;width:58.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-8{flex:0 0 auto;width:66.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-9{flex:0 0 auto;width:75%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-10{flex:0 0 auto;width:83.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-11{flex:0 0 auto;width:91.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento.columnas-12{flex:0 0 auto;width:100%}
+}.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen{margin-bottom:10px}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-titulo>.title>h2{font-family:Lato,sans-serif;font-weight:700;font-size:2em;color:#13347d}
+@media(min-width:576px){.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div{flex:0 0 auto;width:100%}
+}@media(min-width:768px){.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-1{flex:0 0 auto;width:8.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-2{flex:0 0 auto;width:16.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-3{flex:0 0 auto;width:25%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-4{flex:0 0 auto;width:33.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-5{flex:0 0 auto;width:41.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-6{flex:0 0 auto;width:50%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-7{flex:0 0 auto;width:58.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-8{flex:0 0 auto;width:66.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-9{flex:0 0 auto;width:75%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-10{flex:0 0 auto;width:83.33333333%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-11{flex:0 0 auto;width:91.66666667%}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div.columnas-12{flex:0 0 auto;width:100%}
+}.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div>a>img,.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>div>img{width:100%;height:auto}
+.filaimagenes>.filaimagenes-contenido>.filaimagenes-contenido-elementos>.filaimagenes-contenido-elemento>.imagen>.imagen-contenido>span{font-family:Montserrat;font-size:.9em;font-weight:300}
+
+
+</style>
+</head> 
+  <body>
+	<!-- HEADER -->
+     <header>
+        <div id="header" class="header-uva">
+            <div id="content" class="header-uva-contenido">
+                <div>
+
+                    <div class="header-uva-contenido-enlaces">
+                        <a id="locale" alt="Seleccionar idioma" rel="noopener"
+                            href="https://universityofvalladolid.uva.es">
+                            <span class=" ">English</span>
+                            <img alt="Web en inglés" src="/resources/enterprise/icons/solid/globe.svg"
+                                srcset="/resources/enterprise/icons/solid/globe.svg">
+                        </a>
+                        <span class="separador_left "></span>
+                        <a target="_blank" rel="noopener" href="https://directorio.uva.es/inicio"><span
+                                class=" ">Directorio</span>
+                            <img alt="Directorio telefónico y de correo de la Universidad de Valladolid"
+                                src="/resources/enterprise/icons/solid/address-book.svg"
+                                srcset="/resources/enterprise/icons/solid/address-book.svg">
+                        </a>
+
+
+                        <span class="separador_left"></span>
+                        <a target="_blank" rel="noopener" href="https://miportal.uva.es"><span class="">Comunidad</span>
+                            <i class="fas fa-lock"></i>
+                            <img alt="Acceso a comunidad (con autenticación)"
+                                src="/resources/enterprise/icons/solid/lock.svg"
+                                srcset="/resources/enterprise/icons/solid/lock.svg">
+                        </a>
+                        <span class="separador_left"></span>
+                        <a target="_blank" rel="noopener" href="https://digital.uva.es/tematica/correo-electronico/">
+                            <span class="">Correo</span>
+                            <img alt="Correo electrónico" src="/resources/enterprise/icons/solid/envelope.svg"
+                                srcset="/resources/enterprise/icons/solid/envelope.svg">
+                        </a>
+
+                        <span class="separador_left "></span>
+                        <a target="_blank" rel="noopener" href="https://campusvirtual.uva.es">
+                            <span class=" ">C. Virtual</span>
+                            <img alt="Campus Virtual" src="/resources/enterprise/icons/solid/chalkboard-teacher.svg"
+                                srcset="/resources/enterprise/icons/solid/chalkboard-teacher.svg">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- Navegacion -->
+<div class="navegacion-uva">
+	<div class="navegacion-principal">
+		<div>
+			<img alt="Universidad de Valladolid" src="/resources/enterprise/img/escudouva.png" />
+
+		</div>
+		<nav>
+			<div id="navegacion_superior" class="navegacion" type="2">
+				<div class="uva-navegacion">
+					<ul id="level_0" class="show navegacion-horizontal root">
+						<li role="none"><a role="menuitem" class="" href="/1.uva/">La UVa </a></li>
+						<li role="none"><a role="menuitem" class="" href="/2.estudios/">Estudios</a></li>
+						<li role="none"><a role="menuitem" class="" href="/internacional.html">Internacional</a></li>
+						<li role="none"><a role="menuitem" class="" href="/investigacion.html">Investigación</a></li>
+						<li role="none"><a role="menuitem" class="" href="/6.vidauniversitaria/">Vive la UVa</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div><!-- ELEMENTOS -->
+	<div  id="contenedor_superior" ><div class=" flexible">
+	<div class="flexible-contenido">
+	<script defer="defer" src="/resources/enterprise/js/news-slideshow-without.js"></script>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="carrusel" class="noticiascarrusel" url="/ws/noticias-portada.json"></div></div>
+</div>
+<div class=" flexible">
+	<div class="flexible-contenido">
+	<script defer="defer" src="/resources/enterprise/js/noticias.js"></script>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="noticias" class="noticias" title="Noticias" num="6" locale="es_ES" url="/ws/noticias-last.json" more="true" uri="https://comunicacion.uva.es"></div></div>
+</div>
+<div class=" flexible">
+	<div class="flexible-contenido">
+	<script defer="defer" src="/resources/enterprise/js/eventos.js"></script>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="eventos" class="eventos" title="Eventos" url="/ws/eventos.json" num="20" more="true" uri="https://comunicacion.uva.es"></div></div>
+</div>
+<div class=" flexible">
+	<div class="flexible-contenido">
+	<script defer="defer" src="/resources/enterprise/js/cifras.js"></script>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="cifras" class="cifras" url="/ws/cifras.json"></div></div>
+</div>
+<div class="filaimagenes">
+	<div class="filaimagenes-contenido columnas-12">
+	
+			<div class="filaimagenes-contenido-elementos ">
+				<div class="filaimagenes-contenido-elemento columnas-3">
+					<div class="imagen" style="">
+	<!-- Imagen.tag hidetitle true -->
+	<!-- Imagen.tag link /sites/comunicacion/valladolidciudaduniversitaria/index.html -->
+	<!-- Imagen.tag src /_imagenes/20191111valladolidciudaduniversitaria.png -->
+	<div class="imagen-contenido justify-content-start">
+		<div class="columnas-">
+			<a href="http://comunicacion.uva.es/es/valladolidciudaduniversitaria/index.html" target="_blank" alt="Valladolid Ciudad Universitaria">
+					<img src="/export/sites/uva/_imagenes/20191111valladolidciudaduniversitaria.png_1865012492.png" width="948" height="170" border="0" role="img" alt="Valladolid Ciudad Universitaria" class="img-fluid rounded float-left" aria-label="Valladolid Ciudad Universitaria" /></a>
+			</div>
+	</div>
+</div></div>
+				<div class="filaimagenes-contenido-elemento columnas-2">
+					<div class="imagen" style="">
+	<!-- Imagen.tag hidetitle true -->
+	<!-- Imagen.tag link  -->
+	<!-- Imagen.tag src /_imagenes/logocei.png -->
+	<div class="imagen-contenido justify-content-start">
+		<div class="columnas-">
+			<img src="/_imagenes/logocei.png" alt="CEI Triangular" class="img-fluid rounded float-left" aria-label="CEI Triangular" />
+			</div>
+	</div>
+</div></div>
+				<div class="filaimagenes-contenido-elemento columnas-1">
+					<div class="imagen" style="">
+	<!-- Imagen.tag hidetitle true -->
+	<!-- Imagen.tag link https://investiga.uva.es/hrs4r/ -->
+	<!-- Imagen.tag src /_imagenes/logohrs4r.png -->
+	<div class="imagen-contenido justify-content-start">
+		<div class="columnas-">
+			<a href="https://investiga.uva.es/hrs4r/" target="_blank" alt="HRS4R">
+					<img src="/export/sites/uva/_imagenes/logohrs4r.png_258062763.png" width="1425" height="965" border="0" role="img" alt="HRS4R" class="img-fluid rounded float-left" aria-label="HRS4R" /></a>
+			</div>
+	</div>
+</div></div>
+				<div class="filaimagenes-contenido-elemento columnas-2">
+					<div class="imagen" style="">
+	<!-- Imagen.tag hidetitle true -->
+	<!-- Imagen.tag link /varios/patrocinadores/santander/ -->
+	<!-- Imagen.tag src /_imagenes/logo_santander.jpg -->
+	<div class="imagen-contenido justify-content-start">
+		<div class="columnas-">
+			<a href="/export/sites/uva/varios/patrocinadores/santander/" target="_blank" alt="Banco Santander">
+					<img src="/export/sites/uva/_imagenes/logo_santander.jpg_2054586477.jpg" width="2326" height="832" border="0" role="img" alt="Banco Santander" class="img-fluid rounded float-left" aria-label="Banco Santander" /></a>
+			</div>
+	</div>
+</div></div>
+				<div class="filaimagenes-contenido-elemento columnas-1">
+					<div class="imagen" style="">
+	<!-- Imagen.tag hidetitle true -->
+	<!-- Imagen.tag link /varios/patrocinadores/btravel/ -->
+	<!-- Imagen.tag src /_imagenes/logo_barcelo.png -->
+	<div class="imagen-contenido justify-content-start">
+		<div class="columnas-">
+			<a href="/export/sites/uva/varios/patrocinadores/btravel/" target="_blank" alt="B the travel brand">
+					<img src="/export/sites/uva/_imagenes/logo_barcelo.png_796589237.png" width="300" height="160" border="0" role="img" alt="B the travel brand" class="img-fluid rounded float-left" aria-label="B the travel brand" /></a>
+			</div>
+	</div>
+</div></div>
+				</div>
+	</div>
+	</div>
+</div><!-- Footer -->
+    <footer >
+  <!-- mapa -->
+  <!--
+  <div id="map" class="container-full mapa">
+    <div class="container">
+      <div class="row">
+        <div class="cell-12 col-md-12 gmap">
+          <iframe title="Mapa de localización"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11924.299444357766!2d-4.726204847456391!3d41.654124535691764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4712b1b3f53785%3A0xe9ec32442c2575f5!2sPalacio+de+Santa+Cruz!5e0!3m2!1ses!2ses!4v1530607016352"
+            width="100%" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+  <div class="footer-uva">
+	  <div class="footer">
+		  <div class=" enlaces">
+			  <h1 class="text-center">Divulgación</h1>
+			  <ul>
+				  <li><a target="_blank" rel="noopener" href="https://comunicacion.uva.es/es_ES/quienessomos.html" role="link" rel="noopener noreferrer">Gabinete de Comunicación</a></li>
+				  <li><a target="_blank" rel="noopener" href="http://ucc.uva.es" role="link" rel="noopener noreferrer">UVaDivulga</a>  </li>
+			  </ul>
+			  <h1 class="text-center" data-i18n-es="Gestión" data-i18n-en="Discover">Información</h1>
+			  <ul>
+					<li><a target="_blank" rel="noopener" href="tel:983423000" role="link">Teléfono de contacto</a></li>
+
+					<li><a target="_blank" rel="noopener" href="https://www.uva.es/varios/autorizaciondeespacios/" role="link">Autorización de espacios</a></li>
+					<li><a target="_blank" rel="noopener" href="https://www.uva.es/accesibilidad/" role="link">Accesibilidad Web</a></li>
+				   <li><a target="_blank" rel="noopener" href="https://www.uva.es/mapaweb.html" role="link">Mapa Web</a></li>
+			  </ul>
+
+		  </div>
+		   <div class="enlaces">
+				  <h1 class="text-center">Descubre</h1>
+				  <ul>
+					<li><a target="_blank" href="https://bienvenida.uva.es/" role="link">Bienvenida</a></li>
+					<li><a target="_blank" rel="noopener" href="http://spanishinvalladolid.com" role="link" rel="noopener noreferrer">Aprende español en Valladolid</a></li>
+				  </ul>
+				  <h1 class="text-center">Administración</h1>
+				  <ul>
+				   <li><a target="_blank" rel="noopener" href="https://portal.sede.uva.es/inicio" role="link">Sede electrónica</a></li>
+					<li><a target="_blank" rel="noopener" href="https://gobiernoabierto.uva.es" role="link">Portal de participación y gobierno abierto</a></li>
+					<li><a target="_blank" rel="noopener" href="https://transparencia.uva.es" role="link" rel="noopener noreferrer">Portal de transparencia</a></li>
+					<li><a target="_blank" rel="noopener" href="https://contrataciondelestado.es/wps/poc?uri=deeplink%3AperfilContratante&amp;idBp=7IJNVbZm%2FMkQK2TEfXGy%2BA%3D%3D" role="link">Perfil del contratante</a></li>
+					<li><a target="_blank" rel="noopener" href="https://canalinformacion.uva.es" role="link">Canal interno de información</a></li>
+
+				  </ul>
+		  </div>
+
+		  <div class="enlaces">
+			<h1 class="text-center" data-i18n-es="UVa" data-i18n-en="UVa">Accesos</h1>
+			  <ul>
+				<li><a target="_blank" rel="noopener" href="http://biblioteca.uva.es" role="link" rel="noopener noreferrer">Biblioteca universitaria</a></li>
+					<li><a target="_blank" rel="noopener" href="https://pas.uva.es" role="link" rel="noopener noreferrer">Área del PAS</a></li>
+					<li><a target="_blank" rel="noopener" href="https://pdi.uva.es" role="link" rel="noopener noreferrer">Área del PDI</a></li>
+					<li><a target="_blank" rel="noopener" href="https://www.uva.es/1.uva/1.08.servicios/index.html" role="link" rel="noopener noreferrer">Otros accesos y servicios</a></li>
+
+				  </ul>
+
+
+		</div>
+		</div>
+		</div>
+		<div class=" pie_enlaces align-items-center">
+			<div class="">
+				<span style="">
+					<a target="_blank" rel="noopener" 
+					   href="https://es-es.facebook.com/Gabinete-de-Comunicaci%C3%B3n-de-la-Universidad-de-Valladolid-187763507920209/"
+					   class="socialicon" role="link" alt="Facebook" aria-label="Facebook">
+						<img alt="facebook" src="/resources/enterprise/icons/brands/facebook-square.svg"  srcset="/resources/enterprise/icons/brands/facebook-square.svg"/>
+					</a>&nbsp;&nbsp; 
+					<a target="_blank" rel="noopener" href="https://twitter.com/uva_es?lang=es" class="socialicon" role="link"
+					   alt="Twitter" aria-label="Twitter">
+						<img alt="twitter"  src="/resources/enterprise/icons/brands/twitter-square.svg"  srcset="/resources/enterprise/icons/brands/twitter-square.svg"/>
+					</a>&nbsp;&nbsp;
+					<a target="_blank" rel="noopener"  href="https://t.me/universidaddevalladolid" class="socialicon" role="link"
+					   alt="telegram" aria-label="telegram">
+						<img  alt="telegram"  src="/resources/enterprise/icons/brands/telegram.svg"  srcset="/resources/enterprise/icons/brands/telegram.svg"/>
+
+					</a>&nbsp;&nbsp;
+					<a target="_blank" rel="noopener"  href="https://www.youtube.com/channel/UC2WHY11-1g3V2i6Hz8G4QCA"
+					   class="socialicon" role="link" alt="Youtube" aria-label="Youtube">
+						<img alt="youtube"  src="/resources/enterprise/icons/brands/youtube-square.svg"  srcset="/resources/enterprise/icons/brands/youtube-square.svg"/>
+					</a>&nbsp;&nbsp;
+					<a target="_blank" rel="noopener"  href="https://www.instagram.com/universidaddevalladolid/" class="socialicon"
+					   role="link" alt="Instagram" aria-label="Instagram">
+						<img  alt="instagram"  src="/resources/enterprise/icons/brands/instagram-square.svg"  srcset="/resources/enterprise/icons/brands/instagram-square.svg"/>
+					</a>&nbsp;&nbsp;
+
+				</span>
+				<div class="lema">
+					<strong data-i18n-es="800 años de innovación" data-i18n-en="800 years of innovation">800
+						años de innovación</strong><br>
+					Sapientia Aedificavit<br>
+					Sibi Domvm
+				</div>
+			</div>
+		</div>
+		
+	  <!-- politica -->
+	  <div class="politica">
+			<div class="politica-titulo">
+				Universidad de Valladolid // Palacio de Santa Cruz, 47002 Valladolid (España)
+			</div>
+			<div class=" politica-content">
+				<p>Los contenidos suministrados por la web están sujetos a los derechos de propiedad
+				  intelectual e industrial y son titularidad exclusiva de Universidad de Valladolid. La
+				  adquisición de algún producto o servicio no confiere al adquiriente ningún derecho de
+				  alteración, explotación, reproducción o distribución del mismo fuera de lo estrictamente
+				  contratado reservándose Universidad de Valladolid todos los derechos. <a rel="noopener" title="proteccion de detos" href="http://www.uva.es/export/sites/uva/1.lauva/1.04.secretariageneral/1.04.08.proteccion_datos/index.html" role="link">Más información</a></p>
+			  </div>
+	  </div>
+	
+</footer>
