@@ -1,6 +1,5 @@
 # Description
-This folder contains a 3D design of a kumiko style lamp. The frame of the lamp, the coupling parts for a E27 bulb and the lamp base were 3D printed. The bar that complite de device is a hollow aluminum bar fixed with screws. 
-The specific bulb inside the lamp allows to change its color and brightness using a smartphone app and also Alexa.
+This folder contains a 3D design of a Kumiko style lamp. The frame of the lamp, the coupling parts for an E27 bulb and the lamp base were 3D printed. The bar that completes the device is a hollow aluminium bar fixed with screws. The special bulb inside the lamp allows its colour and brightness to be changed using a smartphone app and also Alexa.
 
 ![image](https://github.com/user-attachments/assets/2bafd597-27df-4c00-beaa-9f4e8d16170c)
 
