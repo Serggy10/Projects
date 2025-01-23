@@ -9,7 +9,7 @@
 #define BOTON_BAJAR 2
 #define BOTON_SUBIR 1
 
-#define PULSOS_SUBIDA 750
+#define PULSOS_SUBIDA 500
 #define PULSOS_SUBIDA_LENTA 250
 #define PULSOS_BAJADA_LENTA 250
 #define TIEMPOENCENDIDO 18 // En segundos
@@ -123,19 +123,36 @@ void MovimientoAutomatico()
 {
   if (autoON)
   {
-    subiendo = anteriorArriba;
-    bajando = !anteriorArriba;
+    subiendo = !anteriorArriba;
+    bajando = anteriorArriba;
     digitalWrite(RELE_BAJAR, (anteriorArriba) ? 0 : 1);
     digitalWrite(RELE_SUBIR, (!anteriorArriba) ? 0 : 1);
     RampaCorriente(ASCENDENTE);
-    while (autoON &&
-           ((anteriorArriba && pulsos < PULSOS_SUBIDA - PULSOS_SUBIDA_LENTA) ? 1 : 0 || (!anteriorArriba && pulsos > PULSOS_BAJADA_LENTA) ? 1
-                                                                                                                                          : 0))
+    while (autoON)
     {
+      if (!anteriorArriba)
+      {
+        if (pulsos > PULSOS_SUBIDA - PULSOS_SUBIDA_LENTA)
+        {
+          autoON = false;
+          Serial.println("Arriba");
+          break;
+        }
+      }
+      if (anteriorArriba)
+        if (pulsos < PULSOS_BAJADA_LENTA)
+        {
+          autoON = false;
+          Serial.println("Abajo");
+          break;
+        }
+
+      vTaskDelay(10 / portTICK_PERIOD_MS);
     }
     RampaCorriente(DESCENDENTE);
     digitalWrite(RELE_BAJAR, 1);
     digitalWrite(RELE_SUBIR, 1);
+    vTaskDelay(10 / portTICK_PERIOD_MS);
     anteriorArriba = !anteriorArriba;
     autoON = false;
   }
