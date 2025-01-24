@@ -5,7 +5,7 @@
 #define PULSOS_SUBIDA 1000      // Pulsos totales de la altura de la puerta.
 #define PULSOS_SUBIDA_LENTA 250 // Pulsos a los que al subir, la velocidad se reduce
 #define PULSOS_BAJADA_LENTA 250 // Pulsos a los que al bajar la velocidad se reducec
-#define TIEMPO_ENCENDIDO_LED 18 // Tiempo que permanece el LED encendido en segundos para iluminar el garaje.
+#define TIEMPO_ENCENDIDO_LED 18 // Tiempo que permanece el LED encendido en segundos para iluminar el garaje. //TODO Ajustar tiempo.
 
 #include <Arduino.h>
 #include <Preferences.h>
@@ -21,8 +21,8 @@
 bool autoON = false;
 bool subiendo = false;
 bool bajando = false;
-double pulsos = 0;           // TODO Guardar y leer de memeoria en el setup
-bool anteriorArriba = false; // TODO Guardar y leer de memeoria en el setup
+double pulsos = 0;
+bool anteriorArriba = false;
 unsigned long int tiempoLED = 0, tiempoDetcAutoOn = 0;
 bool enRampaCorriente = false;                // Indica si la rampa de corriente está activa
 volatile unsigned long tiempoUltimoPulso = 0; // Tiempo del último pulso detectado
@@ -61,7 +61,7 @@ void EncenderLED(void *pvParameters)
       digitalWrite(MOSFET_LED, 0);
     }
     else
-      digitalWrite(MOSFET_LED, 0); // TODO Cambiar a 1 para encenderlo.
+      digitalWrite(MOSFET_LED, 1);
     vTaskDelay(10 / portTICK_PERIOD_MS);
   }
 }
@@ -82,7 +82,7 @@ void MonitorVelocidad(void *pvParameters)
 {
   static unsigned long ultimoTiempo = 0; // Último tiempo del cálculo basado en pulsos acumulados
   static double pulsosPrevios = 0;       // Pulsos acumulados en el último cálculo de velocidad
- 
+
   for (;;)
   {
     unsigned long tiempoActual = millis();
