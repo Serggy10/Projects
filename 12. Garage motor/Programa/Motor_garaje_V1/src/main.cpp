@@ -1,5 +1,14 @@
+//! PARAMETROS CONFIGURACIÓN
+#define VEL_INTERMEDIA 150      // máx 255.
+#define INTERVALO_TIEMPO 50     // Intervalo para calcular la velocidad por pulsos acumulados
+#define DIFERENCIA_VEL 60       // Diferencia de velocidades máxima por si se detecta algún obstáculo.
+#define PULSOS_SUBIDA 1000      // Pulsos totales de la altura de la puerta.
+#define PULSOS_SUBIDA_LENTA 250 // Pulsos a los que al subir, la velocidad se reduce
+#define PULSOS_BAJADA_LENTA 250 // Pulsos a los que al bajar la velocidad se reducec
+#define TIEMPO_ENCENDIDO_LED 18 // Tiempo que permanece el LED encendido en segundos para iluminar el garaje.
+
 #include <Arduino.h>
-#include <FastLED.h>
+#include <Preferences.h>
 #define RELE_BAJAR 5
 #define RELE_SUBIR 4
 #define MOSFET_LED 13
@@ -9,21 +18,10 @@
 #define BOTON_BAJAR 2
 #define BOTON_SUBIR 1
 
-//! PARAMETROS CONFIGURACIÓN
-#define VEL_INTERMEDIA 150      // máx 255.
-#define INTERVALO_TIEMPO 50     // Intervalo para calcular la velocidad por pulsos acumulados
-#define DIFERENCIA_VEL 40       // Diferencia de velocidades máxima por si se detecta algún obstáculo.
-#define PULSOS_SUBIDA 1000      // Pulsos totales de la altura de la puerta.
-#define PULSOS_SUBIDA_LENTA 250 // Pulsos a los que al subir, la velocidad se reduce
-#define PULSOS_BAJADA_LENTA 250 // Pulsos a los que al bajar la velocidad se reducec
-#define TIEMPO_ENCENDIDO_LED 18 // Tiempo que permanece el LED encendido en segundos para iluminar el garaje.
-
 bool autoON = false;
-bool velMaxOn = false;
 bool subiendo = false;
 bool bajando = false;
 double pulsos = 0;           // TODO Guardar y leer de memeoria en el setup
-bool puertaArriba = false;   // TODO Guardar y leer de memeoria en el setup
 bool anteriorArriba = false; // TODO Guardar y leer de memeoria en el setup
 unsigned long int tiempoLED = 0, tiempoDetcAutoOn = 0;
 bool enRampaCorriente = false;                // Indica si la rampa de corriente está activa
@@ -31,8 +29,7 @@ volatile unsigned long tiempoUltimoPulso = 0; // Tiempo del último pulso detect
 float velocidadPrevia = 0;                    // Velocidad anterior
 float velocidadMedia = 0;                     // Velocidad media calculada
 
-volatile unsigned long last_interrupt_time = 0; // Almacena el tiempo del último interrupt
-const unsigned long debounce_delay = 50;        // Tiempo para ignorar rebotes (en ms)
+Preferences configuracion;
 
 //* FUNCIONES PARA INTERRUPCIONES
 void IRAM_ATTR ContarPulsos()
@@ -73,19 +70,19 @@ void MonitorSerie(void *pvParameters)
   for (;;)
   {
     Serial.println(">Pulsos:" + String(pulsos));
-    Serial.println(">AnteriorArriba: " + String(anteriorArriba));
+    Serial.println(">anteriorArriba: " + String(anteriorArriba));
     Serial.println(">AutoOn: " + String(autoON));
     Serial.println(">VelocidadPrevia: " + String(velocidadPrevia));
     Serial.println(">VelocidadMedia: " + String(velocidadMedia));
-    vTaskDelay(10 / portTICK_PERIOD_MS);
+    Serial.println(">DiferenciaVelocidades: " + String(abs(velocidadMedia - velocidadPrevia)));
+    vTaskDelay(100 / portTICK_PERIOD_MS);
   }
 }
 void MonitorVelocidad(void *pvParameters)
 {
   static unsigned long ultimoTiempo = 0; // Último tiempo del cálculo basado en pulsos acumulados
   static double pulsosPrevios = 0;       // Pulsos acumulados en el último cálculo de velocidad
-  float velocidadPendiente = 0;          // Velocidad calculada con la pendiente de los pulsos
-
+ 
   for (;;)
   {
     unsigned long tiempoActual = millis();
@@ -103,22 +100,34 @@ void MonitorVelocidad(void *pvParameters)
       // Actualizar valores previos
       pulsosPrevios = pulsos;
       ultimoTiempo = tiempoActual;
-      Serial.println(">DiferenciaVelocidades: " + String(abs(velocidadMedia - velocidadPrevia)));
       if (abs(velocidadMedia - velocidadPrevia) > DIFERENCIA_VEL) // Ajustar umbral según necesidad
       {
-        if (!enRampaCorriente) // Solo si no está en rampa
+        if (!enRampaCorriente) // Solo si no está en rampa de corriente
         {
-          Serial.println("Cambio brusco de velocidad");
-          // autoON = false; // Desactiva el modo automático
-        }
-        else
-        {
-          Serial.println("Cambio brusco detectado, pero ignorado por rampa.");
+          Serial.println("Parando por diferencia de velocidad");
+          autoON = false;
         }
       }
       velocidadPrevia = velocidadMedia;
     }
     vTaskDelay(10 / portTICK_PERIOD_MS); // Pausa de 10 ms
+  }
+}
+void GuardarDatos(void *pvParameters)
+{
+  for (;;)
+  {
+    configuracion.begin("configuracion", false);
+    if (abs(pulsos - configuracion.getDouble("pulsos", 0)))
+    {
+      configuracion.putDouble("pulsos", pulsos);
+    }
+    if (anteriorArriba != configuracion.getBool("anteriorArriba", false))
+    {
+      configuracion.putBool("anteriorArriba", anteriorArriba);
+    }
+    configuracion.end();
+    vTaskDelay(250 / portTICK_PERIOD_MS); // Pausa de 100 ms
   }
 }
 
@@ -166,15 +175,17 @@ void MovimientoAutomatico()
   {
     subiendo = !anteriorArriba;
     bajando = anteriorArriba;
-    digitalWrite(RELE_BAJAR, (anteriorArriba) ? 0 : 1);
-    digitalWrite(RELE_SUBIR, (!anteriorArriba) ? 0 : 1);
+    bool auxAnteriorArriba = anteriorArriba;
+    anteriorArriba = !anteriorArriba;
+    digitalWrite(RELE_BAJAR, (auxAnteriorArriba) ? 0 : 1);
+    digitalWrite(RELE_SUBIR, (!auxAnteriorArriba) ? 0 : 1);
     RampaCorriente(0, 255); // Movimiento a velocidad máxima.
     while (autoON)
     {
-      if (!anteriorArriba)
+      if (!auxAnteriorArriba)
         if (pulsos > PULSOS_SUBIDA - PULSOS_SUBIDA_LENTA)
           break;
-      if (anteriorArriba)
+      if (auxAnteriorArriba)
         if (pulsos < PULSOS_BAJADA_LENTA)
           break;
       vTaskDelay(10 / portTICK_PERIOD_MS);
@@ -182,10 +193,10 @@ void MovimientoAutomatico()
     RampaCorriente(255, VEL_INTERMEDIA); // Movimiento a velocidad intermedia.
     while (autoON)
     {
-      if (!anteriorArriba)
+      if (!auxAnteriorArriba)
         if (pulsos >= PULSOS_SUBIDA)
           break;
-      if (anteriorArriba)
+      if (auxAnteriorArriba)
         if (pulsos <= 0)
           break;
       vTaskDelay(10 / portTICK_PERIOD_MS);
@@ -194,9 +205,22 @@ void MovimientoAutomatico()
     digitalWrite(RELE_BAJAR, 1);
     digitalWrite(RELE_SUBIR, 1);
     vTaskDelay(10 / portTICK_PERIOD_MS);
-    anteriorArriba = !anteriorArriba;
     autoON = false;
   }
+}
+
+void InicializaConfiguracion()
+{
+  configuracion.begin("configuracion");
+  pulsos = configuracion.getDouble("pulsos", 0);
+  anteriorArriba = configuracion.getBool("anteriorArriba", false);
+  if (pulsos < 0)
+    anteriorArriba = false;
+  if (pulsos > PULSOS_SUBIDA)
+    anteriorArriba = true;
+  Serial.println("pulsos:" + String(pulsos));
+  Serial.println("anteriorArriba: " + String(anteriorArriba));
+  configuracion.end();
 }
 
 void setup()
@@ -204,6 +228,8 @@ void setup()
   Serial.begin(115200);
   attachInterrupt(digitalPinToInterrupt(HAL_MOTOR), ContarPulsos, RISING);
   attachInterrupt(digitalPinToInterrupt(ENTRADAS_RF_MAN), DetectarAuto, FALLING);
+
+  InicializaConfiguracion();
 
   pinMode(BOTON_SUBIR, INPUT_PULLUP);
   pinMode(BOTON_BAJAR, INPUT_PULLUP);
@@ -225,8 +251,9 @@ void setup()
 
   tiempoLED = -1000 * TIEMPO_ENCENDIDO_LED; // tiempo negativo para que no se encienda inicialmente el LED.
   xTaskCreate(EncenderLED, "EncenderLED", 10000, NULL, 1, NULL);
-  xTaskCreate(MonitorSerie, "MonitorSerie", 10000, NULL, 1, NULL);
+  // xTaskCreate(MonitorSerie, "MonitorSerie", 10000, NULL, 1, NULL);
   xTaskCreate(MonitorVelocidad, "MonitorVelocidad", 10000, NULL, 1, NULL);
+  xTaskCreate(GuardarDatos, "GuardarDatos", 10000, NULL, 1, NULL);
 }
 
 void loop()
