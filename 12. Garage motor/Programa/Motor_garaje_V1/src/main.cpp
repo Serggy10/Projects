@@ -1,12 +1,13 @@
 //! PARAMETROS CONFIGURACIÓN
 #define VEL_INTERMEDIA 150      // máx 255.
 #define INTERVALO_TIEMPO 50     // Intervalo para calcular la velocidad por pulsos acumulados
-#define DIFERENCIA_VEL 60       // Diferencia de velocidades máxima por si se detecta algún obstáculo.
+#define DIFERENCIA_VEL 20       // Diferencia de velocidades máxima por si se detecta algún obstáculo.
 #define PULSOS_SUBIDA 1000      // Pulsos totales de la altura de la puerta.
 #define PULSOS_SUBIDA_LENTA 250 // Pulsos a los que al subir, la velocidad se reduce
 #define PULSOS_BAJADA_LENTA 250 // Pulsos a los que al bajar la velocidad se reducec
 #define TIEMPO_ENCENDIDO_LED 18 // Tiempo que permanece el LED encendido en segundos para iluminar el garaje. //TODO Ajustar tiempo.
-
+// TODO resolver bug de porque no enciende de nuevo si se para por diferencia de velocidad. --> problema con la alimentación de 5V, ya que baja a 3.8V cuando se enciende el LED.
+// TODO probar mecanismo de retroceso por diferencia de velocidad.
 #include <Arduino.h>
 #include <Preferences.h>
 #define RELE_BAJAR 5
@@ -28,6 +29,7 @@ bool enRampaCorriente = false;                // Indica si la rampa de corriente
 volatile unsigned long tiempoUltimoPulso = 0; // Tiempo del último pulso detectado
 float velocidadPrevia = 0;                    // Velocidad anterior
 float velocidadMedia = 0;                     // Velocidad media calculada
+bool detectVel = false;
 
 Preferences configuracion;
 
@@ -106,6 +108,7 @@ void MonitorVelocidad(void *pvParameters)
         {
           Serial.println("Parando por diferencia de velocidad");
           autoON = false;
+          detectVel = true;
         }
       }
       velocidadPrevia = velocidadMedia;
@@ -138,6 +141,7 @@ void RampaCorriente(int inicioValorMOSFET, int finalValorMOSFET)
   int paso = (inicioValorMOSFET < finalValorMOSFET) ? 1 : -1; // Determinar dirección
   for (int i = inicioValorMOSFET; i != finalValorMOSFET; i += paso)
   {
+    Serial.println(">Paso: " + String(paso));
     tiempoLED = millis();
     ledcWrite(0, i);                     // Ajustar la corriente
     vTaskDelay(10 / portTICK_PERIOD_MS); // 10 ms de pausa
@@ -223,6 +227,21 @@ void InicializaConfiguracion()
   configuracion.end();
 }
 
+void RetrocesoDifVelocidad()
+{
+  if (detectVel)
+  {
+    Serial.println("Volviendo hacia atrás");
+    digitalWrite((anteriorArriba) ? RELE_SUBIR : RELE_BAJAR, 0);
+    RampaCorriente(0, 150);
+    vTaskDelay(1000);
+    RampaCorriente(150, 0);
+    digitalWrite((anteriorArriba) ? RELE_SUBIR : RELE_BAJAR, 1);
+    Serial.println("Retroceso puerta completado");
+  }
+  detectVel = false;
+}
+
 void setup()
 {
   Serial.begin(115200);
@@ -261,5 +280,6 @@ void loop()
   MovimientoManual(BOTON_SUBIR, BOTON_BAJAR, RELE_SUBIR, true);  //* SUBIR
   MovimientoManual(BOTON_BAJAR, BOTON_SUBIR, RELE_BAJAR, false); //* BAJAR
   MovimientoAutomatico();
+  // RetrocesoDifVelocidad();
   vTaskDelay(10 / portTICK_PERIOD_MS); // 10 ms de pausa para la tarea actual
 }
