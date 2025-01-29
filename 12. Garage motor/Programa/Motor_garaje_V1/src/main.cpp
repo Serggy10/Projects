@@ -60,10 +60,12 @@ void EncenderLED(void *pvParameters)
   {
     if (millis() >= tiempoLED + 1000 * TIEMPO_ENCENDIDO_LED)
     {
-      digitalWrite(MOSFET_LED, 0);
+      // digitalWrite(MOSFET_LED, 0);
+      ledcWrite(1, 0);
     }
     else
-      digitalWrite(MOSFET_LED, 1);
+      // digitalWrite(MOSFET_LED, 1);
+      ledcWrite(1, 250);
     vTaskDelay(10 / portTICK_PERIOD_MS);
   }
 }
@@ -264,9 +266,10 @@ void setup()
   digitalWrite(RELE_SUBIR, 1);
   digitalWrite(MOSFET_MOTOR, 0);
   digitalWrite(MOSFET_LED, 0);
-  analogWriteResolution(8);
   ledcSetup(0, 5000, 8);          // Canal 0, frecuencia 5 kHz, resolución de 8 bits
   ledcAttachPin(MOSFET_MOTOR, 0); // MOSFET_MOTOR al canal 0
+  ledcSetup(1, 5000, 8);
+  ledcAttachPin(MOSFET_LED, 1);
 
   tiempoLED = -1000 * TIEMPO_ENCENDIDO_LED; // tiempo negativo para que no se encienda inicialmente el LED.
   xTaskCreate(EncenderLED, "EncenderLED", 10000, NULL, 1, NULL);
