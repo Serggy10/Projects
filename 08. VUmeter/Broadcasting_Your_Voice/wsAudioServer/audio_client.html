@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>PCM Player with Threshold Detection</title>
+    <title>PCM Player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="icon" href="image/favicon.ico" type="image/x-icon">
@@ -13,6 +13,7 @@
     body {
         font-family: 'Roboto', sans-serif;
     }
+
     .button {
         border: none;
         padding: 15px 32px;
@@ -24,108 +25,104 @@
         cursor: pointer;
     }
 </style>
-
 <body>
-    <h1>ESP32-S3 + I²S Digital Microphone with Threshold Detection</h1>
+    <h1>ESP32-S3 + I²S Digital Microphone</h1>
     <p>Connect to WebSocket by pressing the [Connect] button first!</p>
     <button id="connectBtn" class="button" onclick="connect()">Connect</button>
     <input type="range" max="1" value="0.5" min="0" id="range" onchange="changeVolume(event)" step="0.1"><br />
     <button id="pauseBtn" class="button" onclick="pause()">Pause Playing</button>
     <button id="continueBtn" class="button" onclick="continuePlay()">Continue Playing</button>
-    
     <div id="graph"></div>
-    <div id="thresholdGraph"></div>
-
     <script>
-        function addDarkmodeWidget() {
-            new Darkmode().showWidget();
-        }
-        window.addEventListener('load', addDarkmodeWidget);
 
-        var connectBtn = document.getElementById("connectBtn");
-        var pauseBtn = document.getElementById("pauseBtn");
-        var continueBtn = document.getElementById("continueBtn");
-        connectBtn.disabled = false;
-        pauseBtn.disabled = true;
-        continueBtn.disabled = true;
+    function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
 
-        var worker = new Worker('js/worker.js');
-        const arrayLength = 100;
-        var graphDataArray = Array(arrayLength).fill(0);
-        var thresholdDataArray = Array(arrayLength).fill(0);
-        const thresholdValue = 50; // Ajuste de umbral
+    var connectBtn = document.getElementById("connectBtn");
+    var pauseBtn = document.getElementById("pauseBtn");
+    var continueBtn = document.getElementById("continueBtn");
+    connectBtn.disabled = false;
+    pauseBtn.disabled = true;
+    continueBtn.disabled = true;
 
-        worker.addEventListener('message', function (e) {
-            // Agrega los nuevos datos de la señal principal y verifica el umbral
-            graphDataArray = graphDataArray.concat(e.data).slice(-arrayLength);
-            thresholdDataArray = graphDataArray.map(val => val > thresholdValue ? 1 : 0);
-
-            // Actualizar gráfica principal
-            var data_update = { y: [graphDataArray] };
-            Plotly.update('graph', data_update);
-
-            // Actualizar gráfica de umbral
-            var threshold_update = { y: [thresholdDataArray] };
-            Plotly.update('thresholdGraph', threshold_update);
-        }, false);
-
-        var layoutMain = {
-            title: 'Streaming Data',
-            paper_bgcolor: "#000",
-            plot_bgcolor: "#000",
-            xaxis: { domain: [0, 1], showticklabels: false, color: "#FFF" },
-            yaxis: { domain: [0, 1], color: "#FFF", rangemode: "auto" },
-        };
+    var worker = new Worker('js/worker.js')
+    worker.addEventListener('message', function (e) {
         
-        var layoutThreshold = {
-            title: 'Threshold Detection',
-            paper_bgcolor: "#111",
-            plot_bgcolor: "#111",
-            xaxis: { domain: [0, 1], showticklabels: false, color: "#FFF" },
-            yaxis: { domain: [0, 1], color: "#FFF", rangemode: "fixed", range: [0, 1] },
+        graphDataArray = graphDataArray.concat(e.data)
+        graphDataArray.splice(0, 1)
+
+        var data_update = {
+            y: [graphDataArray]
         };
 
-        Plotly.newPlot('graph', [{ y: graphDataArray, mode: 'lines', line: { color: '#DF56F1' } }], layoutMain);
-        Plotly.newPlot('thresholdGraph', [{ y: thresholdDataArray, mode: 'lines', line: { color: '#56F1DF' } }], layoutThreshold);
+        Plotly.update('graph', data_update)
+    }, false);
 
-        let player;
-        window.connect = function connect() {
-            connectBtn.disabled = !connectBtn.disabled;
-            pauseBtn.disabled = !pauseBtn.disabled;
+    const arrayLength = 100
+    var graphDataArray = []
 
-            player = new PCMPlayer({
-                inputCodec: 'Int16',
-                channels: 1,
-                sampleRate: 44100,
-            });
+    for (var i = 0; i < arrayLength; i++) {
+        graphDataArray[i] = 0;
+    }
 
-            const WS_URL = 'ws://192.168.1.146:8888';
-            var ws = new WebSocket(WS_URL);
-            ws.binaryType = 'arraybuffer';
-
-            ws.addEventListener('message', function (event) {
-                if (continueBtn.disabled) {
-                    player.feed(event.data);
-                    worker.postMessage(event.data);
-                }
-            });
+    var layout = {
+        title: 'Streaming Data',
+        paper_bgcolor: "#000",
+        plot_bgcolor: "#000",
+            xaxis: {
+                domain: [0, 1],
+                showticklabels: false,
+                color: "#FFF",
+            },
+            yaxis: { domain: [0, 1],
+            color: "#FFF",
+            rangemode: "auto",
+            },
         }
 
-        window.changeVolume = function changeVolume(e) {
-            player.volume(document.querySelector('#range').value);
-        }
+    Plotly.newPlot('graph', [{
+        y: graphDataArray,
+        mode: 'lines',
+        line: { color: '#DF56F1' }
+    }], layout);
 
-        window.pause = async function pause() {
-            pauseBtn.disabled = true;
-            continueBtn.disabled = false;
-            await player.pause();
-        }
+    let player;
+    window.connect = function connect() {
 
-        window.continuePlay = function continuePlay() {
-            player.continue();
-            pauseBtn.disabled = false;
-            continueBtn.disabled = true;
-        }
-    </script>
+        connectBtn.disabled = !connectBtn.disabled;
+        pauseBtn.disabled = !pauseBtn.disabled;
+
+        player = new PCMPlayer({
+            inputCodec: 'Int16',
+            channels: 1,
+            //sampleRate: 16000,
+            sampleRate: 44100,
+        });
+        const WS_URL = 'ws:///<HOST_IP>:<Port>'
+        var ws = new WebSocket(WS_URL)
+        ws.binaryType = 'arraybuffer'
+        ws.addEventListener('message', function (event) {
+            if(continueBtn.disabled){
+                player.feed(event.data)
+                worker.postMessage(event.data) // Remove if it makes the web browser slow.
+            }
+        });
+    }
+    window.changeVolume = function changeVolume(e) {
+        player.volume(document.querySelector('#range').value)
+    }
+    window.pause = async function pause() {
+        pauseBtn.disabled = true;
+        continueBtn.disabled = false;
+        await player.pause()
+    }
+    window.continuePlay = function continuePlay() {
+        player.continue()
+        pauseBtn.disabled = false;
+        continueBtn.disabled = true;
+    }
+</script>
 </body>
 </html>
