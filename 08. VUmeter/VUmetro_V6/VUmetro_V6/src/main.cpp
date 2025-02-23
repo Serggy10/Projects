@@ -15,6 +15,7 @@ Adafruit_NeoPixel pixels(1, 38, NEO_RGB);
 void i2s_install();
 void i2s_setpin();
 void TaskTiraLed(void *Pvparameters);
+void TaskMicrofono(void *Pvparameters);
 
 int16_t sBuffer[bufferLen];
 void setup()
@@ -29,6 +30,15 @@ void setup()
   delay(500);
 
   xTaskCreatePinnedToCore(
+      TaskMicrofono,
+      "TaskMicrofono",
+      10000,
+      NULL,
+      1,
+      NULL,
+      0);
+
+  xTaskCreatePinnedToCore(
       TaskTiraLed,
       "TaskTiraLed",
       10000,
@@ -38,9 +48,8 @@ void setup()
       1);
 }
 
-void loop()
+void TaskMicrofono(void *Pvparameters)
 {
-
   size_t bytesIn = 0;
   esp_err_t result = i2s_read(I2S_PORT, &sBuffer, bufferLen, &bytesIn, portMAX_DELAY);
   if (result == ESP_OK)
@@ -66,6 +75,11 @@ void loop()
         Serial.println(">pulso: " + String(0));
     }
   }
+}
+
+void loop()
+{
+  delay(10);
 }
 
 void i2s_install()
