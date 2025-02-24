@@ -8,7 +8,7 @@
 #define bufferLen 64
 
 #define NUM_LEDS 1
-#define PIN_LED 38
+#define PIN_LED 48
 #define umbral 100
 int brillo = 0;
 Adafruit_NeoPixel pixels(1, 38, NEO_RGB);
@@ -27,7 +27,9 @@ void setup()
   i2s_setpin();
   i2s_start(I2S_PORT);
   delay(500);
-
+  pixels.begin();
+  pixels.clear();
+  pixels.show();
   xTaskCreatePinnedToCore(
       TaskTiraLed,
       "TaskTiraLed",
@@ -97,9 +99,6 @@ void i2s_setpin()
 
 void TaskTiraLed(void *Pvparameters)
 {
-  pixels.begin();
-  pixels.clear();
-  pixels.show();
   for (;;)
   {
     if (brillo > 0) // Solo ejecuta si hay brillo
