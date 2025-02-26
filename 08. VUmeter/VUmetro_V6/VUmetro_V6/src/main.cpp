@@ -21,8 +21,8 @@
 #include <Adafruit_NeoPixel.h>
 #include <SinricPro.h>
 #include "TiraLEDdebajosofa.h"
-#define I2S_WS 11
-#define I2S_SD 10
+#define I2S_WS 13
+#define I2S_SD 11
 #define I2S_SCK 12
 #define I2S_PORT I2S_NUM_0
 #define bufferLen 64
@@ -35,8 +35,8 @@
 #define APP_SECRET "d9760d34-c170-4323-9a23-87303b92d7ba-b098499e-3931-4297-93c6-d295e4dc6d9d"
 #define DEVICE_ID "67bc29e4ff1f4eb6e7612f4d"
 
-#define SSID "Redmi Note 12"
-#define PASS "pankesito"
+#define SSID "DIGIFIBRA-ctUQ"
+#define PASS "3T67UeAPkNU7"
 
 #define BAUD_RATE 115200
 
